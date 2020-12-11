@@ -1,0 +1,105 @@
+.container4 {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  margin-top: 110px;
+  padding-left: 20px;
+}
+
+.section {
+  background-color: white;
+  border: 1px solid #01969b;
+}
+
+.section1:visited {
+  color: #01969b;
+  font-size: 15px;
+}
+
+.section1:hover {
+  color: #c35884;
+}
+
+.container5 {
+  display: flex;
+  width: 400px;
+  margin: auto;
+  margin-top: 120px;
+  background-color: white;
+  padding: 15px;
+}
+
+.ajout {
+  font-size: 16px;
+  text-align: left;
+  line-height: 40px;
+}
+
+.ajouter {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.afficher {
+  width: 600px;
+  height: 400px;
+  overflow: auto;
+  margin: auto;
+  margin-top: 120px;
+  background-color: white;
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  width: 150px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  border-top: none;
+}
+
+td {
+  color: #01969b;
+}
+
+.nom {
+  text-align: center;
+}
+
+.affiche1 {
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  color: #c35884;
+}
+.icon1 {
+  cursor: pointer;
+}
+
+.icon1 {
+  color: #01969b;
+}
+
+.icon1:hover {
+  color: #c35884;
+}
+
+th {
+  color: #c35884;
+}
+
+.afficher1 {
+  width: 600px;
+  height: 400px;
+  overflow: auto;
+  margin: auto;
+  margin-top: 10px;
+  background-color: white;
+  overflow: auto;
+}

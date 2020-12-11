@@ -1,0 +1,27 @@
+.form {
+  width: 40%;
+  background-color: white;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  display: inline-block;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+.connexion {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

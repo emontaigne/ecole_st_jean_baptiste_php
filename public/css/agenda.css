@@ -1,0 +1,110 @@
+.agendaprinc {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+/* calendar */
+.agenda {
+  width: 350px;
+  height: auto;
+  margin: auto;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jour {
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  text-align: right;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  transition: background-color 0.1s;
+}
+
+.jour:hover {
+  background-color: rgba(128, 128, 128, 0.384);
+}
+
+.semaine {
+  display: flex;
+  text-align: center;
+}
+
+.jr {
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  padding: 8px;
+  width: 50px;
+  height: 30px;
+  font-size: small;
+}
+
+.rien {
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  width: 50px;
+  height: 50px;
+}
+
+.fleches {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.precedent {
+  margin-right: 15px;
+}
+.precedent:hover {
+  cursor: pointer;
+}
+
+.suivant:hover {
+  cursor: pointer;
+}
+
+.suivant > .lien:visited {
+  color: black;
+}
+
+.suivant > .lien:hover {
+  color: orangered;
+}
+
+.month {
+  font-size: 16px;
+}
+
+.popup,
+.autre_popup {
+  display: none;
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  margin-left: 300px;
+  box-shadow: 5px 10px #5f5d5d3b;
+}
+
+.jour:hover {
+  cursor: pointer;
+}
+
+.event {
+  background-color: rgba(144, 238, 144, 0.658);
+}
+
+.ajd {
+  text-align: right;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #f44336;
+  color: white;
+  border-color: #f44336;
+}
