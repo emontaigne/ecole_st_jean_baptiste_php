@@ -1,60 +1,168 @@
-label,
-input,
-select {
-  display: inline-block;
-  height: 30px;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import "@fortawesome/fontawesome-free/css/all.css";
+@font-face {
+  font-family: "HVD Comic Serif Pro";
+  src: url("assets/HVD_Comic_Serif_Pro.otf") format("woff");
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 
-textarea {
-  display: inline-block;
-  margin-left: 4%;
-}
-
-.carte {
-  width: 100%;
-  height: auto;
-}
-
-.section-contact {
+.d-flex {
   display: flex;
-  justify-content: space-around;
-  margin-top: 3%;
-  margin-bottom: 3.5%;
-  align-items: center;
 }
 
-.form1 {
-  width: 50%;
-  height: auto;
+.containerContact {
+  width: 100%;
+  background-image: url("static/bluebackground2.JPG");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgba(41, 174, 155, 0.5);
+  background-attachment: fixed;
+  min-height: 1000px;
+}
+.containerContact .empty {
+  width: 500px;
+  height: 100px;
+}
+.containerContact .formulaireContact {
+  width: 600px;
+  margin: auto;
   background-color: white;
   padding: 10px;
-  line-height: 50px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 125, 0.2);
+  border-radius: 5px;
+}
+.containerContact .formulaireContact h2,
+.containerContact .formulaireContact h3,
+.containerContact .formulaireContact p {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  margin: 10px;
 }
 
-.envoyer {
-  display: flex;
-  justify-content: center;
+.containerContact .formulaireContact h2 {
+  font-size: 24px;
+}
+.containerContact .formulaireContact h3 {
+  font-size: 18px;
+}
+
+.containerContact .formulaireContact p {
+  font-size: 16px;
+}
+
+.containerContact .formulaireContact .contactChoix {
+  width: 300px;
+  border: 1px solid lightgrey;
+}
+.containerContact .formulaireContact .btnContact {
+  display: block;
+  margin: auto;
+  height: 25px;
+  width: 200px;
+  background-color: #0187a4;
+  font-weight: bold;
+  color: white;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+}
+.containerContact .formulaireContact button:hover {
+  background-color: #27af99;
+  cursor: pointer;
+}
+.containerContact .formulaireContact .popupContact {
+  display: none;
   margin: 20px;
 }
-
-button {
-  width: 80px;
-  padding: 5px;
+.containerContact .formulaireContact form {
+  margin: auto;
+  width: 440px;
+}
+.containerContact .formulaireContact label {
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+.containerContact .formulaireContact input {
+  width: 250px;
+  height: 20px;
+  margin: 10px;
+  margin-left: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.containerContact .formulaireContact #message-box {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  margin-left: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.containerContact .formulaireContact .btnDelete {
+  height: 25px;
+  width: 200px;
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+}
+.containerContact .formulaireContact .btnSubmit {
+  height: 25px;
+  width: 200px;
+  background-color: #0187a4;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
 }
 
-.deconnecte {
-  display: flex;
-  padding: 20px;
-}
-
-.obligatoire {
-  color: #c35884;
-}
-
-.input_contact {
-  width: 70%;
-}
-
-.message {
+.overlay {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: none;
+}
+
+.popup {
+  margin: 10% auto;
+  width: 70%;
+  background-color: #f3f3f3;
+  padding: 1em;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.btnClose {
+  float: right;
+  font-size: 16pt;
+  cursor: pointer;
+  color: #1a1a1a;
+}
+
+.popupText {
+  text-align: center;
+}
+
+section {
+  margin-top: 25px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
 }

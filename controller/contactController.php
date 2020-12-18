@@ -7,7 +7,7 @@
       $entete  = 'MIME-Version: 1.0' . "\r\n";
       $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
       $entete .= 'From: ' . $_POST['mail'] . "\r\n";
-      $dest = "montaigne.emilie@gmail.com";
+      $dest = "j.mangbau@interface3.be";
       $sujet = "Message envoyé depuis la page de contact Ecole St Jean-Baptiste";
       $corp = '<h1>Message envoyé depuis la page Contact Ecole St Jean-Baptiste</h1>
       <p><b>Nom : </b>' . $_POST['nom'].' '. $_POST['prenom'] . '<br>
