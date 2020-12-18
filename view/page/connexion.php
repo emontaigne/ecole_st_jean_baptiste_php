@@ -1,8 +1,6 @@
 
-	<div class = "form">
-		<h2>Connexion</h2>
-	
-	<form action="#" method="post">
+<!-- 
+<form action="#" method="post">
 		<div>
 		<label for="login">Login :</label>
     	<input type="text" name="login" id="login" value="<?= $login; ?>">
@@ -14,18 +12,53 @@
 	    	<label for="mdp">Mot de passe :</label>
 		    <input type="Password" name="mdp" id="mdp" value="<?= $mdp; ?>">
 		    
-		<!--	<select class="form-control" name ="role">
-        <option value="" selected="selected"> - Selectionner un rôle - </option>
-        <option value="admin">Admin</option>
-        <option value="user">Parent</option>
-    </select>-->
+	// <select class="form-control" name ="role">
+    //<option value="" selected="selected"> - Selectionner un rôle - </option>
+    //<option value="admin">Admin</option>
+    //<option value="user">Parent</option>
+    //</select>
 
 		</div>
 		<div class = "connexion">
 		<button  type="submit" name="submit" value="Connexion" id='btnSubmit'>Connexion</button>
 </div>
-	</form>
-</div>
+-->
+
+
+<div class="container">
+      <div class="empty"></div>
+
+      <div class="connexion">
+        <div class="titre">
+          <h2>École St-Jean Baptiste</h2>
+        </div>
+        <div class="formConnex">
+          <form action="#" method="post" id="connexFormul">
+            <div>
+              <label for="login" class="label-form">Identifiant:</label>
+              <input
+                type="text"
+                name="login"
+                id="login"
+                value="<?= $login; ?>"
+			  />
+			<span style='color:green;' hidden>&#10004;</span>
+			<span style='color:red;' hidden>&#10008;</span>
+            </div>
+            <div>
+              <label for="mdp" class="label-form">Mot de passe:</label>
+              <input type="password" name="mdp" id="mdp" value="<?= $mdp; ?>" />
+            </div>
+            <div>
+              <a href="#">Mot de passe oublié ?</a>
+            </div>
+            <input type="submit" name="submit" value="Connexion" id="btnSubmit"/>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
 <script>
 	/*function checkInput(){
 		let regex = new RegExp('^[a-z]{2,}$', 'i');
@@ -81,10 +114,5 @@
 		}
 		checkInput();
 	});*/
-
-
-
-
-
 </script>
 
