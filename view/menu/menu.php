@@ -25,7 +25,7 @@
         </ul> 
       
     </li>
-          <li><a class="menu-a" href="#">Mesures Covid</a></li>
+          <li><a class="menu-a" href="?section=covid">Mesures Covid</a></li>
           <li><a class="menu-a" href="?section=contact">Contact</a></li>
           <li>
             <a class="menu-a" href="?section=connexion"><i class="fas fa-user"></i></a>
