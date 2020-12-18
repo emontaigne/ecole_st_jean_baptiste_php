@@ -10,7 +10,7 @@
       <div class="covid-cards">
         <div class="card-covid one">
           <div>
-            <img src="mask-01.png" alt="" class="icon-covid" />
+            <img src="public/images/mask-01.png" alt="" class="icon-covid" />
           </div>
           <div class="card-covid texte" style="color:black;">
             <p>
@@ -23,7 +23,7 @@
 
         <div class="card-covid two">
           <div>
-            <img src="sanitizer-01.png" alt="" class="icon-covid" />
+            <img src="public/images/sanitizer-01.png" alt="" class="icon-covid" />
           </div>
           <div class="card-covid texte">
             <p>
@@ -35,7 +35,7 @@
 
         <div class="card-covid three">
           <div>
-            <img src="distance-01.png" alt="" class="icon-covid" />
+            <img src="public/images/distance-01.png" alt="" class="icon-covid" />
           </div>
           <div class="card-covid texte">
             <p>
@@ -47,7 +47,7 @@
 
         <div class="card-covid four">
           <div>
-            <img src="house-01.png" alt="" class="icon-covid" />
+            <img src="public/images/house-01.png" alt="" class="icon-covid" />
           </div>
           <div class="card-covid texte">
             <p>
@@ -59,7 +59,7 @@
 
         <div class="card-covid cinq">
           <div>
-            <img src="playing.png" alt="" />
+            <img src="public/images/playing.png" alt="" />
           </div>
           <div class="card-texte">
             <p>
