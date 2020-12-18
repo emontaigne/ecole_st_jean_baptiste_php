@@ -35,12 +35,6 @@
   line-height: 40px;
 }
 
-.ajouter {
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 10px;
-}
-
 .afficher {
   width: 600px;
   height: 400px;

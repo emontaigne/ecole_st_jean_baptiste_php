@@ -6,18 +6,9 @@ function calendrier(year, month) {
   var dernierJour = new Date(year, month, 0);
   var premier_jour_semaine = maintenant.getDay() == 0 ? 7 : maintenant.getDay();
   var dernier_jour_mois = dernierJour.getDate();
-  var jour = 0;
+  var jour = 1;
   var html = "<div class ='row'>";
 
-  /*let monthNum = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-  let monthNumFeb = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-  function monthNumber(theYear, theMonth) {
-    if (theYear % 4 == 0) {
-        return (monthNumFeb[theMonth])
-    } else {
-        return (monthNum[theMonth])
-    }
-}*/
   var dernière_cellule = premier_jour_semaine + dernier_jour_mois;
 
   for (var i = 1; i <= 42; i++) {
@@ -35,9 +26,9 @@ function calendrier(year, month) {
         jour == date.getDate() &&
         month == date.getMonth() + 1 &&
         year == date.getFullYear()
-      )
-      html += "<div class='ajd'>" + jour + "</div>";
-      html += "<div class='jour'>" + jour + "</div>";
+      ){
+      html += "<div class='ajd'>" + jour + "</div>";}
+     else{ html += "<div class='jour'>" + jour + "</div>";}
       jour++;
     }
 
@@ -104,3 +95,4 @@ function calendrier(year, month) {
 }
 
 calendrier(date.getFullYear(), date.getMonth() + 1);
+

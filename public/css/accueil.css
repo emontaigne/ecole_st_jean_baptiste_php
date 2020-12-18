@@ -1,6 +1,6 @@
 .container2 {
   width: 100%;
-  min-height: 100%;
+  height: auto;
   overflow: hidden;
 }
 
@@ -19,4 +19,11 @@
 }
 .slideshow li {
   display: inline-block;
+}
+
+.popup {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
 }

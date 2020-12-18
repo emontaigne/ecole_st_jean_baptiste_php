@@ -8,7 +8,7 @@
         $id = $_GET["id"];
         $p = new Personne();
         $tabInfos = $p->readById($id);
-        // var_dump($tabInfos);
+         var_dump($tabInfos);
 
         $nom = $tabInfos[0]["nom"];
         $prenom = $tabInfos[0]["prenom"];

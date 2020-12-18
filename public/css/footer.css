@@ -22,7 +22,6 @@
   background-color: white;
 }
 footer {
-  display: block;
   width: 100%;
   height: auto;
 }
@@ -51,7 +50,7 @@ h1 {
   font-size: 60px;
 }
 
-p {
+.sous-titre_p {
   margin-left: 20px;
   font-size: 25px;
   color: white;

@@ -1,18 +1,36 @@
-<div class="container5">
+<div class="container2">
 
 <form action="#" method="post">
 <h2 class = "ajout">Ajouter un étudiant</h2>
     <label for="nom">Nom :</label>
-    <input type="text" name="nom" id="nom"><br>
+    <input type="text" name="nom" id="nom" ><br>
 
     <label for="prenom">Prénom :</label>
-    <input type="text" name="prenom" id="prenom"><br>
+    <input type="text" name="prenom" id="prenom" ><br>
+
+
+
+    <!--<label for="ad_num">Mot de passe :</label>
+    <input type="Password" name="ad_num" id="ad_num"><br> -->
+
+    <label for="ad_rue">Rue :</label>
+    <input type="text" name="ad_rue" id="ad_rue" ><br>
+
+    <label for="ad_num">Numéro :</label>
+    <input type="text" name="ad_num" id="ad_num" ><br>
+
+    <label for="ad_cp">Code postal :</label>
+    <input type="number" name="ad_cp" id="ad_cp"  min="1000" max="9999"><br>
+
+    <label for="ad_ville">Ville :</label>
+    <input type="text" name="ad_ville" id="ad_ville"><br>
+
 
     <label for="ad_rue">Date de naissance :</label>
-    <input type="text" name="date_naissance" id="date_naissance"><br>
+    <input type="text" name="date_naissance" id="date_naissance" ><br><br>
 
     <label for="classes">Classe :</label>
-    <select name="classes" id="classes">
+    <select name="classes" id="classes" >
         <option value="" selected="selected">- Sélectionner une classe -</option>
         <option value="Accueil">Accueil</option>
         <option value="M1">M1</option>
@@ -24,30 +42,11 @@
         <option value="P4">P4</option>
         <option value="P5">P5</option>
         <option value="P6">P6</option>
-    </select><br>
+    </select><br><br>
 
-    <!--<label for="ad_num">Mot de passe :</label>
-    <input type="Password" name="ad_num" id="ad_num"><br> -->
-
-    <label for="ad_rue">Rue :</label>
-    <input type="text" name="ad_rue" id="ad_rue"><br>
-
-    <label for="ad_num">Numéro :</label>
-    <input type="text" name="ad_num" id="ad_num"><br>
-
-    <label for="ad_cp">Code postal :</label>
-    <input type="number" name="ad_cp" id="ad_cp" min="1000" max="9999"><br>
-
-    <label for="ad_ville">Ville :</label>
-    <input type="text" name="ad_ville" id="ad_ville"><br>
+      
     <div class = "ajouter">
     <input type="submit" value="Ajouter">
-
-    <select class="form-control" name ="txt-role">
-        <option value="" selected="selected"> - Selectionner un rôle - </option>
-        <option value="admin">Admin</option>
-        <option value="user">Parent</option>
-    </select>
 </div>
 </form>
 </div>

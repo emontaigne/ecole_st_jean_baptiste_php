@@ -1,8 +1,9 @@
 <?php 
     // récupérer les personnes et afficher
     $p = new Personne();
+   // var_dump($p);
     $tabPersonnes = $p->read();
-    // var_dump($tabPersonnes);
+     //var_dump($tabPersonnes);
     // générer le tableau html
     $table = "";
     $table .= "<tr><th>Nom</th><th>Prénom</th><th>Classes</th><th>Modifier</th><th>Supprimer</th></tr>";
