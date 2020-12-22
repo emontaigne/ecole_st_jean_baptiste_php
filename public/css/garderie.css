@@ -10,24 +10,97 @@ html {
   box-sizing: border-box;
 }
 
-.boxPrivate {
-  background-image: url("../images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  font-family: "quicksand";
-}
-
 .d-flex {
   display: flex;
 }
 
 .containerGarderie {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "quicksand";
+}
+
+.boxGarderie {
   width: 80%;
+  height: auto;
   margin: auto;
   background-color: white;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 125, 0.2);
+}
+
+.img-gardiennes {
+  border: 10px solid rgba(59, 130, 246, 0.5);
+  border-radius: 10px;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.flexGarderie {
   justify-content: space-around;
-  min-height: 550px;
+}
+
+.imgGarderie {
+  width: 35%;
+  margin-top: 25px;
+}
+
+.textGarderie {
+  width: 60%;
+  margin-top: 25px;
+}
+
+.textGarderie p {
+  text-align: justify;
+  padding: 10px;
+  animation-duration: 10s;
+  animation-name: slidein;
+}
+.textGarderie h3 {
+  padding: 10px;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.all-garderie {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.coordonneesGarderie {
+  border-right: 1px solid lightgray;
+}
+
+.garderiePartie2 {
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+}
+
+.input-form-garderie {
+  width: 90%;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+#message-box-garderie {
+  height: 100px;
+}
+.all-garderie h3 {
+  margin: 10px;
+}
+
+#formGarderie button {
+  margin: 20px;
+  width: 125px;
+  height: 25px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+#btnSubmitGarderie {
+  background-color: #9d64a8;
 }

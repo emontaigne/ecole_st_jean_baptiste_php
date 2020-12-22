@@ -14,11 +14,13 @@ html {
   box-sizing: border-box;
 }
 
-/*body {
+.privateContainerParents {
   background-image: url("../images/background.jpg");
-}*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-.boxPrivate {
+.boxPrivateParents {
   width: 80%;
   margin: auto;
   background-color: white;

@@ -1,5 +1,5 @@
-<div class="privateContainer">
-      <div class="boxPrivate">
+<div class="privateContainerParents">
+      <div class="boxPrivateParents">
         <div class="boxTitle">
           <h2>Bienvenue</h2>
           <p>Page dédiée aux parents</p>
