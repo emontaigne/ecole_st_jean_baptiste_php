@@ -11,7 +11,7 @@
       <h2>Bonjour et bienvenue à tous!</h2>
       <p>
         Je m'apelle Séverine et c'est avec grand plaisir que j'ai rejoint,
-        depuis quelques années, l'équipe de l'école Saint-Jean Baptiste.
+        depuis quelques années, l'équipe de l'école Anne-Marie.
       </p>
       <p>
         Diplômée à l'ENCBW de Nivelles, c'est en 2002 que j'ai débuté mon métier

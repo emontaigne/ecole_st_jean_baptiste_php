@@ -1,5 +1,5 @@
 <!-- <p class="ephemerides-test">Ephemerides</p> -->
-<div class="header-img" id="header-img"></div>
+<div class="header-img-ephe" id="header-img"></div>
 <div class="div-rose">
     <a href="">
         <h1>Les Ephémerides</h1>

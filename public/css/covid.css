@@ -28,6 +28,11 @@
   justify-content: left;
 }
 
+.code-covid > p,
+h2 {
+  color: white;
+}
+
 .covid-cards > .card-covid {
   display: flex;
 }

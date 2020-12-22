@@ -7,3 +7,10 @@
   padding: 40px;
   margin: auto;
 }
+
+.header-img-acti {
+  background: url("../images/activity3.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
