@@ -9,7 +9,7 @@
          
         <ul class="contenu-sousMenu">
           <li><a class="menu-a" href="#">Histoire de l'école</a></li>
-          <li><a class="menu-a" href="#">Mot de la direction</a></li>
+          <li><a class="menu-a" href="?section=motdirection">Mot de la direction</a></li>
         </ul>
         </li>
           <li class="sous-menu"><a class="menu-a" href="?section=info">Informations générales
