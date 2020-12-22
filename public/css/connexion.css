@@ -16,21 +16,21 @@ html {
 
 .container {
   width: 100%;
-  height: 600px;
+  min-height: 600px;
   background-color: #d5d5d5;
 }
 .container .empty {
-  width: 500px;
+  width: 70%;
   height: 100px;
   margin: auto;
 }
 .container .connexion {
-  width: 500px;
+  width: 70%;
   background-color: white;
   margin: auto;
 }
 .container .connexion .titre {
-  width: 500px;
+  width: 100%;
   height: 100px;
   background-color: #01969b;
 }
@@ -47,13 +47,27 @@ html {
 }
 .container .connexion .formConnex label {
   display: inline-block;
-  width: 150px;
-  height: 20px;
+  width: 30%;
+  height: 25px;
   font-family: "Quicksand", sans-serif;
 }
+
+#connexFormul {
+  width: 70%;
+  margin: auto;
+}
+
+#mdpOublie {
+  margin-left: 100px;
+}
+
+#connexFormul > div {
+  justify-content: center;
+  align-items: center;
+}
 .container .connexion .formConnex input {
-  width: 250px;
-  height: 20px;
+  width: 30%;
+  height: 25px;
   margin: 10px;
   margin-left: 20px;
   border: 1px solid lightgray;
@@ -70,8 +84,11 @@ html {
   margin-top: 40px;
   margin-left: 180px;
   margin-bottom: 50px;
-  height: 25px;
-  font-family: "HVD Comic Serif Pro";
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "quicksand";
+  cursor: pointer;
 }
 
 /*
