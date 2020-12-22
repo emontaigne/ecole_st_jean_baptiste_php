@@ -34,13 +34,19 @@
         <?php 
             if(isset($_SESSION["login"]))
             {
-                echo ($_SESSION["login"]) .'   ' .'<a class="menu-a" href="?section=deconnexion"><span><i class="fas fa-sign-out-alt"></i></span></a>';
-                echo '<li><a class = "admin menu-a" href = "?section=parents">Parents</a></li>';
+                echo ($_SESSION["login"]) .'<a class="menu-a" href="?section=deconnexion"><span><i class="fas fa-sign-out-alt"></i></span></a>';
+                echo '<li class="sous-menu"><a class ="admin menu-a" href="?section=parents">Parents<span class="fas fa-caret-down first"></span></a>
+                <ul class="contenu-sousMenu">
+                <li><a class="menu-a" href="#">Galerie</a></li>
+                <li><a class="menu-a" href="#">Repas</a></li>
+                <li><a class="menu-a" href="#">Garderie</a></li>
+                </ul>
+                </li>';
               }
             if(isset($_SESSION["login_admin"]))
             {
-                echo ($_SESSION["login_admin"]) .'   ' .'<a class="menu-a" href="?section=deconnexion"><span><i class="fas fa-sign-out-alt"></i></span></a>';
-                echo '<li><a class = "admin menu-a" href = "?section=admin">Admin</a></li>';         
+                echo ($_SESSION["login_admin"]) .'<a class="menu-a" href="?section=deconnexion"><span><i class="fas fa-sign-out-alt"></i></span></a>';
+                echo '<li><a class ="admin menu-a" href="?section=admin">Admin</a></li>';         
               }
         ?>
         </li> 
