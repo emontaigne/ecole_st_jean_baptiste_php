@@ -10,6 +10,10 @@ html {
   display: flex;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /*body {
   background-image: url("../images/background.jpg");
 }*/
@@ -37,12 +41,13 @@ p {
   text-align: center;
 }
 
-h2 {
-  font-size: 24px;
-  font-weight: bolder;
+.boxTitle > p {
+  font-size: 16x;
 }
-p {
-  font-size: 16px;
+
+.boxTitle > h2 {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .rightBox {
@@ -64,12 +69,20 @@ a:link {
 }
 
 .Pv {
-  width: 250px;
-  min-height: 100px;
+  width: 252px;
+  min-height: 120px;
   border: 1px solid #01969b;
   margin: 20px;
   border-radius: 10px;
   text-align: center;
+}
+
+.Pv > h2 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.Pv > p {
+  font-size: 16px;
 }
 
 a {
@@ -93,7 +106,7 @@ a {
   border-top-right-radius: 10px;
 }
 
-button {
+.btnPv {
   display: block;
   margin: auto;
   margin-bottom: 20px;
