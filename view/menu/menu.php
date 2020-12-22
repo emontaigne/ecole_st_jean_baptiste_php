@@ -9,7 +9,7 @@
          
         <ul class="contenu-sousMenu">
           <li><a class="menu-a" href="#">Histoire de l'école</a></li>
-          <li><a class="menu-a" href="#">Mot de la direction</a></li>
+          <li><a class="menu-a" href="?section=motdirection">Mot de la direction</a></li>
         </ul>
         </li>
           <li class="sous-menu"><a class="menu-a" href="?section=info">Informations générales
@@ -37,9 +37,9 @@
                 echo ($_SESSION["login"]) .'<a class="menu-a" href="?section=deconnexion"><span><i class="fas fa-sign-out-alt"></i></span></a>';
                 echo '<li class="sous-menu"><a class ="admin menu-a" href="?section=parents">Parents<span class="fas fa-caret-down first"></span></a>
                 <ul class="contenu-sousMenu">
-                <li><a class="menu-a" href="#">Galerie</a></li>
+                <li><a class="menu-a" href="?section=galerie">Galerie</a></li>
                 <li><a class="menu-a" href="?section=repas">Repas</a></li>
-                <li><a class="menu-a" href="#">Garderie</a></li>
+                <li><a class="menu-a" href="?section=garderie">Garderie</a></li>
                 </ul>
                 </li>';
               }

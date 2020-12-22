@@ -47,6 +47,9 @@
             case 'galerie':
                     require_once("controller/galerieController.php");
                 break;
+                case 'repas':
+                    require_once("controller/repasController.php");
+                break;
             case 'connexion':
                 require_once("controller/connexionController.php");
                 break;
