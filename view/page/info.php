@@ -4,21 +4,21 @@
       </div>
 </div>
 <div class="cards-info">
-        <a href="#" style="text-decoration: none"
+        <a href="?section=ephemerides" style="text-decoration: none"
           ><div class="card-info ephemerides" id="ephemerides-button">
             <img src="public/images/info1.png" alt="" />
             <h3>Ephémerides</h3>
             <p>lorem ipsum</p>
           </div></a
         >
-        <a href="#" style="text-decoration: none"
+        <a href="?section=activites" style="text-decoration: none"
           ><div class="card-info activites" id="activites-button">
             <img src="public/images/info2.png" alt="" />
             <h3>Activités</h3>
             <p>lorem ipsum</p>
           </div></a
         >
-        <a href="#" style="text-decoration: none"
+        <a href="?section=roi" style="text-decoration: none"
           ><div class="card-info roi" id="roi-button">
             <img src="public/images/info3.png" alt="" />
             <h3>ROI</h3>
