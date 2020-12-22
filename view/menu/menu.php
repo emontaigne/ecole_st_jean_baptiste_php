@@ -9,7 +9,7 @@
          
         <ul class="contenu-sousMenu">
           <li><a class="menu-a" href="#">Histoire de l'école</a></li>
-          <li><a class="menu-a" href="#">Mot de la direction</a></li>
+          <li><a class="menu-a" href="?section=motdirection">Mot de la direction</a></li>
         </ul>
         </li>
           <li class="sous-menu"><a class="menu-a" href="?section=info">Informations générales
@@ -21,7 +21,7 @@
           <li><a class="menu-a" href="#">Ephémérides</a></li>
           <li><a class="menu-a" href="#">Activités</a></li>
           <li><a class="menu-a" href="#">Service de garderie</a></li>
-          <li><a class="menu-a" href="#">Menu/service traiteur</a></li>
+          <li><a class="menu-a" href="?section=traiteur">Menu/service traiteur</a></li>
         </ul> 
       
     </li>

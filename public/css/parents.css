@@ -10,9 +10,9 @@ html {
   display: flex;
 }
 
-body {
+/*body {
   background-image: url("../images/background.jpg");
-}
+}*/
 
 .boxPrivate {
   width: 80%;
@@ -88,7 +88,7 @@ a {
   background-color: #9d64a8;
 }
 
-img {
+.img-parents {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
