@@ -8,7 +8,7 @@
           </a>
          
         <ul class="contenu-sousMenu">
-          <li><a class="menu-a" href="#">Histoire de l'école</a></li>
+          <li><a class="menu-a" href="?section=histoire">Histoire de l'école</a></li>
           <li><a class="menu-a" href="?section=motdirection">Mot de la direction</a></li>
         </ul>
         </li>
@@ -17,9 +17,9 @@
           </a>
          
             <ul  class="contenu-sousMenu"> 
-          <li><a class="menu-a" href="#">ROI</a></li>
-          <li><a class="menu-a" href="#">Ephémérides</a></li>
-          <li><a class="menu-a" href="#">Activités</a></li>
+          <li><a class="menu-a" href="?section=roi">ROI</a></li>
+          <li><a class="menu-a" href="?section=ephemerides">Ephémérides</a></li>
+          <li><a class="menu-a" href="?section=activites">Activités</a></li>
           <li><a class="menu-a" href="#">Service de garderie</a></li>
           <li><a class="menu-a" href="?section=traiteur">Menu/service traiteur</a></li>
         </ul> 
