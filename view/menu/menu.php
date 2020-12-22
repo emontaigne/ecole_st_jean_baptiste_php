@@ -21,7 +21,7 @@
           <li><a class="menu-a" href="#">Ephémérides</a></li>
           <li><a class="menu-a" href="#">Activités</a></li>
           <li><a class="menu-a" href="#">Service de garderie</a></li>
-          <li><a class="menu-a" href="#">Menu/service traiteur</a></li>
+          <li><a class="menu-a" href="?section=traiteur">Menu/service traiteur</a></li>
         </ul> 
       
     </li>
@@ -38,7 +38,7 @@
                 echo '<li class="sous-menu"><a class ="admin menu-a" href="?section=parents">Parents<span class="fas fa-caret-down first"></span></a>
                 <ul class="contenu-sousMenu">
                 <li><a class="menu-a" href="#">Galerie</a></li>
-                <li><a class="menu-a" href="#">Repas</a></li>
+                <li><a class="menu-a" href="?section=repas">Repas</a></li>
                 <li><a class="menu-a" href="#">Garderie</a></li>
                 </ul>
                 </li>';
