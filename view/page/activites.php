@@ -1,4 +1,4 @@
-<div class="header-img" id="header-img"></div>
+<div class="header-img-acti" id="header-img"></div>
 <div class="div-rose">
     <a href="">
         <h1>Activités</h1>

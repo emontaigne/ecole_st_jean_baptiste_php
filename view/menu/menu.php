@@ -3,7 +3,7 @@
       <nav class ="sidebar" id="mySidebar">
         <ul class="main">
           <li><a class="menu-a" href="?section=accueil">Accueil</a></li>
-          <li class="sous-menu"><a class="menu-a" href="#">A propos
+          <li class="sous-menu"><a class="menu-a" href="?section=apropos">A propos
             <span class="fas fa-caret-down first"></span>
           </a>
          

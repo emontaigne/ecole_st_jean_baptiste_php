@@ -24,5 +24,6 @@
 <link rel="stylesheet" href="public/css/activites.css" type="text/css">
 <link rel="stylesheet" href="public/css/ephemerides.css" type="text/css">
 <link rel="stylesheet" href="public/css/histoire.css" type="text/css">
+<link rel="stylesheet" href="public/css/apropos.css" type="text/css">
 </head>
 <body>
