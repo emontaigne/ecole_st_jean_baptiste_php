@@ -3,6 +3,23 @@
     <a href=""><h1>Apropos</h1></a>
 </div>
 
+<div class="cards-info">
+  <a href="?section=histoire" style="text-decoration: none">
+    <div class="card-info activites" id="activites-button" style="border:10px solid 01969b;">
+      <img src="public/images/school-sm-crop.jpg" alt="" />
+      <h3>Histoire de l'école</h3>
+      <p>lorem ipsum</p>
+    </div>
+  </a>
+  <a href="?section=motdirection" style="text-decoration: none">
+    <div class="card-info roi" id="roi-button">
+      <img src="public/images/info3.png" alt="" />
+      <h3>Mot de la direction</h3>
+      <p>lorem ipsum</p>
+    </div>
+  </a>
+</div>
+
 <!-- <p class="apropos-test">Hello world!</p> -->
 <div class="texte-info">
 <div class="info-onglet">

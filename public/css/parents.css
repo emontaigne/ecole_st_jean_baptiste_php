@@ -37,7 +37,7 @@ html {
 }
 
 .boxTitle > h2,
-p {
+.boxTitle > p {
   margin: 10px;
   padding: 0;
   text-align: center;
@@ -67,7 +67,7 @@ a:link {
   font-family: "quicksand";
   text-decoration: none;
   color: black;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .Pv {
