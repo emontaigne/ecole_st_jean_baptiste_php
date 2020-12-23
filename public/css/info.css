@@ -7,10 +7,10 @@
 }*/
 
 /* -----header----- */
-.header-img {
+.header-img-info {
   width: 100%;
   height: 400px;
-  /* background: url("books-crop-2.jpg"); */
+  background: url("../images/books-crop-2.jpg");
   background-size: cover;
 }
 

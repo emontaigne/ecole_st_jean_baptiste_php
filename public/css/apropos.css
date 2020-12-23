@@ -1,3 +1,10 @@
 .apropos-test {
   color: palevioletred;
 }
+
+.header-img-apropos {
+  width: 100%;
+  height: 400px;
+  background: url("../images/classroom.jpg");
+  background-size: cover;
+}

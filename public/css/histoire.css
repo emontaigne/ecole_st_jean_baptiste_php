@@ -1,3 +1,14 @@
 .histoire-test {
   color: blue;
 }
+
+.header-img-histoire {
+  width: 100%;
+  height: 400px;
+  background: url("../images/school.jpg");
+  background-size: cover;
+}
+
+.histoire p {
+  text-align: left;
+}

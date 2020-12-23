@@ -1,4 +1,4 @@
-<div class="header-img"></div>
+<div class="header-img-mot"></div>
     <div class="div-rose">
       <h1>Mot de la Direction</h1>
       <img
