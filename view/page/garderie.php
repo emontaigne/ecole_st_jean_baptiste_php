@@ -61,17 +61,24 @@
 
                         " required />
                       </div>
-                      <div>
-                
+                   
                 <div>
+              <label for="email" class="label-form-garderie">Email*:</label>
+              <input type="text" name="mail" id="email" maxlenght="100" class="input-form-garderie" value="" required />
+            </div>
+            <div>
                   <label for="message" class="label-form-garderie">Votre message*:</label>
-                  <input type="text" maxlenght="500" id="message-box-garderie" class="input-form-garderie"required />
+                  <input type="text" maxlenght="500" id="message-box-garderie" class="input-form-garderie"required value="" name="message"/>
                 </div>
                 <button type="reset" class="btnDeleteGarderie">Effacer</button>
                 <button type="submit" id="btnSubmitGarderie" class="btnSubmitGarderie">
                   Envoyer
                 </button>
+                <div>
+                <span><?= $etat;?></span>
+                </div>
               </form>
+              
         </div>
 
     </div>
