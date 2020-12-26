@@ -153,4 +153,7 @@ html {
   .textGarderie p {
     text-align: center;
   }
+  .coordonneesGarderie {
+    border-right: unset;
+  }
 }

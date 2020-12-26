@@ -34,7 +34,7 @@
         </div>
         <div class="formConnex">
           <form action="#" method="post" id="connexFormul">
-            <div class="d-flex">
+            <div class="page-connexion">
               <label for="login" class="label-form">Identifiant:</label>
               <input
                 type="text"
@@ -45,7 +45,7 @@
 			<span style='color:green;' hidden>&#10004;</span>
 			<span style='color:red;' hidden>&#10008;</span>
             </div>
-            <div class="d-flex">
+            <div class="page-connexion">
               <label for="mdp" class="label-form">Mot de passe:</label>
               <input type="password" name="mdp" id="mdp" value="<?= $mdp; ?>" />
             </div>

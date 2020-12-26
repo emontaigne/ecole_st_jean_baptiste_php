@@ -39,6 +39,29 @@ html {
   display: flex;
 }
 
+.containerContact .formulaireContact input {
+  width: 70%;
+  height: 30px;
+  margin: 10px;
+  margin-left: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.containerContact .formulaireContact #message-box {
+  width: 70%;
+  height: 200px;
+  margin: 10px;
+  margin-left: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.containerContact .formulaireContact label {
+  display: inline-block;
+  width: 20%;
+  height: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+
 @media screen and (max-width: 1200px) {
   .containerContact .formulaireContact {
     background-color: green;
@@ -57,7 +80,6 @@ html {
 }
 @media screen and (max-width: 576px) {
   .containerContact .formulaireContact {
-    background-color: purple;
     width: 90%;
   }
   .contactCenter {
@@ -67,7 +89,25 @@ html {
     width: 80%;
     margin: auto;
   }
+  .containerContact .formulaireContact input {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .containerContact .formulaireContact label {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .containerContact .formulaireContact #message-box {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: auto;
+  }
 }
+
 .containerContact .formulaireContact h2,
 .containerContact .formulaireContact h3,
 .containerContact .formulaireContact p {
@@ -119,28 +159,7 @@ html {
   margin: auto;
   width: 70%;
 }
-.containerContact .formulaireContact label {
-  display: inline-block;
-  width: 20%;
-  height: 30px;
-  font-family: "Quicksand", sans-serif;
-}
-.containerContact .formulaireContact input {
-  width: 70%;
-  height: 30px;
-  margin: 10px;
-  margin-left: 20px;
-  border: 1px solid lightgray;
-  border-radius: 5px;
-}
-.containerContact .formulaireContact #message-box {
-  width: 70%;
-  height: 200px;
-  margin: 10px;
-  margin-left: 20px;
-  border: 1px solid lightgray;
-  border-radius: 5px;
-}
+
 .containerContact .formulaireContact .btnDelete {
   height: 30px;
   width: 45%;

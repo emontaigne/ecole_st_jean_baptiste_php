@@ -111,3 +111,73 @@ a {
   margin-bottom: 20px;
   cursor: pointer;
 }
+
+/*@media screen and (max-width: 1200px) {
+}*/
+@media screen and (max-width: 992px) {
+  .boxPrivateParents {
+    background-color: purple;
+  }
+  .rightBox {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .Pv {
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+  }
+  .img-parents {
+    margin: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .page-parents {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .boxPrivateParents {
+    background-color: blue;
+  }
+  .rightBox {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .Pv {
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+  }
+  .img-parents {
+    margin: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .page-parents {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .boxPrivateParents {
+    background-color: green;
+  }
+  .rightBox {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .Pv {
+    margin: auto;
+    margin-top: 20px;
+    width: 95%;
+  }
+  .img-parents {
+    width: 70%;
+    margin: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .page-parents {
+    padding: 10px;
+  }
+}

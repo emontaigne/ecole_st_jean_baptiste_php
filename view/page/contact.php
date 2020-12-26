@@ -32,11 +32,11 @@
           <form action="#" method="post" id="form">
             <div>
               <label for="nom" class="label-form">Nom*:</label>
-              <input type="text" name="nom" id="nom" value="" required />
+              <input type="text" name="nom" id="nom" value="" class="lesInputsContact"required />
             </div>
             <div>
               <label for="prenom" class="label-form">Prénom*:</label>
-              <input type="text" name="prenom" id="prenom" value="" required />
+              <input type="text" name="prenom" id="prenom" value="" class="lesInputsContact" required />
             </div>
             <div>
               <label for="telephone" class="label-form"
@@ -48,15 +48,16 @@
                 id="telephone"
                 value=""
                 required
+                class="lesInputsContact"
               />
             </div>
             <div>
               <label for="email" class="label-form">Email*:</label>
-              <input type="text" name="mail" id="email" value="" required />
+              <input type="text" name="mail" id="email" value="" required class="lesInputsContact"/>
             </div>
             <div>
               <label for="message" class="label-form">Votre message*:</label>
-              <input type="text" name="message" maxlenght="500" id="message-box" required />
+              <input type="text" name="message" maxlenght="500" id="message-box" class="lesInputsContact" required />
             </div>
             <div class="d-flex btnFormContact">
             <button type="reset" class="btnDelete">Effacer</button>

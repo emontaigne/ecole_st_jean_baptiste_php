@@ -97,7 +97,6 @@ html {
   #activite1Gallery,
   #activite2Gallery,
   #activite3Gallery {
-    background-color: red;
     width: 100%;
   }
   .example-image {
@@ -143,7 +142,7 @@ html {
     background-color: purple;
   }
   h3 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .example-image {
     width: 70%;
