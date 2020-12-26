@@ -1,8 +1,8 @@
 <div class="mainTotalGallery">
     <div class="mainGallery">
     <div class="titlePageGallery">
-    <h2>Galerie photo</h2>
-    <p>Voici la galerie photo</p>
+    <h2 class="page-galerie">Galerie photo</h2>
+    <p class="page-galerie">Voici la galerie photo</p>
     </div>
       <!-- Première gallery photo-->
       

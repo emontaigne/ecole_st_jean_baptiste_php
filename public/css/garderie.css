@@ -39,6 +39,7 @@ html {
 
 .flexGarderie {
   justify-content: space-around;
+  display: flex;
 }
 
 .imgGarderie {
@@ -54,14 +55,10 @@ html {
 .textGarderie p {
   text-align: justify;
   padding: 10px;
-  animation-duration: 10s;
-  animation-name: slidein;
 }
 .textGarderie h3 {
   padding: 10px;
   text-align: center;
-  animation-duration: 3s;
-  animation-name: slidein;
 }
 
 .all-garderie {
@@ -78,6 +75,7 @@ html {
   width: 90%;
   justify-content: center;
   margin: auto;
+  display: flex;
 }
 
 .input-form-garderie {
@@ -103,4 +101,56 @@ html {
 
 #btnSubmitGarderie {
   background-color: #9d64a8;
+}
+
+/*@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+
+} */
+@media screen and (max-width: 768px) {
+  .flexGarderie {
+    display: block;
+  }
+  .garderiePartie2 {
+    display: block;
+  }
+  .imgGarderie {
+    width: 60%;
+    margin: auto;
+  }
+  .img-gardiennes {
+    width: 80%;
+  }
+  .textGarderie {
+    width: 90%;
+    margin-top: 25px;
+    margin: auto;
+  }
+  .textGarderie p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .flexGarderie {
+    display: block;
+  }
+  .garderiePartie2 {
+    display: block;
+  }
+  .imgGarderie {
+    width: 60%;
+    margin: auto;
+  }
+  .img-gardiennes {
+    width: 80%;
+  }
+  .textGarderie {
+    width: 90%;
+    margin-top: 25px;
+    margin: auto;
+  }
+  .textGarderie p {
+    text-align: center;
+  }
 }

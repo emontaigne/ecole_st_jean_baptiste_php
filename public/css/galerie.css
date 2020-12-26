@@ -73,6 +73,11 @@ html {
   display: none;
 }
 
+.page-galerie {
+  text-align: center;
+  margin: 15px;
+}
+
 .containerGallery {
   width: 85%;
   margin: auto;

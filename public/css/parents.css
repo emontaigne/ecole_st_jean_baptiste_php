@@ -60,10 +60,7 @@ html {
   justify-content: space-around;
 }
 
-h2,
-p,
-button,
-a:link {
+.page-parents {
   font-family: "quicksand";
   text-decoration: none;
   color: black;

@@ -4,8 +4,8 @@
     </div>
 <div class="texte-info">
       <div class="code-covid">
-        <h2>Code actuel: Orange</h2>
-        <p>Dernière mise à jour : le 26 Octobre 2020</p>
+        <h2 class="page-covid">Code actuel: Orange</h2>
+        <p class="page-covid">Dernière mise à jour : le 26 Octobre 2020</p>
       </div>
       <div class="covid-cards">
         <div class="card-covid one">
@@ -13,7 +13,7 @@
             <img src="public/images/mask-01.png" alt="" class="icon-covid" />
           </div>
           <div class="card-covid texte" style="color:black;">
-            <p>
+            <p class="page-covid">
               Le port du masque est obligatoire pour tous les adultes et
               enseignants se trouveant dans l'établissement. Les élèves ne
               portent pas le masque.
@@ -26,7 +26,7 @@
             <img src="public/images/sanitizer-01.png" alt="" class="icon-covid" />
           </div>
           <div class="card-covid texte">
-            <p>
+            <p class="page-covid">
               Du gel désinfectant est mis à disposition du personnel. Les élèves
               se nettoient également regulièrement les mains.
             </p>
@@ -38,7 +38,7 @@
             <img src="public/images/distance-01.png" alt="" class="icon-covid" />
           </div>
           <div class="card-covid texte">
-            <p>
+            <p class="page-covid">
               La distanciation sociale entre les enfants et les enfants est d'un
               mètre.
             </p>
@@ -50,7 +50,7 @@
             <img src="public/images/house-01.png" alt="" class="icon-covid" />
           </div>
           <div class="card-covid texte">
-            <p>
+            <p class="page-covid">
               En cas de symptômes, il est recommandé de rester à la maison. Une
               période de quarantaine de 10 jours est de rigueur.
             </p>
@@ -62,7 +62,7 @@
             <img src="public/images/playing.png" alt="" />
           </div>
           <div class="card-texte">
-            <p>
+            <p class="page-covid">
               Les activités extra-scolaires sont annulées. Cependant, les
               enfants sont autorisés à jouer dans la cour de récréation.
             </p>
