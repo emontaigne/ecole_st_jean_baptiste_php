@@ -8,7 +8,7 @@
           nos services ou de nous transmettre une remarque ? Prenez-contact avec
           nous.
         </p>
-        <div class="d-flex contactCenter">
+        <div class="contactCenter">
           <div class="contactChoix">
             <h3>Contactez-nous via téléphone</h3>
             <p>
@@ -44,7 +44,7 @@
               >
               <input
                 type="text"
-                name="telephone"
+                name="phone"
                 id="telephone"
                 value=""
                 required
@@ -52,14 +52,15 @@
             </div>
             <div>
               <label for="email" class="label-form">Email*:</label>
-              <input type="text" name="email" id="email" value="" required />
+              <input type="text" name="mail" id="email" value="" required />
             </div>
             <div>
               <label for="message" class="label-form">Votre message*:</label>
-              <input type="text" maxlenght="500" id="message-box" required />
+              <input type="text" name="message" maxlenght="500" id="message-box" required />
             </div>
             <div class="d-flex btnFormContact">
             <button type="reset" class="btnDelete">Effacer</button>
+            <span><?= $etat;?></span>
             <button type="submit" id="btnSubmit" class="btnSubmit">
               Valider
             </button>
@@ -99,9 +100,9 @@
 const popupContact = document.getElementById('popupContact');
 const btnContact = document.getElementById('btnContactForm');
 
-btnContact.addEventListener('click', (e) => {
+btnContact.addEventListener('click', () => {
   console.log('toto');
-  e.preventDefault();
+  //e.preventDefault();
   if (popupContact.style.display !== 'block') {
     popupContact.style.display = 'block';
   } else {
@@ -115,8 +116,8 @@ const btnClose = document.getElementById('btnCloseContactForm');
 
 const overlay = document.getElementById('overlayContactForm');
 btnSubmit.addEventListener('click', openMoadl);
-function openMoadl(e) {
-  e.preventDefault();
+function openMoadl() {
+ // e.preventDefault();
   if (document.querySelector('form').checkValidity()) {
     overlay.style.display = 'block';
   }

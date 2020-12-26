@@ -9,6 +9,11 @@
 <script src = "public/js/accueil.js"></script>
 <script src = "public/js/gallery-lightbox.js"></script>
 <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+<?php 
+  if (isset ($_SESSION["login_admin"])) {
+    echo '<script src = "public/js/agenda.js"></script>';
+  }
+?>
 
 
 </body>

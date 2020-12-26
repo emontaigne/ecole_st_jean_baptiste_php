@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-@import "@fortawesome/fontawesome-free/css/all.css";
 @font-face {
   font-family: "HVD Comic Serif Pro";
   src: url("assets/HVD_Comic_Serif_Pro.otf") format("woff");
@@ -35,6 +34,40 @@ html {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 125, 0.2);
   border-radius: 5px;
 }
+
+.contactCenter {
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .containerContact .formulaireContact {
+    background-color: green;
+  }
+}
+@media screen and (max-width: 992px) {
+  .containerContact .formulaireContact {
+    background-color: blue;
+  }
+}
+@media screen and (max-width: 768px) {
+  .containerContact .formulaireContact {
+    background-color: red;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .containerContact .formulaireContact {
+    background-color: purple;
+    width: 90%;
+  }
+  .contactCenter {
+    display: block;
+  }
+  .containerContact .formulaireContact .contactChoix {
+    width: 80%;
+    margin: auto;
+  }
+}
 .containerContact .formulaireContact h2,
 .containerContact .formulaireContact h3,
 .containerContact .formulaireContact p {
@@ -55,7 +88,7 @@ html {
   font-size: 16px;
 }
 
-.containerContact .formulaireContact .contactChoix {
+.contactChoix {
   width: 45%;
   border: 1px solid lightgrey;
 }
