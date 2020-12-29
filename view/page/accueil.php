@@ -33,6 +33,7 @@
 <a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/dinner.png"/><p class = "titreicon">MENU</p></div></a>
 <a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/paint.png"/><p class = "titreicon">ACTIVITÉS</p></div></a>
 </div> 
+<div class="divVide"></div>
 
 <div class = "agendaprinc" id="agenda">
     <section class="agenda" >

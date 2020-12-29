@@ -3,7 +3,7 @@
       <nav class ="sidebar" id="mySidebar">
         <ul class="main">
           <li><a class="menu-a" href="?section=accueil">Accueil</a></li>
-          <li class="sous-menu"><a class="menu-a" href="?section=apropos">A propos
+          <li class="sous-menu"><a class="menu-a" id="menuApropos" href="?section=apropos">A propos
             <span class="fas fa-caret-down first"></span>
           </a>
          
@@ -17,11 +17,11 @@
           </a>
          
             <ul  class="contenu-sousMenu"> 
-          <li><a class="menu-a" href="?section=roi">ROI</a></li>
-          <li><a class="menu-a" href="?section=ephemerides">Ephémérides</a></li>
-          <li><a class="menu-a" href="?section=activites">Activités</a></li>
-          <li><a class="menu-a" href="#">Service de garderie</a></li>
-          <li><a class="menu-a" href="?section=traiteur">Menu/service traiteur</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=roi">ROI</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=ephemerides">Ephémérides</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=activites">Activités</a></li>
+          <li><a class="menu-a menuInfoGen" href="#">Service de garderie</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=traiteur">Menu/service traiteur</a></li>
         </ul> 
       
     </li>
