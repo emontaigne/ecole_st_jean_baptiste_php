@@ -1,9 +1,9 @@
 <div class="header-img-roi" id="header-img"></div>
 <div class="div-rose">
-    <a href=""><h1>Réglement d'ordre intérieur</h1></a>
+    <a href=""><h1 class="roi-titre">Réglement d'ordre intérieur</h1></a>
 </div>
 
-<div class="texte-info">
+<div class="texte-info" >
 <div class="info-onglet" id="roi">
           <h3><a name="roi">Le ROI</a></h3>
           <p>
@@ -39,7 +39,7 @@
           <div class="pdf-dl">
             <h3>Réglement d'ordre intérieur</h3>
             <a href="Logo SJB Déf_7.pdf" download="roi">
-              <img src="public/images/pdf-icon-01.png" />
+              <img src="public/images/pdf-icon-01.png" class="img-pdf"/>
             </a>
             <p>[ Télécharger ]</p>
           </div>

@@ -11,3 +11,39 @@
   height: 350px;
   background-size: cover;
 }
+
+@media screen and (max-width: 1200px) {
+  .header-img-roi {
+    height: 250px;
+  }
+
+  .pdf-dl {
+    width: 60%;
+    margin: auto;
+  }
+  .img-pdf {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .header-img-roi {
+    height: 200px;
+  }
+
+  .roi-titre {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 375px) {
+  .pdf-dl {
+    width: 90%;
+  }
+  .img-pdf {
+    width: 80%;
+  }
+}
