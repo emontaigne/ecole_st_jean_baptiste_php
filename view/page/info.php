@@ -1,38 +1,38 @@
 <div class="header-img-info" id="header-img"></div>
 <div class="div-rose">
   <a href="?section=info">
-    <h1>Informations génerales</h1>
+    <h1 class="div-rose-titre">Informations génerales</h1>
   </a>
 </div>
 </div>
 <div class="cards-info">
   <a href="?section=ephemerides" style="text-decoration: none">
     <div class="card-info ephemerides" id="ephemerides-button">
-      <img src="public/images/info1.png" alt="" />
+      <img src="public/images/info1.png" class="page-info-img"alt="" />
       <h3>Ephémerides</h3>
       <p>lorem ipsum</p>
     </div>
   </a>
   <a href="?section=activites" style="text-decoration: none">
     <div class="card-info activites" id="activites-button">
-      <img src="public/images/info2.png" alt="" />
+      <img src="public/images/info2.png" class="page-info-img" alt="" />
       <h3>Activités</h3>
       <p>lorem ipsum</p>
     </div>
   </a>
   <a href="?section=roi" style="text-decoration: none">
     <div class="card-info roi" id="roi-button">
-      <img src="public/images/info3.png" alt="" />
+      <img src="public/images/info3.png" class="page-info-img"alt="" />
       <h3>ROI</h3>
       <p>lorem ipsum</p>
     </div>
   </a>
 </div>
-<div class="texte-info">
+<div class="texte-page-info">
   <div id="calendrier-2020">
-    <h3>Calendrier pour 2020-2021</h3>
+    <h3 class="calendrier-info-titre">Calendrier pour 2020-2021</h3>
     <div class="flex-container-dates">
-      <div class="evenements-2020">
+      <div class="evenements-2020" id="evenements-2020">
         <ul>
           <li>Fête de la Communauté Française</li>
           <li>Vacances de Toussaint</li>
@@ -45,7 +45,7 @@
           <li>Congé</li>
         </ul>
       </div>
-      <div class="dates-2020">
+      <div class="dates-2020" id="dates-2020">
         <ul>
           <li>Dimanche 27 Septembre 2020</li>
           <li>Lundi 2 au vendredi 6 novembre</li>
