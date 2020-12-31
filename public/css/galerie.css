@@ -107,11 +107,7 @@ html {
   .containerGallery {
     width: 720px;
   }
-  #activite1Gallery,
-  #activite2Gallery,
-  #activite3Gallery {
-    background-color: blue;
-  }
+
   .example-image {
     width: 75%;
   }
@@ -120,11 +116,7 @@ html {
   .containerGallery {
     width: 90%;
   }
-  #activite1Gallery,
-  #activite2Gallery,
-  #activite3Gallery {
-    background-color: green;
-  }
+
   h3 {
     font-size: 24px;
   }
@@ -136,11 +128,7 @@ html {
   .containerGallery {
     width: 85%;
   }
-  #activite1Gallery,
-  #activite2Gallery,
-  #activite3Gallery {
-    background-color: purple;
-  }
+
   h3 {
     font-size: 20px;
   }

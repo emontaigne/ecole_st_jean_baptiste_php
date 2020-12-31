@@ -115,9 +115,6 @@ a {
 /*@media screen and (max-width: 1200px) {
 }*/
 @media screen and (max-width: 992px) {
-  .boxPrivateParents {
-    background-color: purple;
-  }
   .rightBox {
     flex-direction: column;
     justify-content: space-around;
@@ -137,9 +134,6 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
-  .boxPrivateParents {
-    background-color: blue;
-  }
   .rightBox {
     flex-direction: column;
     justify-content: space-around;
@@ -159,9 +153,6 @@ a {
   }
 }
 @media screen and (max-width: 576px) {
-  .boxPrivateParents {
-    background-color: green;
-  }
   .rightBox {
     flex-direction: column;
     justify-content: space-around;
