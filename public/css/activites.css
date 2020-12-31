@@ -18,7 +18,28 @@
 /* -----main text----- */
 .texte-info-activites {
   background-color: whitesmoke;
-  width: 1100px;
+  width: 80%;
   padding: 40px;
   margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-img-acti {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .activ-titre {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 375px) {
+  .fleche-retour-activites {
+    width: 60%;
+  }
 }

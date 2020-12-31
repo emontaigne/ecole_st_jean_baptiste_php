@@ -1,7 +1,7 @@
 <div class="header-img-acti" id="header-img"></div>
 <div class="div-rose activites-rose">
     <a href="">
-        <h1>Activités</h1>
+        <h1 class="activ-titre">Activités</h1>
     </a>
 
     <div class="fleche-retour-activites"><a href="?section=accueil">Home</a>><a href="?section=info"> Informations générales</a>><a href="?section=activites">Activités</a></div>

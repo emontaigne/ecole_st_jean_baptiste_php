@@ -2,7 +2,7 @@
 <div class="header-img-ephe" id="header-img"></div>
 <div class="div-rose">
     <a href="">
-        <h1>Les Ephémerides</h1>
+        <h1 class="ephe-titre">Les Ephémerides</h1>
     </a>
 </div>
 
