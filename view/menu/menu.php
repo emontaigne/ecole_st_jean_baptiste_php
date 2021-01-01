@@ -20,8 +20,8 @@
           <li><a class="menu-a menuInfoGen" href="?section=roi">ROI</a></li>
           <li><a class="menu-a menuInfoGen" href="?section=ephemerides">Ephémérides</a></li>
           <li><a class="menu-a menuInfoGen" href="?section=activites">Activités</a></li>
-          <li><a class="menu-a menuInfoGen" href="#">Service de garderie</a></li>
-          <li><a class="menu-a menuInfoGen" href="?section=traiteur">Menu/service traiteur</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=service-garderie">Service de garderie</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=service-traiteur">Menu/service traiteur</a></li>
         </ul> 
       
     </li>
