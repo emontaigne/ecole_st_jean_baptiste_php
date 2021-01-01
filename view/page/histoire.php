@@ -3,7 +3,7 @@
 <div class="header-img-histoire" id="header-img"></div>
 <div class="div-rose">
     <a href="">
-        <h1>Histoire de l'école</h1>
+        <h1 class="histoire-titre">Histoire de l'école</h1>
     </a>
 </div>
 

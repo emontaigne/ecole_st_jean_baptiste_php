@@ -1,13 +1,13 @@
 <div class="header-img-apropos" id="header-img"></div>
 <div class="div-rose">
-    <a href="">
-        <h1>Apropos</h1>
+    <a class="liens"href="">
+        <h1 class="aPropos-titre">Apropos</h1>
     </a>
 </div>
 
 
 <div class="buttons-testing-1">
-    <a href="?section=histoire">
+    <a class="liens"href="?section=histoire">
         <div class="button-testing-1 button-histoire">
             <div class="button-testing-image-histoire"></div>
             <div class="button-testing-text">
@@ -17,7 +17,7 @@
         </div>
     </a>
 
-    <a href="?section=motdirection">
+    <a class="liens"href="?section=motdirection">
         <div class="button-testing-1 button-mot">
             <div class="button-testing-image-mot"></div>
             <div class="button-testing-text">

@@ -27,3 +27,31 @@
   margin: auto;
   /* justify-content: center; */
 }
+
+@media screen and (max-width: 1200px) {
+  .header-img-mot {
+    height: 200px;
+  }
+  .motDirection-titre {
+    line-height: 120px;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .motDirection-titre {
+    font-size: 24px;
+    line-height: 75px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .apropos-round-img {
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+}

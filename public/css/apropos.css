@@ -52,3 +52,38 @@ div.buttons-testing-1 a:hover div.button-histoire {
 div.buttons-testing-1 a:hover div.button-mot {
   opacity: 0.8;
 }
+
+.liens {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-img-apropos {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .aPropos-titre {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .buttons-testing-1 {
+    flex-direction: column;
+  }
+  .button-testing-1 {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .button-testing-1 {
+    width: 58%;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+}
