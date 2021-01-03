@@ -1,6 +1,6 @@
 <div class="container2">
 
-<form action="#" method="post">
+<form action="#" method="post" class="form-new-student">
 <h2 class = "ajout">Ajouter un étudiant</h2>
     <label for="nom">Nom :</label>
     <input type="text" name="nom" id="nom" ><br>
