@@ -1,0 +1,27 @@
+/*form {
+  width: 30%;
+  margin: 100px auto;
+  padding: 30px;
+  border: 1px solid black;
+}
+
+input {
+  width: 100%;
+  border: 1px solid red;
+  padding: 5px 10px;
+}
+
+button {
+  border-radius: 15px;
+}
+*/
+
+.imglib {
+  display: flex;
+  justify-content: center;
+}
+.img-traiteur {
+  width: 50%;
+  max-height: 100%;
+  margin: 10px;
+}

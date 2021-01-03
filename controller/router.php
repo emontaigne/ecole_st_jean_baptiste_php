@@ -3,7 +3,7 @@
     {
         switch ($_GET["section"]) {
             case 'accueil':
-                require_once("controller/accueilController.php");
+                require_once("controller/event/accueilController.php");
                 break;
             case 'info':
                 require_once("controller/infoController.php");
@@ -70,6 +70,18 @@
                 break;
             case "delete":
                     require_once("controller/personne/delete.php");
+                break;
+                case "create_event":
+                    require_once("controller/event/create_event.php");
+                break;
+             case "read_event":
+                    require_once("controller/event/read_event.php");
+                break;
+            case "update_event":
+                    require_once("controller/event/update_event.php");
+                break;
+            case "delete_event":
+                    require_once("controller/event/delete_event.php");
                 break;
 
             default:

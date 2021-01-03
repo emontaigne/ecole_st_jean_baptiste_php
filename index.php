@@ -2,7 +2,9 @@
     ob_start();
     session_start();
     require_once("model/Personne.php");
-    require_once("model/Connexion.php");// pour pouvoir créer des variables de session
+    require_once("model/Event.php");
+    require_once("model/Connexion.php");
+    require_once("model/upload.php");// pour pouvoir créer des variables de session
     require_once("view/html/head.php");// pour pouvoir utiliser header()
     require_once("view/menu/menu.php");
 

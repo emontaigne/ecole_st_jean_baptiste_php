@@ -91,8 +91,7 @@ function calendrier(year, month) {
     ")'<span></span>></button></div>";
   document
     .getElementById("agenda")
-    .getElementsByTagName("main")[0].innerHTML = html;
+    .getElementsByClassName("right")[0].innerHTML = html;
 }
 
 calendrier(date.getFullYear(), date.getMonth() + 1);
-

@@ -35,6 +35,14 @@
 </div> 
 
 <div class = "agendaprinc" id="agenda">
+  <div class="left">
+  <div class = "afficher1_event">
+<h2 class = "affiche1_event">Ephémérides</h2>
+<table>
+    <?= $table; ?> 
+</table>
+</div>
+</div>
     <section class="agenda" >
         <header class="fleches" id="fleches">
        
@@ -49,9 +57,17 @@
         <div class="jr">sam</div>
         <div class="jr">dim</div>
         </div>
-
+        
     <main>
+<div class="right">
+
+</div>
+  <!--   <button class = "section" ><a class = "section1" href="?section=accueil">Afficher</a></button>
+       <button class = "section" ><a class = "section1" href="?section=create_event">Ajouter</a></button>  -->
     </main>
+    </section>
+
+
 </div>
 </div>
 <script src = "public/js/agenda.js"></script>

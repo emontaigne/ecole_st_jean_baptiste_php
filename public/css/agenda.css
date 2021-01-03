@@ -1,8 +1,20 @@
 .agendaprinc {
-  width: 100%;
+  width: 70%;
   height: auto;
-  margin-top: 10%;
-  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  padding: 0;
+}
+
+.left {
+  margin: auto;
+}
+
+.right {
+  margin: auto;
 }
 /* calendar */
 .agenda {
@@ -81,16 +93,14 @@
   font-size: 16px;
 }
 
-/*.popup,
-.autre_popup {
-  display: none;
+.popup {
   background-color: white;
-  width: 300px;
-  height: 400px;
+  width: 20%;
+  height: auto;
   position: absolute;
-  margin-left: 300px;
-  box-shadow: 5px 10px #5f5d5d3b;
-}*/
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
 
 .jour:hover {
   cursor: pointer;

@@ -19,7 +19,7 @@
     <label for="ad_ville">Ville :</label>
     <input type="text" name="ad_ville" id="ad_ville" value="<?= $adVille; ?>"><br>
 
-    <label for="ad_rue">Date de naissance :</label>
+    <label for="date_naissance">Date de naissance :</label>
     <input type="text" name="date_naissance" id="date_naissance" value="<?= $dateNaissance; ?>"><br>
 
     <label for="classes">Classe :</label>

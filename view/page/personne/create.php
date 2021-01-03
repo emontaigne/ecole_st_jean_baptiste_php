@@ -26,7 +26,7 @@
     <input type="text" name="ad_ville" id="ad_ville"><br>
 
 
-    <label for="ad_rue">Date de naissance :</label>
+    <label for="date_naissance">Date de naissance :</label>
     <input type="text" name="date_naissance" id="date_naissance" ><br><br>
 
     <label for="classes">Classe :</label>

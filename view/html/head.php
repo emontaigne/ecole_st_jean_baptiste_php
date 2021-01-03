@@ -19,5 +19,6 @@
 <link rel="stylesheet" href="public/css/parents.css" type="text/css">
 <link rel="stylesheet" href="public/css/covid.css" type="text/css">
 <link rel="stylesheet" href="public/css/motdirection.css" type="text/css">
+<link rel="stylesheet" href="public/css/traiteur.css" type="text/css">
 </head>
 <body>

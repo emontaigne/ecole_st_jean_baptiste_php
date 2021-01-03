@@ -24,6 +24,9 @@
 footer {
   width: 100%;
   height: auto;
+  position: relative;
+  bottom: 0;
+  display: none;
 }
 .div-footer {
   background-color: #c35884;
@@ -54,6 +57,8 @@ h1 {
   margin-left: 20px;
   font-size: 25px;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .titreicon {

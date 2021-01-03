@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-@import "@fortawesome/fontawesome-free/css/all.css";
 @font-face {
   font-family: "HVD Comic Serif Pro";
   src: url("assets/HVD_Comic_Serif_Pro.otf") format("woff");
@@ -158,9 +157,9 @@ html {
   text-align: center;
 }
 
-section {
+/*section {
   margin-top: 25px;
-}
+}*/
 
 iframe {
   display: block;
