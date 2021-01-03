@@ -38,6 +38,12 @@
             case 'activites':
                     require_once("controller/activitesController.php");
                 break;
+                case 'service-garderie':
+                    require_once("controller/service-garderieController.php");
+                break;
+                case 'service-traiteur':
+                    require_once("controller/service-traiteurController.php");
+                break;
             case 'garderie':
                     require_once("controller/garderieController.php");
                 break;

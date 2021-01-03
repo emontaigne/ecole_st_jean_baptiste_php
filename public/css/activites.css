@@ -1,0 +1,45 @@
+.activites-test {
+  color: red;
+}
+/* -----header----- */
+.header-img-acti {
+  background: url("../images/activity3.jpg");
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+}
+
+.activites-rose {
+  display: flex;
+}
+.fleche-retour-activites > a {
+  color: white;
+}
+/* -----main text----- */
+.texte-info-activites {
+  background-color: whitesmoke;
+  width: 80%;
+  padding: 40px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-img-acti {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .activ-titre {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 375px) {
+  .fleche-retour-activites {
+    width: 60%;
+  }
+}

@@ -2,7 +2,7 @@
 <section class="slideshow">
         <ul>
           <li>
-            <img
+            <img class="imgSliderHome"
               src="public/images/slides1.jpg"
               alt=""
               width="100%"
@@ -10,7 +10,7 @@
             />
           </li>
           <li>
-            <img
+            <img class="imgSliderHome"
               src="public/images/slides2.jpg"
               alt=""
               width="100%"
@@ -18,7 +18,7 @@
             />
           </li>
           <li>
-            <img
+            <img class="imgSliderHome"
               src="public/images/slide3.png"
               alt=""
               width="100%"
@@ -29,10 +29,11 @@
       </section>
       <div class = "aicon-flex">
 <a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/blackboard.png"/><p class = "titreicon">ÉCOLE</p></div></a>
-<a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/balls.png"/><p class = "titreicon">GARDERIE</p></div></a>
-<a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/dinner.png"/><p class = "titreicon">MENU</p></div></a>
-<a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/paint.png"/><p class = "titreicon">ACTIVITÉS</p></div></a>
+<a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/balls.png"/><p class = "titreicon" id="titreGarderie">GARDERIE</p></div></a>
+<a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/dinner.png"/><p class = "titreicon" id="titreMenu">MENU</p></div></a>
+<a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/paint.png"/><p class = "titreicon" id="titreActivites">ACTIVITÉS</p></div></a>
 </div> 
+<div class="divVide"></div>
 
 <div class = "agendaprinc" id="agenda">
   <div class="left">

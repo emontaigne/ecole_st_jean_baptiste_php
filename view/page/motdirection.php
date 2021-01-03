@@ -1,6 +1,6 @@
-<div class="header-img"></div>
+<div class="header-img-mot"></div>
     <div class="div-rose">
-      <h1>Mot de la Direction</h1>
+      <h1 class="motDirection-titre">Mot de la Direction</h1>
       <img
         src="https://www.ecole-anne-marie.be/wp-content/uploads/2017/06/Severine-e1498681650647.png"
         alt=""
@@ -11,7 +11,7 @@
       <h2>Bonjour et bienvenue à tous!</h2>
       <p>
         Je m'apelle Séverine et c'est avec grand plaisir que j'ai rejoint,
-        depuis quelques années, l'équipe de l'école Saint-Jean Baptiste.
+        depuis quelques années, l'équipe de l'école Anne-Marie.
       </p>
       <p>
         Diplômée à l'ENCBW de Nivelles, c'est en 2002 que j'ai débuté mon métier

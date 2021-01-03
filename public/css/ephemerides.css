@@ -1,0 +1,28 @@
+.ephemerides-test {
+  color: green;
+}
+
+.header-img-ephe {
+  background: url("../images/calendar.jpg");
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-img-ephe {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .ephe-titre {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 375px) {
+}

@@ -3,12 +3,12 @@
       <nav class ="sidebar" id="mySidebar">
         <ul class="main">
           <li><a class="menu-a" href="?section=accueil">Accueil</a></li>
-          <li class="sous-menu"><a class="menu-a" href="#">A propos
+          <li class="sous-menu"><a class="menu-a" id="menuApropos" href="?section=apropos">A propos
             <span class="fas fa-caret-down first"></span>
           </a>
          
         <ul class="contenu-sousMenu">
-          <li><a class="menu-a" href="#">Histoire de l'école</a></li>
+          <li><a class="menu-a" href="?section=histoire">Histoire de l'école</a></li>
           <li><a class="menu-a" href="?section=motdirection">Mot de la direction</a></li>
         </ul>
         </li>
@@ -17,11 +17,11 @@
           </a>
          
             <ul  class="contenu-sousMenu"> 
-          <li><a class="menu-a" href="#">ROI</a></li>
-          <li><a class="menu-a" href="#">Ephémérides</a></li>
-          <li><a class="menu-a" href="#">Activités</a></li>
-          <li><a class="menu-a" href="#">Service de garderie</a></li>
-          <li><a class="menu-a" href="?section=traiteur">Menu/service traiteur</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=roi">ROI</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=ephemerides">Ephémérides</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=activites">Activités</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=service-garderie">Service de garderie</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=service-traiteur">Menu/service traiteur</a></li>
         </ul> 
       
     </li>

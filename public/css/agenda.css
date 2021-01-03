@@ -120,3 +120,36 @@
   border-color: #f44336;
   cursor: pointer;
 }
+
+@media (max-width: 992px) {
+  .agendaprinc {
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .agendaprinc {
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 576px) {
+  .agendaprinc {
+    margin-top: 20%;
+  }
+  .agenda {
+    width: 300px;
+  }
+  .jour,
+  .jr,
+  .rien {
+    width: 43px;
+  }
+}
+
+@media (max-width: 375px) {
+  .agendaprinc {
+    margin-top: 75%;
+  }
+}

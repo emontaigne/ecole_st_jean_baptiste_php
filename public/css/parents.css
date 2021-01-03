@@ -10,11 +10,17 @@ html {
   display: flex;
 }
 
-/*body {
-  background-image: url("../images/background.jpg");
-}*/
+* {
+  box-sizing: border-box;
+}
 
-.boxPrivate {
+.privateContainerParents {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.boxPrivateParents {
   width: 80%;
   margin: auto;
   background-color: white;
@@ -31,18 +37,19 @@ html {
 }
 
 .boxTitle > h2,
-p {
+.boxTitle > p {
   margin: 10px;
   padding: 0;
   text-align: center;
 }
 
-h2 {
-  font-size: 24px;
-  font-weight: bolder;
+.boxTitle > p {
+  font-size: 16x;
 }
-p {
-  font-size: 16px;
+
+.boxTitle > h2 {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .rightBox {
@@ -53,23 +60,28 @@ p {
   justify-content: space-around;
 }
 
-/*h2,
-p,
-button,
-a:link {
+.page-parents {
   font-family: "quicksand";
   text-decoration: none;
   color: black;
-  text-align: center;
-}*/
+  /* text-align: center; */
+}
 
 .Pv {
-  width: 250px;
-  min-height: 100px;
+  width: 252px;
+  min-height: 120px;
   border: 1px solid #01969b;
   margin: 20px;
   border-radius: 10px;
   text-align: center;
+}
+
+.Pv > h2 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.Pv > p {
+  font-size: 16px;
 }
 
 a {
@@ -93,9 +105,70 @@ a {
   border-top-right-radius: 10px;
 }
 
-button {
+.btnPv {
   display: block;
   margin: auto;
   margin-bottom: 20px;
   cursor: pointer;
+}
+
+/*@media screen and (max-width: 1200px) {
+}*/
+@media screen and (max-width: 992px) {
+  .rightBox {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .Pv {
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+  }
+  .img-parents {
+    margin: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .page-parents {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .rightBox {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .Pv {
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+  }
+  .img-parents {
+    margin: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .page-parents {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .rightBox {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .Pv {
+    margin: auto;
+    margin-top: 20px;
+    width: 95%;
+  }
+  .img-parents {
+    width: 70%;
+    margin: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .page-parents {
+    padding: 10px;
+  }
 }

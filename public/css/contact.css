@@ -23,17 +23,84 @@ html {
   min-height: 1000px;
 }
 .containerContact .empty {
-  width: 500px;
+  width: 70%;
   height: 100px;
 }
 .containerContact .formulaireContact {
-  width: 600px;
+  width: 70%;
   margin: auto;
   background-color: white;
   padding: 10px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 125, 0.2);
   border-radius: 5px;
 }
+
+.contactCenter {
+  display: flex;
+}
+
+.containerContact .formulaireContact input {
+  width: 70%;
+  height: 30px;
+  margin: 10px;
+  margin-left: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.containerContact .formulaireContact #message-box {
+  width: 70%;
+  height: 200px;
+  margin: 10px;
+  margin-left: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.containerContact .formulaireContact label {
+  display: inline-block;
+  width: 20%;
+  height: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .containerContact .formulaireContact {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .containerContact .formulaireContact {
+    width: 90%;
+  }
+  .contactCenter {
+    display: block;
+  }
+  .containerContact .formulaireContact .contactChoix {
+    width: 80%;
+    margin: auto;
+  }
+  .containerContact .formulaireContact input {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .containerContact .formulaireContact label {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .containerContact .formulaireContact #message-box {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: auto;
+  }
+}
+
 .containerContact .formulaireContact h2,
 .containerContact .formulaireContact h3,
 .containerContact .formulaireContact p {
@@ -54,11 +121,16 @@ html {
   font-size: 16px;
 }
 
-.containerContact .formulaireContact .contactChoix {
-  width: 300px;
+.contactChoix {
+  width: 45%;
   border: 1px solid lightgrey;
 }
-.containerContact .formulaireContact .btnContact {
+
+.contactCenter {
+  justify-content: center;
+}
+
+.containerContact .formulaireContact .btnContactForm {
   display: block;
   margin: auto;
   height: 25px;
@@ -70,7 +142,6 @@ html {
   font-family: "Quicksand", sans-serif;
 }
 .containerContact .formulaireContact button:hover {
-  background-color: #27af99;
   cursor: pointer;
 }
 .containerContact .formulaireContact .popupContact {
@@ -79,54 +150,39 @@ html {
 }
 .containerContact .formulaireContact form {
   margin: auto;
-  width: 440px;
-}
-.containerContact .formulaireContact label {
-  display: inline-block;
-  width: 150px;
-  height: 20px;
-  font-family: "Quicksand", sans-serif;
-}
-.containerContact .formulaireContact input {
-  width: 250px;
-  height: 20px;
-  margin: 10px;
-  margin-left: 20px;
-  border: 1px solid lightgray;
-  border-radius: 5px;
-}
-.containerContact .formulaireContact #message-box {
-  width: 250px;
-  height: 250px;
-  margin: 10px;
-  margin-left: 20px;
-  border: 1px solid lightgray;
-  border-radius: 5px;
-}
-.containerContact .formulaireContact .btnDelete {
-  height: 25px;
-  width: 200px;
-  background-color: red;
-  font-weight: bold;
-  color: white;
-  border: none;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  font-family: "Quicksand", sans-serif;
-}
-.containerContact .formulaireContact .btnSubmit {
-  height: 25px;
-  width: 200px;
-  background-color: #0187a4;
-  font-weight: bold;
-  color: white;
-  border: none;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  font-family: "Quicksand", sans-serif;
+  width: 70%;
 }
 
-.overlay {
+.containerContact .formulaireContact .btnDelete {
+  height: 30px;
+  width: 45%;
+  background-color: lightgrey;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+  display: block;
+}
+.containerContact .formulaireContact .btnSubmit {
+  height: 30px;
+  width: 45%;
+  background-color: #9d64a8;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+  display: block;
+}
+
+.btnFormContact {
+  margin-top: 10px;
+}
+
+.overlayContactForm {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -137,7 +193,7 @@ html {
   display: none;
 }
 
-.popup {
+.popupContactForm {
   margin: 10% auto;
   width: 70%;
   background-color: #f3f3f3;
@@ -146,22 +202,22 @@ html {
   border-radius: 5px;
 }
 
-.btnClose {
+.btnCloseContactForm {
   float: right;
   font-size: 16pt;
   cursor: pointer;
   color: #1a1a1a;
 }
 
-.popupText {
+.popupTextContactForm {
   text-align: center;
 }
 
-/*section {
+.sectionContactForm {
   margin-top: 25px;
-}*/
-
-iframe {
+}
+*/ iframe {
   display: block;
   margin: auto;
+  width: 70%;
 }

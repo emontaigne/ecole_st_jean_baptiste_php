@@ -1,5 +1,5 @@
 <div class = "container2">
-        <button class = "section" ><a class = "section1" href="?section=create">Ajouter</a></button>
+        <button class = "sectionAjouter" ><a class = "section1" href="?section=create">Ajouter</a></button>
 </div>
 
 <div class = "afficher1">

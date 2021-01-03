@@ -124,3 +124,83 @@
   width: 40%;
   height: auto;
 }
+.divVide {
+  width: 100%;
+  height: 50px;
+}
+
+.aicon-flex {
+  position: absolute;
+  top: 350px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.rond {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.titreicon {
+  position: absolute;
+  margin-left: 22px;
+  margin-top: 140px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#titreGarderie {
+  margin-left: 12px;
+}
+#titreMenu {
+  margin-left: 25px;
+}
+#titreActivites {
+  margin-left: 10px;
+}
+
+/*@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+} */
+
+@media (max-width: 375px) {
+  .aicon {
+    width: 150px;
+    height: 150px;
+  }
+  .rond {
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+    position: relative;
+  }
+  .icon {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+  .titreicon {
+    margin-left: 22px;
+    margin-top: 100px;
+  }
+}

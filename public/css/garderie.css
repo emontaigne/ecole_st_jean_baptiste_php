@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.containerGarderie {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "quicksand";
+}
+
+.boxGarderie {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 125, 0.2);
+  margin-top: 50px;
+}
+
+.img-gardiennes {
+  border: 10px solid rgba(59, 130, 246, 0.5);
+  border-radius: 10px;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.flexGarderie {
+  justify-content: space-around;
+  display: flex;
+}
+
+.imgGarderie {
+  width: 35%;
+  margin-top: 25px;
+}
+
+.textGarderie {
+  width: 60%;
+  margin-top: 25px;
+}
+
+.textGarderie p {
+  text-align: justify;
+  padding: 10px;
+}
+.textGarderie h3 {
+  padding: 10px;
+  text-align: center;
+}
+
+.all-garderie {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.coordonneesGarderie {
+  border-right: 1px solid lightgray;
+}
+
+.garderiePartie2 {
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+.input-form-garderie {
+  width: 90%;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+#message-box-garderie {
+  height: 100px;
+}
+.all-garderie h3 {
+  margin: 10px;
+}
+
+#formGarderie button {
+  margin: 20px;
+  width: 125px;
+  height: 25px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+#btnSubmitGarderie {
+  background-color: #9d64a8;
+}
+
+/*@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+
+} */
+@media screen and (max-width: 768px) {
+  .flexGarderie {
+    display: block;
+  }
+  .garderiePartie2 {
+    display: block;
+  }
+  .imgGarderie {
+    width: 60%;
+    margin: auto;
+  }
+  .img-gardiennes {
+    width: 80%;
+  }
+  .textGarderie {
+    width: 90%;
+    margin-top: 25px;
+    margin: auto;
+  }
+  .textGarderie p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .flexGarderie {
+    display: block;
+  }
+  .garderiePartie2 {
+    display: block;
+  }
+  .imgGarderie {
+    width: 60%;
+    margin: auto;
+  }
+  .img-gardiennes {
+    width: 80%;
+  }
+  .textGarderie {
+    width: 90%;
+    margin-top: 25px;
+    margin: auto;
+  }
+  .textGarderie p {
+    text-align: center;
+  }
+  .coordonneesGarderie {
+    border-right: unset;
+  }
+}

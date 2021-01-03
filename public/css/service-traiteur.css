@@ -1,0 +1,51 @@
+/* -----header----- */
+.header-img-service-traiteur {
+  background: url("../images/photo-garderie.jpg");
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+}
+
+.service-traiteur-rose {
+  display: flex;
+}
+.fleche-retour-traiteur > a {
+  color: white;
+}
+/* -----main text----- */
+.texte-info-traiteur {
+  background-color: whitesmoke;
+  width: 80%;
+  padding: 40px;
+  margin: auto;
+}
+.para-service-traiteur {
+  margin: 15px;
+  text-align: justify;
+}
+.service-traiteur-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-img-service-traiteur {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .traiteur-titre {
+    font-size: 24px;
+  }
+  .img-service-traiteur {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 375px) {
+}

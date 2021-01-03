@@ -6,91 +6,180 @@
   z-index: -1;
 }*/
 
-.info {
+/* -----header----- */
+.header-img-info {
   width: 100%;
-  height: auto;
+  height: 350px;
+  background: url("../images/books-crop-2.jpg");
+  background-size: cover;
+}
+
+.div-rose {
+  background-color: #c35884;
+  padding: 10px;
+}
+
+.div-rose > a {
+  color: white;
+  text-decoration: none;
+}
+
+.texte-page-info {
+  background-color: whitesmoke;
+  width: 1100px;
+  padding: 40px;
+  margin: auto;
+  /* justify-content: center; */
+}
+
+/* .info-onglet {
+  display: none;
+} */
+
+.flex-container-dates {
+  display: flex;
+}
+.flex-container-dates > div {
+  justify-content: center;
+  margin: auto;
+  line-height: 250%;
+}
+.flex-container-dates > div > ul {
+  list-style-type: none;
+}
+.evenements-2020 {
+  border-right-color: black;
+  border-right-width: 1px;
+  border-right-style: solid;
+  width: 450px;
+  height: 450px;
+}
+
+.dates-2020 {
+  width: 300px;
+  height: 450px;
+}
+div.texte-info > div#calendrier-2020 > h3 {
+  text-align: center;
+}
+
+/* -----buttons----- */
+.cards-info {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin-top: 108px;
-  margin-bottom: 108px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.info1 {
-  width: 204px;
-  border: 1px solid #f96c7d;
-  background-color: #f96c7d;
-  border-radius: 7px;
-  border-collapse: collapse;
-  margin: auto;
-}
-
-.info2 {
-  width: 204px;
-  border: 1px solid #0186a4;
-  background-color: #0186a4;
-  border-radius: 7px;
-  border-collapse: collapse;
-  margin: auto;
-}
-
-.info3 {
-  width: 204px;
-  border: 1px solid #9d64a7;
-  background-color: #9d64a7;
-  border-radius: 7px;
-  border-collapse: collapse;
-  margin: auto;
-}
-
-.contenu {
+.card-info {
+  height: 225px;
   width: 200px;
-  margin: auto;
-  height: 100px;
-}
-
-h2 {
-  font-size: 12px;
-  padding: 5px;
-  text-align: left;
-}
-
-.lorem {
-  font-size: 10px;
-  margin: 0;
-  padding: 5px;
-}
-
-.lorem1 {
-  width: 150px;
-  font-size: 10px;
+  color: white;
   text-align: center;
-  margin: auto;
-  display: flex;
-  justify-content: center;
+}
+.cards-info > .card-info > h3 > a {
+  color: white;
+  text-decoration: none;
+}
+.ephemerides {
+  background-color: #c35884;
   cursor: pointer;
+  border-radius: 10px;
+}
+div.cards-info a:hover div.ephemerides {
+  opacity: 0.8;
 }
 
-.imginfo1 {
-  border: 1px solid #f96c7d;
-  -moz-border-radius: 7px 7px 0 0;
-  -webkit-border-radius: 7px 7px 0 0;
-  border-radius: 7px 7px 0 0;
-  border-collapse: collapse;
+.activites {
+  background-color: #01969b;
+  border-radius: 10px;
+}
+div.cards-info a:hover div.activites {
+  opacity: 0.8;
 }
 
-.imginfo2 {
-  border: 1px solid #0186a4;
-  -moz-border-radius: 7px 7px 0 0;
-  -webkit-border-radius: 7px 7px 0 0;
-  border-radius: 7px 7px 0 0;
-  border-collapse: collapse;
+.roi {
+  background-color: #9d64a7;
+  border-radius: 10px;
 }
 
-.imginfo3 {
-  border: 1px solid #9d64a7;
-  -moz-border-radius: 7px 7px 0 0;
-  -webkit-border-radius: 7px 7px 0 0;
-  border-radius: 7px 7px 0 0;
-  border-collapse: collapse;
+div.cards-info a:hover div.roi {
+  opacity: 0.8;
+}
+.calendrier-info-titre {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-img-info {
+    height: 250px;
+  }
+  .texte-page-info {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header-img-info {
+    height: 220px;
+  }
+  .div-rose-titre {
+    font-size: 24px;
+  }
+  .texte-page-info {
+    width: 90%;
+  }
+  .flex-container-dates > div {
+    width: 45%;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .texte-page-info {
+    width: 95%;
+  }
+
+  .flex-container-dates > div {
+    width: 47%;
+  }
+  .card-info {
+    height: 200px;
+    width: 185px;
+  }
+  .page-info-img {
+    width: 185px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cards-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 270px;
+    width: 250px;
+  }
+
+  .page-info-img {
+    width: 250px;
+  }
+  .texte-page-info {
+    width: 95%;
+    padding: 10px;
+  }
+  #evenements-2020 {
+    width: 45%;
+  }
+  #dates-2020 {
+    width: 55%;
+  }
+  .flex-container-dates > div {
+    line-height: 200%;
+  }
+}
+
+@media screen and (max-width: 375px) {
 }

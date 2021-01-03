@@ -8,7 +8,7 @@
           nos services ou de nous transmettre une remarque ? Prenez-contact avec
           nous.
         </p>
-        <div class="d-flex">
+        <div class="contactCenter">
           <div class="contactChoix">
             <h3>Contactez-nous via téléphone</h3>
             <p>
@@ -23,7 +23,7 @@
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
             </p>
-            <button class="btnContact" id="btnContact">
+            <button class="btnContactForm" id="btnContactForm">
               Envoyez votre message
             </button>
           </div>
@@ -32,40 +32,44 @@
           <form action="#" method="post" id="form">
             <div>
               <label for="nom" class="label-form">Nom*:</label>
-              <input type="text" name="nom" id="nom" value="" required />
+              <input type="text" name="nom" id="nom" value="" class="lesInputsContact"required />
             </div>
             <div>
               <label for="prenom" class="label-form">Prénom*:</label>
-              <input type="text" name="prenom" id="prenom" value="" required />
+              <input type="text" name="prenom" id="prenom" value="" class="lesInputsContact" required />
             </div>
             <div>
               <label for="telephone" class="label-form"
                 >Numéro de téléphone*:</label
               >
               <input
-                type="number"
-                name="telephone"
+                type="text"
+                name="phone"
                 id="telephone"
                 value=""
                 required
+                class="lesInputsContact"
               />
             </div>
             <div>
               <label for="email" class="label-form">Email*:</label>
-              <input type="text" name="email" id="email" value="" required />
+              <input type="text" name="mail" id="email" value="" required class="lesInputsContact"/>
             </div>
             <div>
               <label for="message" class="label-form">Votre message*:</label>
-              <input type="text" maxlenght="500" id="message-box" required />
+              <input type="text" name="message" maxlenght="500" id="message-box" class="lesInputsContact" required />
             </div>
+            <div class="d-flex btnFormContact">
             <button type="reset" class="btnDelete">Effacer</button>
+            <span><?= $etat;?></span>
             <button type="submit" id="btnSubmit" class="btnSubmit">
               Valider
             </button>
+            </div>
           </form>
         </div>
       </div>
-      <section>
+      <section class="sectionContactForm">
         <iframe
         class = "carte"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10120.476098565574!2d4.3203579!3d50.6434806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9f26c67073fa0e0!2sEcole%20Prim.et%20Mat.st-Jean-Baptiste!5e0!3m2!1snl!2sbe!4v1601280783364!5m2!1snl!2sbe"
@@ -80,13 +84,13 @@
       </section>
 
     </div>
-    <div id="overlay" class="overlay">
-      <div id="popup" class="popup">
+    <div id="overlayContactForm" class="overlayContactForm">
+      <div id="popupContactForm" class="popupContactForm">
         <h2>
           Merci pour votre message !
-          <span id="btnClose" class="btnClose">&times;</span>
+          <span id="btnCloseContactForm" class="btnCloseContactForm">&times;</span>
         </h2>
-        <div class="popupText">
+        <div class="popupTextContactForm">
           Nous vous répondrons dans les plus bref délais.
         </div>
       </div>
@@ -95,11 +99,11 @@
       <script>
       // faire apparaitre la partie formulaire avec les inputs au click
 const popupContact = document.getElementById('popupContact');
-const btnContact = document.getElementById('btnContact');
+const btnContact = document.getElementById('btnContactForm');
 
-btnContact.addEventListener('click', (e) => {
+btnContact.addEventListener('click', () => {
   console.log('toto');
-  e.preventDefault();
+  //e.preventDefault();
   if (popupContact.style.display !== 'block') {
     popupContact.style.display = 'block';
   } else {
@@ -109,12 +113,12 @@ btnContact.addEventListener('click', (e) => {
 
 // faire apparaître ma pop-up
 const btnSubmit = document.getElementById('btnSubmit');
-const btnClose = document.getElementById('btnClose');
+const btnClose = document.getElementById('btnCloseContactForm');
 
-const overlay = document.getElementById('overlay');
+const overlay = document.getElementById('overlayContactForm');
 btnSubmit.addEventListener('click', openMoadl);
-function openMoadl(e) {
-  e.preventDefault();
+function openMoadl() {
+ // e.preventDefault();
   if (document.querySelector('form').checkValidity()) {
     overlay.style.display = 'block';
   }
