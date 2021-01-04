@@ -62,45 +62,6 @@ html {
   font-family: "Quicksand", sans-serif;
 }
 
-@media screen and (max-width: 1200px) {
-}
-@media screen and (max-width: 992px) {
-}
-@media screen and (max-width: 768px) {
-  .containerContact .formulaireContact {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 576px) {
-  .containerContact .formulaireContact {
-    width: 90%;
-  }
-  .contactCenter {
-    display: block;
-  }
-  .containerContact .formulaireContact .contactChoix {
-    width: 80%;
-    margin: auto;
-  }
-  .containerContact .formulaireContact input {
-    width: 100%;
-    display: block;
-    margin: auto;
-  }
-  .containerContact .formulaireContact label {
-    width: 100%;
-    text-align: center;
-    display: block;
-    margin: auto;
-  }
-  .containerContact .formulaireContact #message-box {
-    width: 100%;
-    height: 200px;
-    display: block;
-    margin: auto;
-  }
-}
-
 .containerContact .formulaireContact h2,
 .containerContact .formulaireContact h3,
 .containerContact .formulaireContact p {
@@ -216,8 +177,47 @@ html {
 .sectionContactForm {
   margin-top: 25px;
 }
-*/ iframe {
+iframe {
   display: block;
   margin: auto;
   width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .containerContact .formulaireContact {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .containerContact .formulaireContact {
+    width: 90%;
+  }
+  .contactCenter {
+    display: block;
+  }
+  .containerContact .formulaireContact .contactChoix {
+    width: 80%;
+    margin: auto;
+  }
+  .containerContact .formulaireContact input {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .containerContact .formulaireContact label {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .containerContact .formulaireContact #message-box {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: auto;
+  }
 }
