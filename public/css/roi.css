@@ -47,3 +47,18 @@
     width: 80%;
   }
 }
+
+/* ----- ol and ul display ------ */
+.onglet-reglement > ol > li {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.onglet-reglement > ol > ul > li {
+  margin-left: 5%;
+  list-style-position: inside;
+}
+
+.onglet-reglement > p {
+  margin-bottom: 2%;
+}

@@ -87,3 +87,18 @@ div.buttons-testing-1 a:hover div.button-mot {
     margin-bottom: 25px;
   }
 }
+
+/* ----- ol and ul display ------ */
+.onglet-apropos > ol > li {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.onglet-apropos > ol > ul > li {
+  margin-left: 5%;
+  list-style-position: inside;
+}
+
+.onglet-apropos > p {
+  margin-bottom: 2%;
+}
