@@ -13,11 +13,11 @@
 
 /* -----main text----- */
 .texte-info-covid {
-  background-color: #d5d5d5;
+  background-color: white;
   width: 1100px;
   padding: 40px;
   margin: auto;
-  /* justify-content: center; */
+  /* line-height: 160%; */
 }
 
 .code-covid {
@@ -31,7 +31,7 @@
 .page-covid {
   display: flex;
   flex-wrap: wrap;
-  color: white;
+  color: black;
   padding-top: 60px;
   padding-left: 20px;
 }
