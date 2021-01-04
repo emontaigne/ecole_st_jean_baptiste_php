@@ -1,48 +1,41 @@
-/* -----header----- */
-.header-img-service-traiteur {
-  background: url("../images/photo-garderie.jpg");
-  width: 100%;
-  height: 350px;
+.containerTraiteur {
+  background-image: url("../images/background.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "quicksand";
 }
 
-.service-traiteur-rose {
-  display: flex;
-}
-.fleche-retour-traiteur > a {
-  color: white;
-}
-/* -----main text----- */
-.texte-info-traiteur {
-  background-color: whitesmoke;
+.boxTraiteur {
   width: 80%;
-  padding: 40px;
+  min-height: 500px;
   margin: auto;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 125, 0.2);
+  margin-top: 50px;
 }
-.para-service-traiteur {
-  margin: 15px;
+.div-avec-titre {
+  height: 80px;
+}
+.service-Traiteur-Titre {
+  font-size: 24px;
+  font-family: "quicksand";
+  text-align: center;
+  padding: 40px;
+}
+.traiteur-texte {
+  width: 80%;
+  margin: auto;
   text-align: justify;
 }
-.service-traiteur-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
+.traiteur-texte > p {
+  margin: 10px;
+}
 @media screen and (max-width: 1200px) {
-  .header-img-service-traiteur {
-    height: 200px;
-  }
 }
 @media screen and (max-width: 992px) {
 }
 @media screen and (max-width: 768px) {
-  .traiteur-titre {
-    font-size: 24px;
-  }
-  .img-service-traiteur {
-    width: 70%;
-  }
 }
 @media screen and (max-width: 576px) {
 }
