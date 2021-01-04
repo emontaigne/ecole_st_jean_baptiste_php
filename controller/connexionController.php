@@ -19,10 +19,8 @@ $p = new Personne();
            if (password_verify($_POST["mdp"],$mdp)){
                 
                 $_SESSION["login"] = $_POST["login"];
-                $_SESSION["nom"] = $tabPersonnes[0]["nom"];
-                $_SESSION["prenom"] = $tabPersonnes[0]["prenom"];
-                $_SESSION["nom_enfant"] = $tabPersonnes[0]["nom_enfant"];
-                $_SESSION["classes"] = $tabPersonnes[0]["classes"];
+                $_SESSION["nom"] = $_POST["nom"];
+                $_SESSION["prénom"] = $_POST["prénom"];
                 header("Location:?section=parents");
            }
                 elseif($_POST["login"] === "admin" && $_POST["mdp"] === "jeromedb")
@@ -38,5 +36,4 @@ $p = new Personne();
 require_once("view/page/connexion.php");
 
 ?>
-
 

@@ -40,22 +40,12 @@
             <h3>Message en ligne</h3>
             <form action="#" method="post" id="formGarderie">
                 <div>
-                  <label for="nom" class="label-form-garderie">Nom et prénom du parent*:</label>
-                  <input type="text" name="nom" id="nom-garderie" class="input-form-garderie"value="
-                  <?php 
-                  if (isset ($_SESSION["nom"],$_SESSION["prenom"])) {
-                    echo $_SESSION["nom"] . " " . $_SESSION["prenom"];
-                  }
-                   ?>
-                  " required />
-                </div>
-                <div>
                     
                         <label for="kid" class="label-form-garderie">Nom et classe de l'enfant*:</label>
                         <input type="text" name="kid" id="kid-garderie" class="input-form-garderie" value="
                         <?php 
-                  if (isset ($_SESSION["nom_enfant"],$_SESSION["classes"])) {
-                    echo $_SESSION["nom_enfant"] . " " . $_SESSION["classes"];
+                  if (isset ($_SESSION["nom"], $_SESSION["prenom"], $_SESSION["classes"])) {
+                    echo $_SESSION["nom"] . " " . $_SESSION["prenom"] . " " . $_SESSION["classes"];
                   }
                    ?>
 
