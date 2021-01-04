@@ -30,3 +30,14 @@
 
 @media screen and (max-width: 375px) {
 }
+
+/* -----ul display ----- */
+.onglet-histoire > ul > li {
+  margin-left: 5%;
+  list-style-position: inside;
+}
+
+.onglet-histoire > p {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
