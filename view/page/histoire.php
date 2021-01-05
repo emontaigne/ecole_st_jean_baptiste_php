@@ -9,22 +9,10 @@
 
 <div class="texte-info histoire">
     <div class="info-onglet onglet-histoire" id="ephemerides">
-        <h3><a name="ephe">Notre Philosophie</a></h3>
-        <p>L'école Saint Jean-Baptiste aspire à être un milieu riche en découvertes où chacun profite d’un cadre rassurant, épanouissant et bienveillant.</p>
-        <p>L’enfant-acteur peut :</p>
-        <ul>
-            <li>Vivre</li>
-            <li>Exploiter sa curiosité naturelle</li>
-            <li>S’intéresser aux manifestations de la vie.</li>
-
-
-        <p>Un milieu qui :</p>
-
-            <li>Suscite et développe chez l’enfant le goût, la joie et le désir d’apprendre.</li>
-            <li>Développe la tolérance et l’adaptation.</li>
-            <li>Sensibilise les enfants à la vie qui les entoure et aux responsabilités qu’ils ont par rapport à celle-ci.</li>
-
-
+        <!-- <h3><a name="ephe">Notre Philosophie</a></h3> -->
+        <p>L'école Saint Jean-Baptiste de Bois-Seigneur-Isaac située à la Rue Armand de Moor a été fondée en 1913, fêtant donc ses 100 ans le lundi 2 septembre 2013. Les premières enseignantes de l'école étaient les soeurs du couvent Sainte-Marie de Braine-l'Alleud. .</p> 
+            
+        <p>L'école aspire à être un milieu riche en découvertes où chacun profite d’un cadre rassurant, épanouissant et bienveillant.</p>
         <p>A l’école Saint Jean-Baptiste, on entre dans :</p>
             <li>Une école familiale, accueillante et chaleureuse où l’on cultive l’art de vivre ensemble dans le respect des différences.</li>
             <li>Une école de la réussite, ou les enseignantes se remettent sans cesse en recherche pédagogique (formations, différenciation, continuité dans les apprentissages)</li>
@@ -38,5 +26,6 @@
         <p>L’éveil de l’enfant étant parmi nos priorités, nous offrons un accueil extrascolaire de qualité et varié.</p>
         <p>Cette année nous avons proposé des ateliers musicaux, des activités de massages, de jardinage et d’anglais.
         </p>
+        <!-- <img src="public/images/ecole-1913.jpg" alt="photo de l'école en 1913"> -->
     </div>
 </div>
