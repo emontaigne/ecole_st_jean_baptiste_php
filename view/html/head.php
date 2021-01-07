@@ -6,10 +6,9 @@
     
     <title>Ecole St Jean-Baptiste</title>
     
-    
+<link rel="stylesheet" href="public/css/accueil.css" type="text/css"/>    
 <link rel="stylesheet" href="public/css/contact.css" type="text/css"/>
 <link rel="stylesheet" href="public/css/agenda.css" type="text/css"/>
-<link rel="stylesheet" href="public/css/accueil.css" type="text/css"/>
 <link rel="stylesheet" href="public/css/connexion.css" type="text/css"/>
 <link rel="stylesheet" href="public/css/info.css" type="text/css"/>
 <link rel="stylesheet" href="public/css/admin.css" type="text/css"/>

@@ -18,7 +18,7 @@
 
         public function read()
         {
-            $requete = "SELECT * FROM agenda";
+            $requete = "SELECT *, DATE_FORMAT(date_event, '%d-%m') as 'format_date' FROM agenda";
             return $this->execute($requete);
         }
 

@@ -173,18 +173,17 @@ table {
   border-collapse: collapse;
 }
 
-th,
+/*th,
 td {
   width: 150px;
   padding: 10px;
-  font-size: 14px;
   border: 1px solid lightgrey;
   border-top: none;
 }
 
 td {
   color: #01969b;
-}
+}*/
 
 .nom {
   text-align: center;

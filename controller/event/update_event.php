@@ -2,7 +2,7 @@
     $id = "";
     $dateEvent = "";
     $titreEvent= "";
-    $ContenuEvent = "";
+    $contenuEvent = "";
 
 
   //  echo($_GET["id"]);

@@ -1,4 +1,4 @@
-<div class="form_event">
+<div id = "form_add" class="form_event">
 <form class = "form-agenda" action="#" method="post">
 <h2 class = "ajout">Ajouter un événement</h2>
     <label for="date_event">Date: </label>

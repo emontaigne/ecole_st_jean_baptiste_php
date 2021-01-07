@@ -84,21 +84,8 @@
   overflow: auto;
 }
 
-.table_-event {
+.table_event {
   border-collapse: collapse;
-}
-
-.th_event,
-.td_event {
-  width: 150px;
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid lightgrey;
-  border-top: none;
-}
-
-.td_event {
-  color: #01969b;
 }
 
 .affiche1_event {
@@ -113,10 +100,8 @@
 }
 
 .afficher1_event {
-  width: 600px;
   height: auto;
   margin: auto;
-  background-color: white;
   overflow: auto;
 }
 
@@ -203,4 +188,26 @@
     margin-left: 22px;
     margin-top: 100px;
   }
+}
+
+td.date_event {
+  width: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+td {
+  color: #01969b;
+  width: 40%;
+  padding: 10px;
+  font-size: 20px;
+  border-top: none;
+
+  border-bottom: 1px dotted #01969b;
+  vertical-align: middle;
+}
+
+td:first-child {
+  border-right: 1px dotted #01969b;
 }
