@@ -16,7 +16,7 @@
 .button-testing-image-histoire {
   width: 200px;
   height: 200px;
-  background: url("../images/school.jpg");
+  background: url("../images/ecole-st-jean.jpg");
   background-size: cover;
 }
 .button-testing-image-mot {
@@ -86,4 +86,25 @@ div.buttons-testing-1 a:hover div.button-mot {
     margin: auto;
     margin-bottom: 25px;
   }
+}
+
+/* ----- ol and ul display ------ */
+.onglet-apropos > ol > li {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.onglet-apropos > ol > ul > li {
+  margin-left: 5%;
+  list-style-position: inside;
+}
+
+.onglet-apropos > p,
+.onglet-apropos > ul {
+  margin-bottom: 2%;
+}
+
+.onglet-apropos > ul > li {
+  margin-left: 5%;
+  list-style-position: inside;
 }

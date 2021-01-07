@@ -8,8 +8,6 @@
   background-color: #c35884;
   color: white;
   padding: 10px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .apropos-round-img {
@@ -19,13 +17,22 @@
   margin-right: 100px;
 }
 
+.header-mot-direction {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* -----main text----- */
 .texte-info {
   background-color: whitesmoke;
   width: 80%;
   padding: 40px;
   margin: auto;
+  line-height: 160%;
   /* justify-content: center; */
+}
+.onglet-mot > p {
+  margin-bottom: 2%;
 }
 
 @media screen and (max-width: 1200px) {

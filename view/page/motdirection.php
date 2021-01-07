@@ -1,5 +1,5 @@
 <div class="header-img-mot"></div>
-    <div class="div-rose">
+    <div class="div-rose header-mot-direction">
       <h1 class="motDirection-titre">Mot de la Direction</h1>
       <img
         src="https://www.ecole-anne-marie.be/wp-content/uploads/2017/06/Severine-e1498681650647.png"
@@ -7,7 +7,7 @@
         class="apropos-round-img"
       />
     </div>
-    <div class="texte-info">
+    <div class="texte-info onglet-mot">
       <h2>Bonjour et bienvenue à tous!</h2>
       <p>
         Je m'apelle Séverine et c'est avec grand plaisir que j'ai rejoint,

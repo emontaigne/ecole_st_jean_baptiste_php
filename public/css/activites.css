@@ -9,18 +9,16 @@
   background-size: cover;
 }
 
-.activites-rose {
+/* .activites-rose {
   display: flex;
-}
-.fleche-retour-activites > a {
-  color: white;
-}
+} */
 /* -----main text----- */
 .texte-info-activites {
   background-color: whitesmoke;
   width: 80%;
   padding: 40px;
   margin: auto;
+  line-height: 160%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -39,7 +37,7 @@
 }
 
 @media screen and (max-width: 375px) {
-  .fleche-retour-activites {
+  .fleche-retour-info {
     width: 60%;
   }
 }
