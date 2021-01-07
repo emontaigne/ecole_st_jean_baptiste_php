@@ -5,29 +5,38 @@
   </a>
 </div>
 </div>
-<div class="cards-info">
-  <a href="?section=ephemerides" style="text-decoration: none">
-    <div class="card-info ephemerides" id="ephemerides-button">
-      <img src="public/images/info1.png" class="page-info-img" alt="" />
-      <h3>Ephémerides</h3>
-      <p>lorem ipsum</p>
-    </div>
-  </a>
-  <a href="?section=activites" style="text-decoration: none">
-    <div class="card-info activites" id="activites-button">
-      <img src="public/images/info2.png" class="page-info-img" alt="" />
-      <h3>Activités</h3>
-      <p>lorem ipsum</p>
-    </div>
-  </a>
-  <a href="?section=roi" style="text-decoration: none">
-    <div class="card-info roi" id="roi-button">
-      <img src="public/images/info3.png" class="page-info-img" alt="" />
-      <h3>ROI</h3>
-      <p>lorem ipsum</p>
-    </div>
-  </a>
+
+<div class="buttons-testing-1">
+<a class="liens" href="?section=roi">
+        <div class="button-testing-1 button-roi">
+            <div class="button-testing-image-roi"></div>
+            <div class="button-testing-text">
+                <h3>ROI</h3>
+                <p>En savoir plus</p>
+            </div>
+        </div>
+    </a>
+    <a class="liens" href="?section=ephemerides">
+        <div class="button-testing-1 button-ephemerides">
+            <div class="button-testing-image-ephemerides"></div>
+            <div class="button-testing-text">
+                <h3>Ephémerides</h3>
+                <p>En savoir plus</p>
+            </div>
+        </div>
+    </a>
+
+    <a class="liens" href="?section=activites">
+        <div class="button-testing-1 button-activites">
+            <div class="button-testing-image-activites"></div>
+            <div class="button-testing-text">
+                <h3>Activités</h3>
+                <p>En savoir plus</p>
+            </div>
+        </div>
+    </a>
 </div>
+
 <div class="texte-page-info">
   <div class="info-onglet onglet-apropos">
     <h3><a name="">Apropos</a></h3>

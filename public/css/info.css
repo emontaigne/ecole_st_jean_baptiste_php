@@ -110,6 +110,58 @@ div.cards-info a:hover div.roi {
   text-align: center;
 }
 
+/* -----test image as background------ */
+.button-testing-1 {
+  /* width: 200px; */
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+.button-testing-image-ephemerides {
+  width: 200px;
+  height: 200px;
+  background: url("../images/calendar.jpg");
+  background-size: cover;
+}
+.button-testing-image-activites {
+  width: 200px;
+  height: 200px;
+  background: url("../images/activity3.jpg");
+  background-size: cover;
+}
+
+.button-testing-image-roi {
+  width: 200px;
+  height: 200px;
+  background: url("../images/supplies.jpg");
+  background-size: cover;
+}
+.button-ephemerides {
+  background-color: #c35884;
+  cursor: pointer;
+  border-radius: 10px;
+}
+div.buttons-testing-1 a:hover div.button-ephemerides {
+  opacity: 0.8;
+}
+
+.button-activites {
+  background-color: #01969b;
+  border-radius: 10px;
+}
+div.buttons-testing-1 a:hover div.button-activites {
+  opacity: 0.8;
+}
+
+.button-roi {
+  background-color: #9d64a7;
+  border-radius: 10px;
+}
+
+div.buttons-testing-1 a:hover div.button-roi {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 1200px) {
   .header-img-info {
     height: 250px;
