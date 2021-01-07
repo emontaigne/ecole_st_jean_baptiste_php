@@ -1,7 +1,7 @@
 <div class="header-img-apropos" id="header-img"></div>
 <div class="div-rose">
     <a class="liens" href="">
-        <h1 class="aPropos-titre">Apropos</h1>
+        <h1 class="aPropos-titre">A propos</h1>
     </a>
 </div>
 
@@ -67,7 +67,7 @@
         <ul>
             <li>5 professeurs enseignants</li>
             <li>1 professeur de gymnastique</li>
-            <li></li>
+
         </ul>
     </div>
 </div>

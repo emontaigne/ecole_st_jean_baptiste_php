@@ -8,25 +8,15 @@
   <p class="paraFooter">Rue Armand de Moor 19, <br>1421 Ophain-Bois-Seigneur-Isaac</p>
   <br>
 </div>
-<div class="div-footer-mot">
-  <h2 class="titreFooter">Un mot sur l'école</h2>
-  <p class="paraFooter">L'école Saint-Jean Baptiste est un milieu <br>riche en découvertes où chacun profite <br>d’un cadre rassurant, épanouissant et bienveillant.<br>
-L’enfant-acteur peut : <br>
-·     Vivre <br>
-·     Exploiter sa curiosité naturelle <br>
-·     S’intéresser aux manifestations de la vie.</p>
-<br>
-</div>
-<div>
-  <h2 id="titreFooter"class="titreFooter">Contact</h2>
-  <div class="contactFooter">
-    <a class="iconeFooter"href="https://www.google.be"><i class="fab fa-facebook-f"></i></a>
-    <a class="iconeFooter"href="https://www.google.be"><i class="fab fa-twitter"></i></a>
-    <a class="iconeFooter"href="https://www.google.be"><i class="fas fa-envelope"></i></a>
 
-  </div>
-  
+
+
+  <div class="contactFooter">
+    <a class="iconeFooter"href="https://fr-fr.facebook.com/institutsaintjacques"><i class="fab fa-facebook-f"></i></a>
+    <a class="iconeFooter"href="?section=contact"><i class="fas fa-envelope"></i></a>
+
 </div>
+  
 </div>
 
 </footer>

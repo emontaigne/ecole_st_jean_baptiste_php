@@ -132,14 +132,17 @@
   height: 100px;
   border-radius: 50px;
   background-color: white;
-  border: 1px solid black;
+  border: 7px solid#93d6cc;
 }
-
+.aicon {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 .icon {
   width: 60px;
   height: 60px;
   margin: auto;
-  border: 1px solid black;
 }
 
 .titreicon {
@@ -150,13 +153,15 @@
   font-size: 15px;
 }
 #titreGarderie {
-  margin-left: 12px;
+  text-align: center;
+  margin-left: 7px;
 }
 #titreMenu {
-  margin-left: 25px;
+  text-align: center;
 }
 #titreActivites {
-  margin-left: 10px;
+  text-align: center;
+  margin-left: 7px;
 }
 
 /*@media (max-width: 992px) {

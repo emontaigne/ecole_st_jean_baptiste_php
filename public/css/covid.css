@@ -5,11 +5,6 @@
   background: url("../images/corona-img-01.jpg");
   background-size: cover;
 }
-.div-rose {
-  background-color: #c35884;
-  color: white;
-  padding: 10px;
-}
 
 /* -----main text----- */
 .texte-info-covid {
@@ -84,7 +79,7 @@ div.card-covid.texte {
     width: 40%;
   }
   .div-rose > h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .page-covid {
     width: 350px;
@@ -113,7 +108,7 @@ div.card-covid.texte {
     width: 30%;
   }
   .div-rose > h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .page-covid {
     width: 200px;

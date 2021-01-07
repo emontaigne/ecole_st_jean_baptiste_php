@@ -67,6 +67,7 @@ div.buttons-testing-1 a:hover div.button-mot {
 @media screen and (max-width: 768px) {
   .aPropos-titre {
     font-size: 24px;
+    padding-left: 15px;
   }
 }
 @media screen and (max-width: 576px) {

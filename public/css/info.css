@@ -16,7 +16,10 @@
 
 .div-rose {
   background-color: #c35884;
-  padding: 10px;
+  color: white;
+  padding-left: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .div-rose > a {
