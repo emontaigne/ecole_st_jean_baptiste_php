@@ -7,7 +7,7 @@
         class="apropos-round-img"
       />
     </div>
-    <div class="texte-info">
+    <div class="texte-info onglet-mot">
       <h2>Bonjour et bienvenue à tous!</h2>
       <p>
         Je m'apelle Séverine et c'est avec grand plaisir que j'ai rejoint,

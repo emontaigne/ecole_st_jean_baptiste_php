@@ -28,6 +28,9 @@
   line-height: 160%;
   /* justify-content: center; */
 }
+.onglet-mot > p {
+  margin-bottom: 2%;
+}
 
 @media screen and (max-width: 1200px) {
   .header-img-mot {
