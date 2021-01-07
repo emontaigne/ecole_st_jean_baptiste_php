@@ -1,5 +1,5 @@
 <div class="header-img-mot"></div>
-    <div class="div-rose">
+    <div class="div-rose header-mot-direction">
       <h1 class="motDirection-titre">Mot de la Direction</h1>
       <img
         src="https://www.ecole-anne-marie.be/wp-content/uploads/2017/06/Severine-e1498681650647.png"

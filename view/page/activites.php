@@ -4,7 +4,7 @@
         <h1 class="activ-titre">Activités</h1>
     </a>
 
-    <div class="fleche-retour-activites"><a href="?section=accueil">Home</a>><a href="?section=info"> Informations générales</a>><a href="?section=activites">Activités</a></div>
+    <div class="fleche-retour-info"><a href="?section=accueil">Accueil</a>><a href="?section=info"> Informations générales</a>><a href="?section=activites">Activités</a></div>
 </div>
 
 <div class="texte-info-activites">

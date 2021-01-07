@@ -24,6 +24,19 @@
   text-decoration: none;
 }
 
+.fleche-retour-info {
+  text-align: right;
+}
+.fleche-retour-info > a {
+  color: white;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+.fleche-retour-info > a:hover {
+  opacity: 0.4;
+}
+
 .texte-page-info {
   background-color: whitesmoke;
   width: 1100px;

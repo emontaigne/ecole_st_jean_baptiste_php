@@ -5,6 +5,9 @@
     <a href="">
         <h1 class="histoire-titre">Histoire de l'école</h1>
     </a>
+
+    <div class="fleche-retour-info"><a href="?section=accueil">Accueil</a>><a href="?section=apropos">Apropos</a>><a href="?section=histoire">Histoire de l'école</a></div>
+
 </div>
 
 <div class="texte-info histoire">

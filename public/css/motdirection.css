@@ -8,8 +8,6 @@
   background-color: #c35884;
   color: white;
   padding: 10px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .apropos-round-img {
@@ -17,6 +15,11 @@
   width: 100px;
   height: 100px;
   margin-right: 100px;
+}
+
+.header-mot-direction {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* -----main text----- */
