@@ -100,11 +100,9 @@
         </li>
       </ul>
     </nav>-->
-<<<<<<< HEAD
 
    <script src = "public/js/accueil.js"></script> 
+   <script src = "public/js/menu-actif.js"></script>
 
    
   
-=======
->>>>>>> fc00d54341600f1b89d714cd1c787c2d4052dd5b

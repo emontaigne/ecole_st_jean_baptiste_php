@@ -20,6 +20,7 @@
 </div>
 <a href="#monheader"><div class="arrow-up"><i class="fas fa-arrow-circle-up circle-arrow fa-2x"></i></div></a>
 </footer>
+<script src = "public/js/menu-actif.js"></script>
 
 <script src = "public/js/accueil.js"></script>
 <script src = "public/js/gallery-lightbox.js"></script>

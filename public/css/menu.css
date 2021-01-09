@@ -94,6 +94,7 @@ header {
   display: block;
   text-decoration: none;
   text-align: left;
+  background-color: #c35884;
 }
 
 .sous-menu:hover .contenu-sousMenu {

@@ -56,7 +56,9 @@
           </form>
         </div>
       </div>
-    </div>
+	</div>
+	
+	<script src = "public/js/menu-actif.js"></script>
 
 
 <script>
@@ -115,4 +117,5 @@
 		checkInput();
 	});*/
 </script>
+
 

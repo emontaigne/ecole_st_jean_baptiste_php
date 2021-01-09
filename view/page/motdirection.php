@@ -48,3 +48,4 @@
       <p>Séverine Ramay</p>
       <p>Directrice</p>
     </div>
+    <script src = "public/js/menu-actif.js"></script>

@@ -230,6 +230,7 @@
     </div>
     
   </div>
+  <script src = "public/js/menu-actif.js"></script>
 
   <script>
   
@@ -274,3 +275,4 @@ btnGallery3.addEventListener('click', (e) => {
     }
   });
   </script>
+ 
