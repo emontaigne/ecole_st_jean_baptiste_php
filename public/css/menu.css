@@ -47,12 +47,15 @@ header {
   margin: 0;
 }
 
-.sidebar a {
+.sidebar {
+  background-color: #01969b;
+}
+
+.menu-a {
   text-decoration: none;
   color: white;
   display: block;
   padding: 20px;
-  background-color: #01969b;
 }
 
 #menuApropos {

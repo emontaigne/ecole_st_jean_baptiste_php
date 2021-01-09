@@ -2,7 +2,7 @@
       <a href="?section=accueil" class="logo">Logo</a>
       <nav class ="sidebar" id="mySidebar">
         <ul class="main">
-          <li><a class="menu-a" href="?section=accueil">Accueil</a></li>
+          <li><a class="menu-a " name="monheader" href="?section=accueil">Accueil</a></li>
           <li class="sous-menu"><a class="menu-a" id="menuApropos" href="?section=apropos">A propos
             <span class="fas fa-caret-down first"></span>
           </a>
@@ -25,8 +25,8 @@
         </ul> 
       
     </li>
-          <li><a class="menu-a" href="?section=covid">Mesures Covid</a></li>
-          <li><a class="menu-a" href="?section=contact">Contact</a></li>
+          <li><a class="menu-a " href="?section=covid">Mesures Covid</a></li>
+          <li><a class="menu-a " href="?section=contact">Contact</a></li>
           <li>
             <a class="menu-a" href="?section=connexion"><i class="fas fa-user"></i></a>
           </li>
@@ -97,4 +97,7 @@
       </ul>
     </nav>-->
 
-    <script src = "public/js/accueil.js"></script>
+   <script src = "public/js/accueil.js"></script> 
+
+   
+  
