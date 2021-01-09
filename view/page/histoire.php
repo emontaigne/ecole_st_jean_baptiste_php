@@ -5,6 +5,9 @@
     <a href="">
         <h1 class="histoire-titre">Histoire de l'école</h1>
     </a>
+
+    <div class="fleche-retour-info"><a href="?section=accueil">Accueil</a>><a href="?section=apropos">Apropos</a>><a href="?section=histoire">Histoire de l'école</a></div>
+
 </div>
 
 <div class="texte-info histoire">
@@ -14,6 +17,7 @@
             
         <p>L'école aspire à être un milieu riche en découvertes où chacun profite d’un cadre rassurant, épanouissant et bienveillant.</p>
         <p>A l’école Saint Jean-Baptiste, on entre dans :</p>
+        <ul>
             <li>Une école familiale, accueillante et chaleureuse où l’on cultive l’art de vivre ensemble dans le respect des différences.</li>
             <li>Une école de la réussite, ou les enseignantes se remettent sans cesse en recherche pédagogique (formations, différenciation, continuité dans les apprentissages)</li>
             <li>La pratique de pédagogies alternatives. L’enfant y est acteur de ses apprentissages.</li>

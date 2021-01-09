@@ -4,6 +4,8 @@
     <a href="">
         <h1 class="ephe-titre">Les Ephémerides</h1>
     </a>
+
+    <div class="fleche-retour-info"><a href="?section=accueil">Accueil</a>><a href="?section=info"> Informations générales</a>><a href="?section=ephemerides">Ephémerides</a></div>
 </div>
 
 <div class="texte-info">

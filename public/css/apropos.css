@@ -67,6 +67,7 @@ div.buttons-testing-1 a:hover div.button-mot {
 @media screen and (max-width: 768px) {
   .aPropos-titre {
     font-size: 24px;
+    padding-left: 15px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -99,6 +100,12 @@ div.buttons-testing-1 a:hover div.button-mot {
   list-style-position: inside;
 }
 
-.onglet-apropos > p {
+.onglet-apropos > p,
+.onglet-apropos > ul {
   margin-bottom: 2%;
+}
+
+.onglet-apropos > ul > li {
+  margin-left: 5%;
+  list-style-position: inside;
 }

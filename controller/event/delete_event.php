@@ -10,8 +10,8 @@
         $tabInfos = $p->readById($id);
          var_dump($tabInfos);
 
-        $nom = $tabInfos[0]["date_event"];
-        $prenom = $tabInfos[0]["titre_event"];
+        $dateEvent= $tabInfos[0]["date_event"];
+        $titreEvent = $tabInfos[0]["titre_event"];
 
     }
 
