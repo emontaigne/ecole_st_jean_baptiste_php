@@ -6,40 +6,40 @@
         <ul class="main" id=" nav-list">
 
 
-          <li><a class="menu-a" href="?section=accueil">Accueil</a></li>
+          <li><a class="menu-a" href="?section=accueil" id="section-accueil">Accueil</a></li>
           <li class="sous-menu" ><a class="menu-a" id="menuApropos" href="<?php echo '?section=apropos'?>">A propos
             <span class="fas fa-caret-down first"></span>
           </a>
          
         <ul class="contenu-sousMenu">
-          <li><a class="menu-a" href="?section=histoire">Histoire de l'école</a></li>
-          <li><a class="menu-a" href="?section=motdirection">Mot de la direction</a></li>
+          <li><a class="menu-a" href="?section=histoire" id="section-histoire">Histoire de l'école</a></li>
+          <li><a class="menu-a" href="?section=motdirection" id="section-motdirection">Mot de la direction</a></li>
         </ul>
         </li>
-          <li class="sous-menu"><a class="menu-a" href="?section=info">Informations générales
+          <li class="sous-menu"><a class="menu-a" href="?section=info" id="info">Informations générales
           <span class="fas fa-caret-down second"></span>
           </a>
          
             <ul  class="contenu-sousMenu"> 
-          <li><a class="menu-a menuInfoGen" href="?section=roi">ROI</a></li>
-          <li><a class="menu-a menuInfoGen" href="?section=ephemerides">Ephémérides</a></li>
-          <li><a class="menu-a menuInfoGen" href="?section=activites">Activités</a></li>
-          <li><a class="menu-a menuInfoGen" href="?section=service-garderie">Service de garderie</a></li>
-          <li><a class="menu-a menuInfoGen" href="?section=traiteur">Menu/service traiteur</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=roi" id="section-roi">ROI</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=ephemerides" id="section-ephemerides">Ephémérides</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=activites" id="section-activites">Activités</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=service-garderie" id="service-garderie">Service de garderie</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=traiteur" id="section-traiteur">Menu/service traiteur</a></li>
         </ul> 
       
     </li>
-          <li><a class="menu-a " href="?section=covid">Mesures Covid</a></li>
-          <li><a class="menu-a " href="?section=contact">Contact</a></li>
+          <li><a class="menu-a " href="?section=covid" id="covid">Mesures Covid</a></li>
+          <li><a class="menu-a " href="?section=contact" id="contact">Contact</a></li>
           <li>
-            <a class="menu-a" href="?section=connexion"><i class="fas fa-user"></i></a>
+            <a class="menu-a" href="?section=connexion" id="connexion"><i class="fas fa-user"></i></a>
           </li>
           <li id="connect">    
         <?php 
             if(isset($_SESSION["login"]))
             {
                 echo ($_SESSION["login"]) .'<a class="menu-a" href="?section=deconnexion"><span><i class="fas fa-sign-out-alt"></i></span></a>';
-                echo '<li class="sous-menu"><a class ="admin menu-a" href="?section=parents">Parents<span class="fas fa-caret-down first"></span></a>
+                echo '<li class="sous-menu"><a class ="admin menu-a" href="?section=parents" id="parents">Parents<span class="fas fa-caret-down first"></span></a>
                 <ul class="contenu-sousMenu">
                 <li><a class="menu-a" href="?section=galerie">Galerie</a></li>
                 <li><a class="menu-a" href="?section=service-traiteur">Repas</a></li>

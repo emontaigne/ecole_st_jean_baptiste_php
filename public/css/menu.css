@@ -70,6 +70,11 @@ header {
   background-color: #c35884;
 }
 
+.active {
+  text-decoration: underline;
+  background-color: #c35884;
+}
+
 .sidebar a:active {
   background-color: #c35884;
 }
