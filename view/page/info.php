@@ -11,7 +11,7 @@
         <div class="button-testing-1 button-roi">
             <div class="button-testing-image-roi"></div>
             <div class="button-testing-text">
-                <h3>ROI</h3>
+                <h3>Réglement</h3>
                 <p>En savoir plus</p>
             </div>
         </div>

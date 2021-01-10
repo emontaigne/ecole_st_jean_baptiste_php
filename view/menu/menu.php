@@ -7,7 +7,7 @@
 
 
           <li><a class="menu-a" href="?section=accueil">Accueil</a></li>
-          <li class="sous-menu" ><a class="menu-a" id="menuApropos" href="<?php echo '?section=apropos'?>">A propos
+          <li class="sous-menu" ><a class="menu-a" id="menuApropos" href="<?php echo '?section=apropos'?>">À propos
             <span class="fas fa-caret-down first"></span>
           </a>
          
@@ -21,7 +21,7 @@
           </a>
          
             <ul  class="contenu-sousMenu"> 
-          <li><a class="menu-a menuInfoGen" href="?section=roi">ROI</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=roi">Réglement d'ordre intérieur</a></li>
           <li><a class="menu-a menuInfoGen" href="?section=ephemerides">Ephémérides</a></li>
           <li><a class="menu-a menuInfoGen" href="?section=activites">Activités</a></li>
           <li><a class="menu-a menuInfoGen" href="?section=service-garderie">Service de garderie</a></li>
@@ -29,7 +29,7 @@
         </ul> 
       
     </li>
-          <li><a class="menu-a " href="?section=covid">Mesures Covid</a></li>
+          <li><a class="menu-a " href="?section=covid">Covid-19</a></li>
           <li><a class="menu-a " href="?section=contact">Contact</a></li>
           <li>
             <a class="menu-a" href="?section=connexion"><i class="fas fa-user"></i></a>
