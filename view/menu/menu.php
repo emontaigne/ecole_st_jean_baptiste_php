@@ -6,14 +6,14 @@
         <ul class="main" id=" nav-list">
 
 
-          <li><a class="menu-a" href="?section=accueil" id="section-accueil">Accueil</a></li>
-          <li class="sous-menu" ><a class="menu-a" id="menuApropos" href="<?php echo '?section=apropos'?>">A propos
+          <li><a class="menu-a" href="?section=accueil" id="accueil">Accueil</a></li>
+          <li class="sous-menu" ><a class="menu-a" id="apropos" href="<?php echo '?section=apropos'?>">A propos
             <span class="fas fa-caret-down first"></span>
           </a>
          
         <ul class="contenu-sousMenu">
-          <li><a class="menu-a" href="?section=histoire" id="section-histoire">Histoire de l'école</a></li>
-          <li><a class="menu-a" href="?section=motdirection" id="section-motdirection">Mot de la direction</a></li>
+          <li><a class="menu-a" href="?section=histoire" id="histoire">Histoire de l'école</a></li>
+          <li><a class="menu-a" href="?section=motdirection" id="motdirection">Mot de la direction</a></li>
         </ul>
         </li>
           <li class="sous-menu"><a class="menu-a" href="?section=info" id="info">Informations générales
@@ -21,11 +21,11 @@
           </a>
          
             <ul  class="contenu-sousMenu"> 
-          <li><a class="menu-a menuInfoGen" href="?section=roi" id="section-roi">ROI</a></li>
-          <li><a class="menu-a menuInfoGen" href="?section=ephemerides" id="section-ephemerides">Ephémérides</a></li>
-          <li><a class="menu-a menuInfoGen" href="?section=activites" id="section-activites">Activités</a></li>
-          <li><a class="menu-a menuInfoGen" href="?section=service-garderie" id="service-garderie">Service de garderie</a></li>
-          <li><a class="menu-a menuInfoGen" href="?section=traiteur" id="section-traiteur">Menu/service traiteur</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=roi" id="roi">ROI</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=ephemerides" id="ephemerides">Ephémérides</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=activites" id="activites">Activités</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=service-garderie" id="garderie">Service de garderie</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=traiteur" id="traiteur">Menu/service traiteur</a></li>
         </ul> 
       
     </li>
@@ -100,9 +100,3 @@
         </li>
       </ul>
     </nav>-->
-
-   <script src = "public/js/accueil.js"></script> 
-   <script src = "public/js/menu-actif.js"></script>
-
-   
-  

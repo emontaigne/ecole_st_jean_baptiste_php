@@ -11,4 +11,4 @@ echo ($_SESSION["login_admin"]) .'<div class ="row">
     }
 ?>
 </div>
-<script src = "public/js/menu-actif.js"></script>
+

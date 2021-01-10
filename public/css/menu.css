@@ -70,9 +70,9 @@ header {
   background-color: #c35884;
 }
 
-.active {
-  text-decoration: underline;
-  background-color: #c35884;
+.current-menu {
+  background: #c35884 !important;
+  text-decoration: underline !important;
 }
 
 .sidebar a:active {

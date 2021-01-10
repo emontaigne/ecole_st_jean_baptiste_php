@@ -95,7 +95,7 @@
         </div>
       </div>
     </div>
-    <script src = "public/js/menu-actif.js"></script>
+
      
       <script>
       // faire apparaitre la partie formulaire avec les inputs au click

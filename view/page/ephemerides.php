@@ -57,4 +57,3 @@
         </div>
     </div>
 </div>
-<script src = "public/js/menu-actif.js"></script>

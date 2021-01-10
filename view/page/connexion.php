@@ -58,7 +58,7 @@
       </div>
 	</div>
 	
-	<script src = "public/js/menu-js.js"></script>
+
 
 
 <script>

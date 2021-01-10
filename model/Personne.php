@@ -1,5 +1,5 @@
 <?php 
-    require_once("connexion.php");
+    require_once("Connexion.php");
     class Personne extends Connexion 
     {
         public function create($_nom, $_prenom,  $_adRue, $_adNum, $_adCp, $_adVille, $_dateNaissance, $_classes)

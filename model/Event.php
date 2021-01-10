@@ -1,5 +1,5 @@
 <?php 
-    require_once("connexion.php");
+    require_once("Connexion.php");
     class Event extends Connexion 
     {
         public function create($_dateEvent, $_titreEvent, $_contenuEvent)

@@ -33,4 +33,3 @@
         <!-- <img src="public/images/ecole-1913.jpg" alt="photo de l'école en 1913"> -->
     </div>
 </div>
-<script src = "public/js/menu-actif.js"></script>
