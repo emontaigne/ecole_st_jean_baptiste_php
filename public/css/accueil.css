@@ -42,13 +42,14 @@
   height: 50px;
 }
 
-.bullet {
+/*.bullet {
   width: 10px;
   height: 10px;
   border: 1px solid black;
   background-color: black;
   border-radius: 50%;
-}
+}*/
+
 .row_event {
   display: flex;
   flex-direction: row;
@@ -105,13 +106,12 @@
   overflow: auto;
 }
 
-.tit {
-  width: 40%;
-  height: auto;
-}
 .divVide {
   width: 100%;
   height: 50px;
+  background-color: #c35884;
+  padding: 60px;
+  color: white;
 }
 
 .aicon-flex {
@@ -132,7 +132,7 @@
   height: 100px;
   border-radius: 50px;
   background-color: white;
-  border: 7px solid#93d6cc;
+  border: 7px solid#c35884;
 }
 .aicon {
   text-align: center;
@@ -151,6 +151,7 @@
   margin-top: 140px;
   font-weight: bold;
   font-size: 15px;
+  color: white;
 }
 #titreGarderie {
   text-align: center;
@@ -195,24 +196,82 @@
   }
 }
 
-td.date_event {
+#agenda_event td.date_event {
   width: 10%;
   font-size: 20px;
   font-weight: bold;
   color: black;
 }
 
-td {
-  color: #01969b;
-  width: 40%;
+#agenda_event td {
+  color: white;
   padding: 10px;
   font-size: 20px;
   border-top: none;
-
-  border-bottom: 1px dotted #01969b;
+  border-bottom: 1px dotted white;
   vertical-align: middle;
 }
 
-td:first-child {
-  border-right: 1px dotted #01969b;
+#agenda_event td:first-child {
+  width: 50px;
+  border-right: 1px dotted white;
+}
+
+#agenda_event tr:nth-child(even) {
+  background-color: rgba(1, 150, 155, 0.7);
+}
+#agenda_event tr:nth-child(odd) {
+  background-color: rgba(1, 150, 155, 0.2);
+}
+
+#agenda_event td:nth-child(0n + 2) {
+  border-right: 1px dotted white;
+}
+
+.img_agenda {
+  width: 40px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.agenda_send {
+  width: 40px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.img_arrow {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  padding: 0%;
+  margin: 0;
+}
+
+.citation {
+  font-size: 20px;
+  padding-left: 25px;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  bottom: 34%;
+}
+.alphonse {
+  padding-left: 440px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 31%;
+}
+
+.apostrophe {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.inputDT {
+  margin-left: 112px;
+}
+
+.inputDT1 {
+  margin-left: 114px;
 }

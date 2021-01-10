@@ -132,6 +132,8 @@ div.cards-info a:hover div.roi {
   color: white;
   text-align: center;
   padding: 8px;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
 }
 .button-testing-image-ephemerides {
   width: 200px;
@@ -159,6 +161,7 @@ div.cards-info a:hover div.roi {
 }
 div.buttons-testing-1 a:hover div.button-ephemerides {
   opacity: 0.8;
+  transform: scale(1.025);
 }
 
 .button-activites {
@@ -167,6 +170,7 @@ div.buttons-testing-1 a:hover div.button-ephemerides {
 }
 div.buttons-testing-1 a:hover div.button-activites {
   opacity: 0.8;
+  transform: scale(1.025);
 }
 
 .button-roi {
@@ -176,6 +180,7 @@ div.buttons-testing-1 a:hover div.button-activites {
 
 div.buttons-testing-1 a:hover div.button-roi {
   opacity: 0.8;
+  transform: scale(1.025);
 }
 
 @media screen and (max-width: 1200px) {
@@ -250,4 +255,9 @@ div.buttons-testing-1 a:hover div.button-roi {
 }
 
 @media screen and (max-width: 375px) {
+}
+
+.infoTitre {
+  margin-left: 4%;
+  font-weight: bold;
 }

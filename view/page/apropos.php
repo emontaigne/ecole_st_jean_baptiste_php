@@ -1,7 +1,7 @@
 <div class="header-img-apropos" id="header-img"></div>
 <div class="div-rose">
     <a class="liens" href="">
-        <h1 class="aPropos-titre">A propos</h1>
+        <h1 class="aPropos-titre">À propos</h1>
     </a>
 </div>
 

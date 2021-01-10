@@ -7,7 +7,7 @@
        header("Location:?section=accueil");
         
     }*/
-
+    
     require_once("view/page/event/create_event.php");
 ?>
 

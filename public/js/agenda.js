@@ -84,7 +84,7 @@ function calendrier(year, month) {
     prevYear +
     "," +
     prevMonth +
-    ")' <span><</span></div></button>" +
+    ")' ><img class='img_arrow' src='public/images/left-arrow.png'></button></div>" +
     "<div class = 'month'>" +
     mois[month - 1] +
     " " +
@@ -93,10 +93,10 @@ function calendrier(year, month) {
     nextYear +
     "," +
     nextMonth +
-    ")'<span></span>></button></div>";
+    ")'><img class='img_arrow' src='public/images/right-arrow.png'></button></div>";
   document
     .getElementById("agenda")
-    .getElementsByClassName("right")[0].innerHTML = html;
+    .getElementsByClassName("thirdDiv")[0].innerHTML = html;
 }
 
 calendrier(date.getFullYear(), date.getMonth() + 1);
@@ -105,13 +105,6 @@ calendrier(date.getFullYear(), date.getMonth() + 1);
 
 
 $(".agenda_event").append("<tbody></tbody>");
-
-
-function update_date(data){
-  return $.post("http://localhost/ecole_st_jean_baptiste/ecole_st_jean_baptiste_php/controller/ajax/update_ajax.php", data);
-  
-  }
-
 
 function save_date(data){
 return $.post("http://localhost/ecole_st_jean_baptiste/ecole_st_jean_baptiste_php/controller/ajax/ajax.php", data);
@@ -133,55 +126,66 @@ $(`.tr_event-${i}`).append(`<td id = 'date_event'>${x.format_date}</td>`);
 $(`.tr_event-${i}`).append(`<td id = 'titre_event'>${x.titre_event}</td>`);
 $(`.tr_event-${i}`).append(`<td id = 'contenu_event'>${x.contenu_event}</td>`);
 $(`.tr_event-${i}`).hide();
-//$(`.tr_event-${i}`).append("<td class = 'td_event'></td>");
-//$('.td_event').append
-//("<a class='icon1' href='<?php?section=update_event&id=$value['id']'><i class='fas fa-pencil-alt'></i></a></a>");
-//$(`.tr_event-${i}`).append("<td class = td_event'><a class='icon1' href='?section=delete_event'><i class='fas fa-trash-alt'></i></a></td>");
-//$(`.tr_event-${i}`).append("<td class = 'td_event'><a class='icon1' href='?section=update_event'><i class='fas fa-pencil-alt'></i></a></td>");
-//$(`.tr_event-${i}`).append("<td class = 'td_event'><a class='icon1' href='?section=delete_event&id=$value['id']'><i class='fas fa-trash-alt'></i></a></td>");
+
 });
 console.log(events);//données pour le tableau éphémérides
 });
 console.log('toto');
-/*$(".jour").on('click','#submit_event',function(e){
+
+
+/*
+
+function save_date_student(data){
+return $.post("http://localhost/ecole_st_jean_baptiste/ecole_st_jean_baptiste_php/controller/ajax_student/ajax_student.php", data);
+
+}
+function read_date_student(){
+return $.get("http://localhost/ecole_st_jean_baptiste/ecole_st_jean_baptiste_php/controller/ajax_student/ajax_read_student.php");
+
+}
+
+save_date_student().then(function(personnes){
+personnes.forEach((y,i)=>{
+  console.log(y); 
+ // console.log($(`.d${y.date_event}`));
+$('tbody').append(`<tr class='tr_event-${i} tr_event'></tr>`);
+$(`.tr_event-${i}`).append(`<td id = 'nom'>${y.nom}</td>`);
+$(`.tr_event-${i}`).append(`<td id = 'prenom'>${y.prenom}</td>`);
+$(`.tr_event-${i}`).append(`<td id = 'classes'>${y.classes}</td>`);
+
+});
+console.log(personnes);//données pour le tableau éphémérides
+});
+console.log('toto');
+$("#adminBtnAfficher").on('click','#createPS',function(e){
 e.preventDefault();
 console.log('toto');
 const form = $(this).closest("form");
 //création d'un objet date
-const date_event = form.find("#date_event").val();
-const titre_event = form.find("#titre_event").val();
-const contenu_event= form.find("#contenu_event").val();
-console.log(date);
+const nom = form.find("#nom").val();
+const prenom = form.find("#prenom").val();
+const classes= form.find("#classes").val();
+//console.log(date);
 //then = callback (nouvelle entrée est écrite)
-save_date({date:date_event,titre:titre_event,contenu:contenu_event}).then(function(){
+save_date({nom:nom,prenom:prenom,classes:classes}).then(function(){
 //requete read_date:
 
-//read_date().then(function(events){
- // events.forEach((x,i)=>{
-  //  console.log(x);  
-  //  $(".jour .d2021-01-20").addClass('datum');
-  //  console.log($(".d2021-01-20"));
- //   $(".datum").css({'background-color':'yellow'});
-let newTrId = $('.tr_event').length;
-$('tbody').append(`<tr class='tr_event-${newTrId} tr_event'></tr>`);
-$(`.tr_event-${newTrId}`).append(`<td id = 'date_event'>${date_event}</td>`);
-$(`.tr_event-${newTrId}`).append(`<td id = 'titre_event'>${titre_event}</td>`);
-$(`.tr_event-${newTrId}`).append(`<td id = 'contenu_event'>${contenu_event}</td>`);
-$(`.tr_event-${newTrId}`).hide();
-//$(`.tr_event-${newTrIdi}`).append("<td class = 'td_event'><a class='icon1' href='?section=update_event&id=$value['id']'><i class='fas fa-pencil-alt'></i></a></td>");
-//$(`.tr_event-${newTrId}`).append("<td class = 'td_event'><a class='icon1' href='?section=delete_event&id=$value['id']'><i class='fas fa-trash-alt'></i></a></td>");
-//$(`.tr_event-${newTrId}`).append("<td class = 'td_event'></td>");
-//$('.td_event').html("<a class='icon1' href='?section=update_event&id=$value['id']'><i class='fas fa-pencil-alt'></i></a>");
-//$(`.tr_event-${newTrId}`).append("<td class = td_event'><a class='icon1' href='?section=update_event'><i class='fas fa-pencil-alt'></i></a></td>")
-//$(`.tr_event-${newTrId}`).append("<td class = td_event'><a class='icon1' href='?section=delete_event'><i class='fas fa-trash-alt'></i></a></td>");
- // });
- 
-//console.log(events);//données pour le tableau éphémérides
+})
+read_date_student().then(function(personnes){
+ personnes.forEach((y,i)=>{
+let newTrIdStudent = $('.tr_event').length;
+$('tbody').append(`<tr class='tr_event-${newTrIdStudent} tr_event'></tr>`);
+$(`.tr_event-${newTrIdStudent}`).append(`<td id = 'nom'>${nom}</td>`);
+$(`.tr_event-${newTrIdStudent}`).append(`<td id = 'prenom'>${prenom}</td>`);
+$(`.tr_event-${newTrIdStudent}`).append(`<td id = 'classes'>${classes}</td>`);
+//$(`.tr_event-${newTrIdStudent}`).hide();
+
+  });
+
 });
-//$('.popup').css({'display':'none'});
-//$(".jour.active").append("<div class='bullet'></div>");
-//$(".section1").addClass("datum");
-//$(".datum").css({'background-color':'yellow'});
+
 });*/
+
+
 
 

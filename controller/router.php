@@ -89,6 +89,21 @@
             case "delete_event":
                     require_once("controller/event/delete_event.php");
                 break;
+                case "ajax":
+                    require_once("controller/ajax/ajax.php");
+                break;
+                case "read_ajax":
+                    require_once("controller/ajax/read_ajax.php");
+                break;
+                case "update_ajax":
+                    require_once("controller/ajax/update_ajax.php");
+                break;
+                case "adminController":
+                    require_once("controller/personne/adminController.php");
+                break;
+                case "accueilController":
+                    require_once("controller/event/accueilController.php");
+                break;
 
             default:
             require_once("view/error/404.php");

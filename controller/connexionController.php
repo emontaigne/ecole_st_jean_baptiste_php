@@ -27,6 +27,7 @@ $p = new Personne();
                 {
                     $_SESSION["login_admin"] = "admin";
                     header("Location:?section=admin");
+                    
 
             }else{
                 echo "Ce n'est pas le bon mot de passe et/ou login";

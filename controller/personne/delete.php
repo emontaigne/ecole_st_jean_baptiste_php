@@ -23,7 +23,7 @@
         header("Location:?section=read");
     }
 
-
+    require_once("view/page/admin.php");
     // appeler la vue
     require_once("view/page/personne/delete.php");
 ?>

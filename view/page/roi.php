@@ -9,13 +9,11 @@
 
 <div class="texte-info">
   <div class="info-onglet onglet-reglement" id="roi">
-    <h3><a name="roi">Le ROI</a></h3>
     <div class="pdf-dl">
-      <h3>Réglement d'ordre intérieur</h3>
       <a href="Logo SJB Déf_7.pdf" download="roi">
         <img src="public/images/pdf-icon-01.png" class="img-pdf" />
       </a>
-      <p>[ Télécharger ]</p>
+      <a href="Logo SJB Déf_7.pdf" download="roi"><p>[ Télécharger ]</p></a>
     </div>
     <h3>Projet d'établissement.</h3>
     <p>Le projet d'établissement définit l'ensemble des choix pédagogiques et des actions concrètes particulières que l'équipe éducative de l'établissement entend mettre en oeuvre en collaboration avec l'ensemble des acteurs et partenaires pour réaliser les projets éducatif et pédagogique du PO.</p>

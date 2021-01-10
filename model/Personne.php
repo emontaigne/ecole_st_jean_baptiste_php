@@ -23,7 +23,7 @@
 
         public function read()
         {
-            $requete = "SELECT * FROM personne";
+            $requete = "SELECT * FROM personne ORDER BY classes ASC";
             return $this->execute($requete);
         }
 public function readConnexion($_login){

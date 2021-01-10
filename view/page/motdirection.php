@@ -8,7 +8,7 @@
       />
     </div>
     <div class="texte-info onglet-mot">
-      <h2>Bonjour et bienvenue à tous!</h2>
+      <h2 class="titreMotD">Bonjour et bienvenue à tous!</h2>
       <p>
         Je m'apelle Séverine et c'est avec grand plaisir que j'ai rejoint,
         depuis quelques années, l'équipe de l'école Anne-Marie.

@@ -80,11 +80,11 @@
     {
         $p = new Personne();
         $p->update($_GET["id"], $_POST["nom"],$_POST["prenom"], $_POST["ad_rue"], $_POST["ad_num"], $_POST["ad_cp"], $_POST["ad_ville"], $_POST["date_naissance"], $_POST["classes"]);
-      header("Location:?section=read");
+      header("Location:?section=admin");
       
     }
 
-
+    require_once("view/page/admin.php");
 
     // appeler la vue
     require_once("view/page/personne/update.php");
