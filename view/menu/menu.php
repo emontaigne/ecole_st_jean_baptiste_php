@@ -29,8 +29,8 @@
         </ul> 
       
     </li>
-          <li><a class="menu-a" href="?section=covid">Mesures Covid</a></li>
-          <li><a class="menu-a" href="?section=contact">Contact</a></li>
+          <li><a class="menu-a " href="?section=covid">Mesures Covid</a></li>
+          <li><a class="menu-a " href="?section=contact">Contact</a></li>
           <li>
             <a class="menu-a" href="?section=connexion"><i class="fas fa-user"></i></a>
           </li>
@@ -100,3 +100,11 @@
         </li>
       </ul>
     </nav>-->
+<<<<<<< HEAD
+
+   <script src = "public/js/accueil.js"></script> 
+
+   
+  
+=======
+>>>>>>> fc00d54341600f1b89d714cd1c787c2d4052dd5b
