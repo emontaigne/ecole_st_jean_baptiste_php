@@ -49,7 +49,7 @@
               }
             if(isset($_SESSION["login_admin"]))
             {
-                echo ($_SESSION["login_admin"]) .'<a class="menu-a" href="?section=deconnexion"><span><i class="fas fa-sign-out-alt"></i></span></a>';
+                echo '<a class="menu-a" href="?section=deconnexion"><span><i class="fas fa-sign-out-alt"></i></span></a>';
                 echo '<li><a class ="admin menu-a" href="?section=admin">Admin</a></li>';         
               }
         ?>

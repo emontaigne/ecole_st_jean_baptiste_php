@@ -12,6 +12,7 @@
     foreach ($tabEvents as $value) {
       
         $tr = "<tr>";
+        $tr .= "<td><img class = 'img_agenda' src='public/images/agenda.png'></td>";
         $tr .= "<td class = date_event cssDateEvent'>" . $value["format_date"] . "</td>";
         $tr .= "<td class = td_event'>" . $value["titre_event"] . "</td>";
         $tr .= "<td class = td_event'>" . $value["contenu_event"] . "</td>"; 

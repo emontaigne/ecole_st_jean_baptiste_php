@@ -5,11 +5,19 @@
   background-size: cover;
 }
 
+.titreMotD {
+  line-height: 2;
+}
+
 .apropos-round-img {
   border-radius: 50px;
   width: 100px;
   height: 100px;
   margin-right: 100px;
+  position: absolute;
+  border: 5px solid #c35884;
+  top: 36%;
+  margin-left: 85%;
 }
 
 .header-mot-direction {
@@ -52,6 +60,9 @@
     height: 75px;
     display: block;
     margin-right: 20px;
+  }
+  .apropos-round-img {
+    display: none;
   }
 }
 

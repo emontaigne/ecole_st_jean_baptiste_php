@@ -251,3 +251,8 @@ div.buttons-testing-1 a:hover div.button-roi {
 
 @media screen and (max-width: 375px) {
 }
+
+.infoTitre {
+  margin-left: 4%;
+  font-weight: bold;
+}

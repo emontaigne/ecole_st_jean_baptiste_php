@@ -3,7 +3,7 @@ $(".menu-a").on( "click", function() {
   $(this).css({"text-decoration": "underline", "background-color" :"#c35884"})
 });
 
-$(document).ready(function(){
+$(function(){
   $('.sidebar').on("click",function(){
     $('.sidebar').addClass('responsive')
   })

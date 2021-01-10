@@ -1,21 +1,25 @@
 .agendaprinc {
-  width: 80%;
+  width: 100%;
   height: auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin: auto;
-  margin-top: 5%;
-  padding: 30px;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  padding-right: 10%;
 }
 
-.left {
-  width: 50%;
+.firstDiv {
+  width: 33.33%;
+}
+
+.secondDiv {
   margin: 0;
   padding: 0;
 }
 
-.right {
+.thirdDiv {
   margin: auto;
 }
 /* calendar */
@@ -73,11 +77,15 @@
 }
 
 .precedent {
-  margin-right: 15px;
-}
-.precedent:hover {
   cursor: pointer;
 }
+
+.suivant {
+  cursor: pointer;
+}
+/*.precedent:hover {
+
+}*/
 
 .suivant:hover {
   cursor: pointer;
@@ -92,7 +100,10 @@
 }
 
 .month {
-  font-size: 16px;
+  font-size: 20px;
+  margin-top: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .popup {
@@ -139,6 +150,19 @@
 @media (max-width: 576px) {
   .agendaprinc {
     margin-top: 20%;
+    display: inline;
+  }
+  .firstDiv {
+    display: none;
+  }
+
+  .secondDiv {
+    margin-top: 9%;
+    padding-bottom: 5%;
+  }
+
+  .aicon-flex {
+    display: none;
   }
   .agenda {
     width: 300px;
@@ -155,28 +179,58 @@
     margin-top: 75%;
   }
 }
-
-.form-agenda {
+.createEventForm {
   width: 100%;
-  margin-left: 2%;
-  padding: 40px;
+  margin-left: 8%;
+}
+
+.form-create {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.form-update {
+  margin-left: 7%;
+  margin-bottom: 50px;
+  margin-top: 88px;
 }
 
 #date_event,
 #titre_event {
-  margin-left: 57px;
   margin-top: 10px;
   padding: 10px;
 }
 
 #contenu_event {
-  margin-left: 8px;
+  margin-left: 47px;
   margin-top: 10px;
+  margin-right: 20px;
   padding: 10px;
 }
 
 #submit_event {
-  width: 286px;
   margin-top: 10px;
   padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #01969b;
+  cursor: pointer;
+}
+
+#update_event {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #01969b;
+  cursor: pointer;
+}
+
+.lien {
+  width: 33px;
+  height: 33px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
 }
