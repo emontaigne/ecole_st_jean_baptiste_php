@@ -15,7 +15,6 @@ html {
 }
 
 .containerGarderie {
-  background-image: url("../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "quicksand";
@@ -40,6 +39,7 @@ html {
 .flexGarderie {
   justify-content: space-around;
   display: flex;
+  padding-top: 3%;
 }
 
 .imgGarderie {

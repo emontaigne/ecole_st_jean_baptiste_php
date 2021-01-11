@@ -136,20 +136,20 @@ div.cards-info a:hover div.roi {
   transition-timing-function: linear;
 }
 .button-testing-image-ephemerides {
-  width: 200px;
+  width: 100%;
   height: 200px;
   background: url("../images/calendar.jpg");
   background-size: cover;
 }
 .button-testing-image-activites {
-  width: 200px;
+  width: 100%;
   height: 200px;
   background: url("../images/activity3.jpg");
   background-size: cover;
 }
 
 .button-testing-image-roi {
-  width: 200px;
+  width: 100%;
   height: 200px;
   background: url("../images/supplies.jpg");
   background-size: cover;
