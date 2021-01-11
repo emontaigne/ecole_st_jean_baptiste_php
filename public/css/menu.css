@@ -33,6 +33,13 @@ body {
 }
 .logo {
   position: absolute;
+  /* font-family: Calibri; */
+  font-size: x-large;
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-left: 2%;
+  font-weight: bold;
 }
 
 .main {
@@ -121,6 +128,11 @@ body {
   .icone {
     display: none;
   }
+  .logo {
+    font-size: medium;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -137,6 +149,9 @@ body {
     display: none;
   }
   .icone {
+    display: none;
+  }
+  .logo {
     display: none;
   }
 }

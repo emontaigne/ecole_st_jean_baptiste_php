@@ -1,7 +1,7 @@
 
 <div id="main" style="display:block;">
 
-      <a href="?section=accueil" class="logo">Logo</a>
+      <a href="?section=accueil" class="logo">École Saint Jean-Baptiste</a>
       <nav class ="sidebar" id="mySidebar" style="display:block;">
         <ul class="main" id=" nav-list">
 
@@ -42,7 +42,6 @@
                 echo '<li class="sous-menu"><a class ="admin menu-a" href="?section=parents" id="parents">Parents<span class="fas fa-caret-down first"></span></a>
                 <ul class="contenu-sousMenu">
                 <li><a class="menu-a" href="?section=galerie">Galerie</a></li>
-                <li><a class="menu-a" href="?section=service-traiteur">Repas</a></li>
                 <li><a class="menu-a" href="?section=garderie">Garderie</a></li>
                 </ul>
                 </li>';

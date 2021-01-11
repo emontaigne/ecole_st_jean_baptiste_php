@@ -11,7 +11,7 @@
 
 <div class="texte-info">
     <div id="calendrier-2020">
-        <h3 class="calendrier-info-titre">Calendrier pour 2020-2021</h3>
+        <!-- <h3 class="calendrier-info-titre">Calendrier pour 2020-2021</h3> -->
         <div class="flex-container-dates">
             <div class="evenements-2020" id="evenements-2020">
                 <ul>
