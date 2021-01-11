@@ -10,14 +10,13 @@
 }
 
 .apropos-round-img {
-  border-radius: 50px;
-  width: 100px;
-  height: 100px;
-  margin-right: 100px;
-  position: absolute;
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+  position: relative;
   border: 5px solid #c35884;
-  top: 36%;
-  margin-left: 85%;
+  margin-top: -7%;
+  margin-right: 5%;
 }
 
 .header-mot-direction {
@@ -55,12 +54,6 @@
   }
 }
 @media screen and (max-width: 576px) {
-  .apropos-round-img {
-    width: 75px;
-    height: 75px;
-    display: block;
-    margin-right: 20px;
-  }
   .apropos-round-img {
     display: none;
   }

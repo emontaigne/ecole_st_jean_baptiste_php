@@ -252,14 +252,11 @@
   padding-left: 25px;
   font-style: italic;
   font-weight: bold;
-  position: absolute;
-  bottom: 29%;
+  margin-top: 12%;
 }
 .alphonse {
-  padding-left: 440px;
   font-size: 15px;
-  position: absolute;
-  bottom: 27%;
+  margin-left: 462px;
 }
 
 .apostrophe {

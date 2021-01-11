@@ -34,13 +34,11 @@
 <a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/dinner.png"/><p class = "titreicon" id="titreMenu">MENU</p></div></a>
 <a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/paint.png"/><p class = "titreicon" id="titreActivites">ACTIVITÉS</p></div></a>
 </div> </div>
-
+<div class="citAlph"><p class="citation"><span class="apostrophe">''</span>Le monde est un livre dont chaque pas nous ouvre une page.<span class="apostrophe">''</span></p>
+<p class="alphonse">Alphone de Lamartine</p></div>
 <div class = "agendaprinc" id="agenda">
 
-<div class="firstDiv">
-<p class="citation"><span class="apostrophe">''</span>Le monde est un livre dont chaque pas nous ouvre une page.<span class="apostrophe">''</span></p>
-<p class="alphonse">Alphone de Lamartine</p>
-</div>
+<div class="firstDiv"></div>
   <div class="secondDiv">
   <div class = "afficher1_event">
 <!--<h2 class = "affiche1_event">Ephémérides</h2>-->
