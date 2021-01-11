@@ -15,7 +15,6 @@ html {
   background-repeat: no-repeat;
   font-family: "quicksand";
   min-height: 500px;
-  margin-top: 0px;
 }
 .mainGallery {
   width: 85%;
@@ -24,6 +23,7 @@ html {
   display: block;
   background-color: white;
   box-shadow: 10px 5px 5px lightgrey;
+  padding-top: 2%;
 }
 
 .titlePageGallery {
