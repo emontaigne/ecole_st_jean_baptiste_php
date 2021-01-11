@@ -15,7 +15,6 @@ html {
 }
 
 .privateContainerParents {
-  background-image: url("../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -23,11 +22,11 @@ html {
 .boxPrivateParents {
   width: 80%;
   margin: auto;
-  margin-top: 50px;
   background-color: white;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 125, 0.2);
   justify-content: space-around;
   min-height: 550px;
+  padding-top: 2%;
 }
 
 .boxTitle {
