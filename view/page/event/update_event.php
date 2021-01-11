@@ -1,4 +1,4 @@
-
+<div class = "container2">
 
 <div id = "form_add" class="form_event">
 <form class = "form-update" action="#" method="post">

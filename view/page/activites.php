@@ -1,3 +1,4 @@
+<div class = "container2">
 <div class="header-img-acti" id="header-img"></div>
 <div class="div-rose activites-rose">
     <a href="">

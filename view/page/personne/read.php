@@ -1,4 +1,4 @@
-
+<div class = "container2">
 <div class="formeRadStudent">
 <div class = "afficher1">
 <table id="tablePersonne">

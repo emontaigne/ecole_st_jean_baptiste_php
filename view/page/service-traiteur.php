@@ -1,3 +1,4 @@
+<div class = "container2">
 <div class="containerTraiteur">
 <div class="boxTraiteur">
     <div class="div-avec-titre">

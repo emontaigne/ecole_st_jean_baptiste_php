@@ -1,3 +1,4 @@
+<div class = "container2">
 <div class="privateContainerParents">
       <div class="boxPrivateParents">
         <div class="boxTitle">

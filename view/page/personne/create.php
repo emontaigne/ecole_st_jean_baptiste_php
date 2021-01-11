@@ -1,3 +1,4 @@
+<div class = "container2">
 <div class= studentCreateForm>
 <form action="#" method="post" class="form-new-student" >
 <h2 class = "ajout">Ajouter un étudiant</h2>

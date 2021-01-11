@@ -30,5 +30,4 @@
 <link rel="stylesheet" href="public/css/histoire.css" type="text/css">
 <link rel="stylesheet" href="public/css/apropos.css" type="text/css">
 </head>
-<body class="mean-container">
-<div class = "container2">
+<body>

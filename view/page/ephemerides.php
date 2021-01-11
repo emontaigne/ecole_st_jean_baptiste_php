@@ -1,4 +1,5 @@
 <!-- <p class="ephemerides-test">Ephemerides</p> -->
+<div class = "container2">
 <div class="header-img-ephe" id="header-img"></div>
 <div class="div-rose">
     <a href="">

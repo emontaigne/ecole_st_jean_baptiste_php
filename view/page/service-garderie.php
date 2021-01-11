@@ -1,3 +1,4 @@
+<div class = "container2">
 <div class="header-img-service-garderie" id="header-img"></div>
 <div class="div-rose service-garderie-rose">
     <a href="">

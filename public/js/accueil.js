@@ -9,7 +9,7 @@ $(function(){
   })
 })
 
-(function () {
+$(function () {
   setInterval(function () {
     $('.slideshow ul').animate({ marginLeft: -1000 }, 1200, function () {
       $(this).css({ marginLeft: 0 }).find('li:last').after($(this).find('li:first'));

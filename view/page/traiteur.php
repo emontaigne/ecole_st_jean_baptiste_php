@@ -1,4 +1,4 @@
-
+<div class = "container2">
     <?php
     if(isset($_SESSION["login_admin"]))
     {

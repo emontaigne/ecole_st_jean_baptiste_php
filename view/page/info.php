@@ -1,3 +1,4 @@
+<div class = "container2">
 <div class="header-img-info" id="header-img"></div>
 <div class="div-rose">
   <a href="?section=info">

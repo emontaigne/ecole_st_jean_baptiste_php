@@ -1,3 +1,4 @@
+<div class = "container2">
 <div class="mainTotalGallery">
     <div class="mainGallery">
     <div class="titlePageGallery">

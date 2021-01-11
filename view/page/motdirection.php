@@ -1,3 +1,4 @@
+<div class = "container2">
 <div class="header-img-mot"></div>
     <div class="div-rose header-mot-direction">
       <h1 class="motDirection-titre">Mot de la Direction</h1>

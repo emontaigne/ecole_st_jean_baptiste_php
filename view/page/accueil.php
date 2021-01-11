@@ -1,4 +1,4 @@
-
+<div class = "container2">
 <section class="slideshow">
         <ul>
           <li>

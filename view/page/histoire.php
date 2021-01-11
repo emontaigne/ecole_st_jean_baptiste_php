@@ -1,5 +1,5 @@
 <!-- <p class="histoire-test">histoire</p> -->
-
+<div class = "container2">
 <div class="header-img-histoire" id="header-img"></div>
 <div class="div-rose">
     <a href="">

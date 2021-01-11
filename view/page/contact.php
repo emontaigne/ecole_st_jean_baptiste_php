@@ -1,3 +1,4 @@
+<div class = "container2">
 <div class="containerContact">
       <div class="empty"></div>
       <div class="formulaireContact">

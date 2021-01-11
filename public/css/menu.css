@@ -31,6 +31,9 @@ body {
   align-items: center;
   text-decoration: none;
 }
+.logo {
+  position: absolute;
+}
 
 .main {
   width: 100%;
