@@ -69,6 +69,11 @@ body {
   background-color: #c35884;
 }
 
+.current-menu {
+  background: #c35884 !important;
+  text-decoration: underline !important;
+}
+
 .sidebar a:active {
   background-color: #c35884;
 }
@@ -93,13 +98,11 @@ body {
   z-index: 1;
 }
 
-.show {
-}
-
 .contenu-sousMenu a:hover {
   display: block;
   text-decoration: none;
   text-align: left;
+  background-color: #c35884;
 }
 
 .sous-menu:hover .contenu-sousMenu {

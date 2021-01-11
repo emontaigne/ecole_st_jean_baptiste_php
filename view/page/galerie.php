@@ -230,6 +230,7 @@
     </div>
     
   </div>
+  
 
   <script>
   
@@ -274,3 +275,4 @@ btnGallery3.addEventListener('click', (e) => {
     }
   });
   </script>
+ 

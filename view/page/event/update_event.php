@@ -13,5 +13,4 @@
     <button id="submit_event" type="submit" value="Ajouter"><div><img class = "agenda_send" src = 'public/images/send.png'></div></button>
 
 </form>
-</div>
-
+<script src = "public/js/menu-actif.js"></script>

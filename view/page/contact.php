@@ -95,6 +95,7 @@
         </div>
       </div>
     </div>
+
      
       <script>
       // faire apparaitre la partie formulaire avec les inputs au click
@@ -133,3 +134,4 @@ function closeModal() {
 }
 
 </script>
+
