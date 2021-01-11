@@ -96,6 +96,14 @@ div.activity-cards-info a:hover div.acti-neige {
   background-image: url("../images/classe-neige.jpg");
 }
 
+.section-activites-photo-lien {
+  text-align: right;
+  font-weight: bold;
+}
+
+.activites-lien-photo-card {
+  text-decoration: none;
+}
 @media screen and (max-width: 1200px) {
   .header-img-acti {
     height: 200px;

@@ -11,12 +11,19 @@
     <div class="texte-info-activites">
 
         <div class="activity-cards-info">
-            <a>
+            <a <?php
+                if (isset($_SESSION["login"])) {
+                    echo ' href="?section=galerie"';
+                } else {
+                    echo ' href="?section=connexion"';
+                }
+                ?> class="activites-lien-photo-card">
                 <div class="activity-card-info acti-ponctuelle">
                     <div class="activity-card-info-img"></div>
                     <div class="activity-card-info-text">
                         <h3>Activité</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veritatis accusantium id fugit doloremque, ea maiores! Fugiat, molestiae repellendus! Maiores.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veritatis accusantium id fugit doloremque, ea maiores! Fugiat, molestiae repellendus! Maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veritatis accusantium id fugit doloremque, ea maiores! Fugiat, molestiae repellendus! Maiores.</p>
+                        <p class="section-activites-photo-lien">Voir les photos <i class="fas fa-arrow-right"></i></p>
                     </div>
                 </div>
             </a>
@@ -24,12 +31,20 @@
         </div>
 
         <div class="activity-cards-info">
-            <a>
+            <a <?php
+                if (isset($_SESSION["login"])) {
+                    echo ' href="?section=galerie"';
+                } else {
+                    echo ' href="?section=connexion"';
+                }
+                ?> class="activites-lien-photo-card">
                 <div class="activity-card-info acti-ponctuelle">
                     <div class="activity-card-info-img"></div>
                     <div class="activity-card-info-text">
                         <h3>Activité</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veritatis accusantium id fugit doloremque, ea maiores! Fugiat, molestiae repellendus! Maiores.</p>
+                        <p class="section-activites-photo-lien">Voir les photos <i class="fas fa-arrow-right"></i></p>
+
                     </div>
                 </div>
             </a>
@@ -37,48 +52,79 @@
         </div>
 
         <div class="activity-cards-info">
-            <a>
+            <a <?php
+                if (isset($_SESSION["login"])) {
+                    echo ' href="?section=galerie"';
+                } else {
+                    echo ' href="?section=connexion"';
+                }
+                ?> class="activites-lien-photo-card">
                 <div class="activity-card-info acti-ponctuelle">
                     <div class="activity-card-info-img"></div>
                     <div class="activity-card-info-text">
                         <h3>Activité</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veritatis accusantium id fugit doloremque, ea maiores! Fugiat, molestiae repellendus! Maiores.</p>
+                        <p class="section-activites-photo-lien">Voir les photos <i class="fas fa-arrow-right"></i></p>
+
                     </div>
                 </div>
             </a>
         </div>
 
         <div class="activity-cards-info">
-            <a>
+            <a <?php
+                if (isset($_SESSION["login"])) {
+                    echo ' href="?section=galerie"';
+                } else {
+                    echo ' href="?section=connexion"';
+                }
+                ?> class="activites-lien-photo-card">
                 <div class="activity-card-info acti-permanente">
                     <div class="activity-card-info-img"></div>
                     <div class="activity-card-info-text">
                         <h3>Activité</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veritatis accusantium id fugit doloremque, ea maiores! Fugiat, molestiae repellendus! Maiores.</p>
+                        <p class="section-activites-photo-lien">Voir les photos <i class="fas fa-arrow-right"></i></p>
+
                     </div>
                 </div>
             </a>
         </div>
 
         <div class="activity-cards-info">
-            <a>
+            <a <?php
+                if (isset($_SESSION["login"])) {
+                    echo ' href="?section=galerie"';
+                } else {
+                    echo ' href="?section=connexion"';
+                }
+                ?> class="activites-lien-photo-card">
                 <div class="activity-card-info acti-verte">
                     <div class="activity-card-info-img"></div>
                     <div class="activity-card-info-text">
-                        <h3>Activité</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veritatis accusantium id fugit doloremque, ea maiores! Fugiat, molestiae repellendus! Maiores.</p>
+                        <h3>Classes vertes</h3>
+                        <p>Une année sur deux (pas cette année-ci), les élèves de 1ère, 2ème , 3 ème et 4ème primaires partent 5 jours en classes vertes. Le prochain voyage se déroulera à Wellin du 15 au 19 mars 2021.</p>
+                        <p class="section-activites-photo-lien">Voir les photos <i class="fas fa-arrow-right"></i></p>
+
                     </div>
                 </div>
             </a>
         </div>
 
         <div class="activity-cards-info">
-            <a>
+            <a <?php
+                if (isset($_SESSION["login"])) {
+                    echo ' href="?section=galerie"';
+                } else {
+                    echo ' href="?section=connexion"';
+                }
+                ?> class="activites-lien-photo-card">
                 <div class="activity-card-info acti-neige">
                     <div class="activity-card-info-img"></div>
                     <div class="activity-card-info-text">
-                        <h3>Activité</h3>
+                        <h3>Classes de neige</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veritatis accusantium id fugit doloremque, ea maiores! Fugiat, molestiae repellendus! Maiores.</p>
+                        <p class="section-activites-photo-lien">Voir les photos <i class="fas fa-arrow-right"></i></p>
                     </div>
                 </div>
             </a>
