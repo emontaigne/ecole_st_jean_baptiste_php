@@ -1,22 +1,14 @@
-.backAdmin {
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: "quicksand";
-}
-
 .containerAdmin {
   width: 85%;
   height: auto;
   min-height: 350px;
   margin: auto;
-  margin-top: 50px;
   display: block;
   background-color: white;
   box-shadow: 10px 5px 5px lightgrey;
 }
 
 #adminBtnAfficher {
-  position: relative;
   background-image: url("../images/info1.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,10 +161,6 @@
     padding: 0;
     margin: 0;
   }
-
-  .createPS {
-    margin-left: none;
-  }
 }
 
 #agenda_event td.date_event {
@@ -254,6 +242,7 @@
 }
 
 .form-new-student {
+  width: 100%;
   margin-top: 6%;
   margin-left: 5%;
 }
@@ -268,6 +257,7 @@
   padding: 10px;
   margin-left: 120px;
   padding-left: 22px;
+  width: 40%;
 }
 
 .inputStudent2 {
@@ -275,45 +265,52 @@
   padding: 10px;
   margin-left: 99px;
   padding-left: 22px;
+  width: 40%;
 }
 .inputStudent3 {
   margin-top: 10px;
   padding: 10px;
   margin-left: 127px;
   padding-left: 22px;
+  width: 40%;
 }
 .inputStudent4 {
   margin-top: 10px;
   padding: 10px;
   margin-left: 96px;
   padding-left: 22px;
+  width: 40%;
 }
 .inputStudent5 {
   margin-top: 10px;
   padding: 10px;
   margin-left: 66px;
   padding-left: 22px;
+  width: 40%;
 }
 .inputStudent6 {
   margin-top: 10px;
   padding: 10px;
   margin-left: 125px;
   padding-left: 22px;
+  width: 40%;
 }
 .inputStudent7 {
   margin-top: 10px;
   padding: 10px;
   margin-left: 20px;
   padding-left: 22px;
+  width: 40%;
 }
 .inputStudent8 {
   margin-top: 10px;
   padding: 10px;
   margin-left: 106px;
+  width: 40%;
 }
 
 .createPS {
-  padding: 4px;
+  margin-left: 58%;
   border-radius: 13px;
   background-color: white;
   cursor: pointer;

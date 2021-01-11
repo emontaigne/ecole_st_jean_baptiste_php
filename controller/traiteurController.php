@@ -21,8 +21,8 @@
          else
          {
             include_once "./view/page/traiteur.php";
-            echo '<div class="clear"></div>';
-            echo '<hr>';
+           // echo '<div class="clear"></div>';
+           // echo '<hr>';
 
             $uploadsDirectory = "public/uploads/";
             $dir = scandir($uploadsDirectory);
