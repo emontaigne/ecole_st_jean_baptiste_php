@@ -17,17 +17,7 @@
               <button class="btnPv page-parents">En savoir plus</button>
             </div>
           </a>
-          <a class="page-parents" href="?section=repas">
-            <div class="repas Pv">
-              <img class = "img-parents" src="public/images/fond-parents.jpg" alt="image galerie photo" />
-              <h2 class="page-parents">Repas</h2>
-              <p class="page-parents">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Eveniet
-              </p>
-              <button class="btnPv page-parents">En savoir plus</button>
-            </div>
-          </a>
+         
           <a class="page-parents" href="?section=garderie">
             <div class="garderie Pv">
               <img class = "img-parents" src="public/images/fond-parents.jpg" alt="image galerie photo" />
