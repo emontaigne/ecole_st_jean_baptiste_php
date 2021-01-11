@@ -11,10 +11,10 @@
 <div class="texte-info">
   <div class="info-onglet onglet-reglement" id="roi">
     <div class="pdf-dl">
-      <a href="Logo SJB Déf_7.pdf" download="roi">
+      <a href="public/images/R.O.I - Ecole Saint Jean-Baptiste (2019-2020).pdf" download="R.O.I - Ecole Saint Jean-Baptiste (2019-2020).pdf">
         <img src="public/images/pdf-icon-01.png" class="img-pdf" />
       </a>
-      <a href="Logo SJB Déf_7.pdf" download="roi"><p>[ Télécharger ]</p></a>
+      <a href="public/images/R.O.I - Ecole Saint Jean-Baptiste (2019-2020).pdf" download="R.O.I - Ecole Saint Jean-Baptiste (2019-2020).pdf"><p>[ Télécharger ]</p></a>
     </div>
     <h3>Projet d'établissement.</h3>
     <p>Le projet d'établissement définit l'ensemble des choix pédagogiques et des actions concrètes particulières que l'équipe éducative de l'établissement entend mettre en oeuvre en collaboration avec l'ensemble des acteurs et partenaires pour réaliser les projets éducatif et pédagogique du PO.</p>
