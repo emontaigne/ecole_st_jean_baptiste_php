@@ -2,7 +2,7 @@
 <div id="main" style="display:block;">
 
       <a href="?section=accueil" class="logo">Logo</a>
-      <nav class ="sidebar" id="mySidebar">
+      <nav class ="sidebar" id="mySidebar" style="display:block;">
         <ul class="main" id=" nav-list">
 
 
