@@ -37,8 +37,21 @@
   border-radius: 7px;
 }
 
-.acti-ponctuelle {
-  background-color: purple;
+.activity-card-info-text {
+  width: 80%;
+  margin-left: 2%;
+}
+
+.acti-ponctuelle-1 {
+  background-color: #f99a9c;
+}
+
+.acti-ponctuelle-2 {
+  background-color: rgb(170, 151, 255);
+}
+
+.acti-ponctuelle-3 {
+  background-color: rgb(255, 157, 77);
 }
 
 div.activity-cards-info a:hover div.acti-ponctuelle {
@@ -46,10 +59,17 @@ div.activity-cards-info a:hover div.acti-ponctuelle {
   transform: scale(1.025);
 }
 
-.acti-ponctuelle > .activity-card-info-img {
+.acti-ponctuelle-3 > .activity-card-info-img {
   background-image: url("../images/activity2.jpg");
 }
 
+.acti-ponctuelle-2 > .balade-image {
+  background-image: url("../images/balade-foret.jpg");
+}
+
+.acti-ponctuelle-1 > .danse-ecole {
+  background-image: url("../images/dance-ecole.jpg");
+}
 .activity-card-info-img {
   /* margin-left: 3%; */
   background-size: cover;
@@ -58,7 +78,7 @@ div.activity-cards-info a:hover div.acti-ponctuelle {
 }
 
 .acti-permanente {
-  background-color: rgb(95, 169, 238);
+  background-color: #fdbccf;
   transition-duration: 0.1s;
   transition-timing-function: linear;
 }
@@ -69,11 +89,11 @@ div.activity-cards-info a:hover div.acti-permanente {
 }
 
 .acti-permanente > .activity-card-info-img {
-  background-image: url("../images/activity3.jpg");
+  background-image: url("../images/ecole-musique.jpg");
 }
 
 .acti-verte {
-  background-color: rgb(170, 151, 255);
+  background-color: rgb(145, 218, 116);
 }
 div.activity-cards-info a:hover div.acti-verte {
   opacity: 0.8;
@@ -81,11 +101,11 @@ div.activity-cards-info a:hover div.acti-verte {
 }
 
 .acti-verte > .activity-card-info-img {
-  background-image: url("../images/classroom.jpg");
+  background-image: url("../images/classes-vertes2.jpg");
 }
 
 .acti-neige {
-  background-color: rgb(180, 255, 151);
+  background-color: rgb(95, 169, 238);
 }
 
 div.activity-cards-info a:hover div.acti-neige {
@@ -93,7 +113,7 @@ div.activity-cards-info a:hover div.acti-neige {
   transform: scale(1.025);
 }
 .acti-neige > .activity-card-info-img {
-  background-image: url("../images/classe-neige.jpg");
+  background-image: url("../images/classe-neige2.jpg");
 }
 
 .section-activites-photo-lien {
