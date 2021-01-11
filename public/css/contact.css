@@ -21,11 +21,9 @@ html {
   background-color: rgba(41, 174, 155, 0.5);
   background-attachment: fixed;
   min-height: 1000px;
+  padding-top: 9%;
 }
-.containerContact .empty {
-  width: 70%;
-  height: 100px;
-}
+
 .containerContact .formulaireContact {
   width: 70%;
   margin: auto;

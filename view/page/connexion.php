@@ -26,7 +26,6 @@
 
 
 <div class="container">
-      <div class="empty"></div>
 
       <div class="connexion">
         <div class="titre">

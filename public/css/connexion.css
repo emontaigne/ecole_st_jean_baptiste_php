@@ -16,13 +16,10 @@ html {
 .container {
   width: 100%;
   min-height: 600px;
-  background-color: #d5d5d5;
+  padding-top: 9%;
+  padding-bottom: 12%;
 }
-.container .empty {
-  width: 70%;
-  height: 100px;
-  margin: auto;
-}
+
 .container .connexion {
   width: 70%;
   background-color: white;
