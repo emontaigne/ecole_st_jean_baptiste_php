@@ -134,6 +134,7 @@ div.cards-info a:hover div.roi {
   padding: 8px;
   transition-duration: 0.1s;
   transition-timing-function: linear;
+  width: 170%;
 }
 .button-testing-image-ephemerides {
   width: 100%;
