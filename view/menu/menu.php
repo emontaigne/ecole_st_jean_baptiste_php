@@ -1,5 +1,5 @@
 
-<div id="main">
+<div id="main" style="display:block;">
 
       <a href="?section=accueil" class="logo">Logo</a>
       <nav class ="sidebar" id="mySidebar">
