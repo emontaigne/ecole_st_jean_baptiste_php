@@ -36,10 +36,8 @@ body {
 }
 
 .main {
-  width: 100%;
   display: flex;
   justify-content: flex-end;
-  background-color: #01969b;
 }
 
 .sidebar ul {
@@ -90,6 +88,10 @@ body {
   background-color: white;
   border: none;
   display: none;
+}
+
+.sous-menu li a {
+  background-color: #01969b;
 }
 .sous-menu a {
   display: block;

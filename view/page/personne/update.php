@@ -1,30 +1,30 @@
 <div class = "container2">
-<div id = "form_add" class="form_event">
-<form action="#" method="post">
+<div class="studentCreateForm">
+<form action="#" method="post" class="form-new-student">
 <h2 class = "ajout">Modifier les données</h2>
     <label for="nom">Nom :</label>
-    <input type="text" name="nom" id="nom" value="<?= $nom; ?>"><br>
+    <input class="inputStudent1" type="text" name="nom" id="nom" value="<?= $nom; ?>"><br>
 
     <label for="prenom">Prénom :</label>
-    <input type="text" name="prenom" id="prenom" value="<?= $prenom; ?>"><br>
+    <input class="inputStudent2" type="text" name="prenom" id="prenom" value="<?= $prenom; ?>"><br>
 
     <label for="ad_rue">Rue :</label>
-    <input type="text" name="ad_rue" id="ad_rue" value="<?= $adRue; ?>"><br>
+    <input class="inputStudent3" type="text" name="ad_rue" id="ad_rue" value="<?= $adRue; ?>"><br>
 
     <label for="ad_num">Numéro :</label>
-    <input type="text" name="ad_num" id="ad_num" value="<?= $adNum; ?>"><br>
+    <input class="inputStudent4" type="text" name="ad_num" id="ad_num" value="<?= $adNum; ?>"><br>
 
     <label for="ad_cp">Code postal :</label>
-    <input type="number" name="ad_cp" id="ad_cp" min="1000" max="9999" value="<?= $adCp; ?>"><br>
+    <input class="inputStudent5" type="number" name="ad_cp" id="ad_cp" min="1000" max="9999" value="<?= $adCp; ?>"><br>
 
     <label for="ad_ville">Ville :</label>
-    <input type="text" name="ad_ville" id="ad_ville" value="<?= $adVille; ?>"><br>
+    <input class="inputStudent6" type="text" name="ad_ville" id="ad_ville" value="<?= $adVille; ?>"><br>
 
     <label for="date_naissance">Date de naissance :</label>
-    <input type="text" name="date_naissance" id="date_naissance" value="<?= $dateNaissance; ?>"><br>
+    <input class="inputStudent7" type="text" name="date_naissance" id="date_naissance" value="<?= $dateNaissance; ?>"><br>
 
     <label for="classes">Classe :</label>
-    <select name="classes" id="classes" value="<?= $classes; ?>">
+    <select class="inputStudent8" name="classes" id="classes" value="<?= $classes; ?>">
         <option value=""></option>
         <option value="accueil" <?= $accueil; ?> >Accueil</option>
         <option value="m1" <?= $m1; ?> >M1</option>
@@ -40,7 +40,7 @@
 
 
     <div class = "ajouter">
-    <input type="submit" value="Modifier">
+    <input class="btnsend" type="submit" value="Modifier">
 </div>
 
 </form>

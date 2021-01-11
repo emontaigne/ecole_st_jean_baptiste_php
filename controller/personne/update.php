@@ -83,9 +83,9 @@
       header("Location:?section=admin");
       
     }
-
+require_once("view/page/personne/update.php");
     require_once("view/page/admin.php");
 
     // appeler la vue
-    require_once("view/page/personne/update.php");
+    
 ?>

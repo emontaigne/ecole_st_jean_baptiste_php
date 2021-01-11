@@ -94,21 +94,23 @@
   color: #c35884;
 }
 
-.container5 {
-  display: flex;
-  width: 400px;
-  margin: auto;
-  margin-top: 120px;
-  background-color: white;
-  padding: 15px;
-}
-
 .ajout {
   font-size: 16px;
   text-align: left;
   line-height: 40px;
 }
+.btnsend {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
 
+.btnsend a {
+  text-decoration: none;
+  color: black;
+}
 .afficher {
   width: 600px;
   height: 400px;
@@ -230,6 +232,10 @@
   width: 100%;
 }
 
+.demDupp {
+  margin-left: 2%;
+  margin-top: 5%;
+}
 .afficher1 {
   width: 80%;
   display: inline-block;

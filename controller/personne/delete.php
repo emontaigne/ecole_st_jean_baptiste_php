@@ -8,7 +8,7 @@
         $id = $_GET["id"];
         $p = new Personne();
         $tabInfos = $p->readById($id);
-         var_dump($tabInfos);
+        // var_dump($tabInfos);
 
         $nom = $tabInfos[0]["nom"];
         $prenom = $tabInfos[0]["prenom"];
@@ -22,8 +22,8 @@
         $p->delete($id);
         header("Location:?section=read");
     }
-
+ require_once("view/page/personne/delete.php");
     require_once("view/page/admin.php");
     // appeler la vue
-    require_once("view/page/personne/delete.php");
+   
 ?>
