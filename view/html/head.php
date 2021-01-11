@@ -6,6 +6,7 @@
     
     <title>Ecole St Jean-Baptiste</title>
     
+
 <link rel="stylesheet" href="public/css/accueil.css" type="text/css"/>    
 <link rel="stylesheet" href="public/css/contact.css" type="text/css"/>
 <link rel="stylesheet" href="public/css/agenda.css" type="text/css"/>
@@ -29,4 +30,5 @@
 <link rel="stylesheet" href="public/css/histoire.css" type="text/css">
 <link rel="stylesheet" href="public/css/apropos.css" type="text/css">
 </head>
-<body>
+<body class="mean-container">
+<div class = "container2">

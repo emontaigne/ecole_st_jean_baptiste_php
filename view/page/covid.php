@@ -1,4 +1,4 @@
-<div class="container2">
+
 <div class="header-img-covid"></div>
     <div class="div-rose">
       <h1>Mesures sanitaires liées à la pandemie Covid-19</h1>
@@ -72,4 +72,3 @@
         </div>
       </div>
     </div>
-</div>

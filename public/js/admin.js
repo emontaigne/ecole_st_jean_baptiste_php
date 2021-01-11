@@ -11,3 +11,4 @@ function myFunction() {
 console.log('tot');
 
 //$("#createDIV").load("view/page/personne/read.php"); // contenu.html se trouve au même niveau dans l’arborescence.
+

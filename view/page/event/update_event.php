@@ -1,5 +1,5 @@
 
-<div class='container2'>
+
 <div id = "form_add" class="form_event">
 <form class = "form-update" action="#" method="post">
 <h2 class = "ajout">Modifier un événement</h2>
@@ -14,4 +14,4 @@
 
 </form>
 </div>
-</div>
+

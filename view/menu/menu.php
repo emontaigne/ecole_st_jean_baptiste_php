@@ -1,13 +1,13 @@
 
+<div id="main">
 
-<header>
       <a href="?section=accueil" class="logo">Logo</a>
       <nav class ="sidebar" id="mySidebar">
         <ul class="main" id=" nav-list">
 
 
           <li><a class="menu-a" href="?section=accueil">Accueil</a></li>
-          <li class="sous-menu" ><a class="menu-a" id="menuApropos" href="<?php echo '?section=apropos'?>">A propos
+          <li class="sous-menu" ><a class="menu-a" id="menuApropos" href="?section=apropos">A propos
             <span class="fas fa-caret-down first"></span>
           </a>
          
@@ -55,12 +55,12 @@
         ?>
         </li> 
         </ul>
-        <button class="icone"><i class="fas fa-bars"></i></button>
+       
       </nav>
 
-      <div class="clearfix"></div>
-    </header>
 
+
+            </div><button class="icone" onclick="toggleNav();" ><i class="fas fa-bars"></i></button>
 
 <!--<nav class="nav">
       <ul>    
@@ -100,11 +100,3 @@
         </li>
       </ul>
     </nav>-->
-<<<<<<< HEAD
-
-   <script src = "public/js/accueil.js"></script> 
-
-   
-  
-=======
->>>>>>> fc00d54341600f1b89d714cd1c787c2d4052dd5b

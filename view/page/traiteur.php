@@ -1,4 +1,4 @@
-<div class ="container3">
+
     <?php
     if(isset($_SESSION["login_admin"]))
     {
@@ -9,6 +9,5 @@ echo ($_SESSION["login_admin"]) .'<div class ="row">
     </form>
 </div>';
     }
-?>
-</div>
+
 

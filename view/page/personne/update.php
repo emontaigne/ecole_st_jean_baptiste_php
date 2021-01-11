@@ -1,4 +1,4 @@
-<div class="container5">
+<div id = "form_add" class="form_event">
 <form action="#" method="post">
 <h2 class = "ajout">Modifier les données</h2>
     <label for="nom">Nom :</label>

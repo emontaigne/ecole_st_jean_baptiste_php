@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  margin-top: 15%;
+  margin-top: 18%;
   margin-bottom: 5%;
   padding-right: 10%;
 }
@@ -134,51 +134,6 @@
   cursor: pointer;
 }
 
-@media (max-width: 992px) {
-  .agendaprinc {
-    margin-top: 15%;
-    margin-bottom: 10%;
-  }
-}
-
-@media (max-width: 768px) {
-  .agendaprinc {
-    margin-top: 15%;
-  }
-}
-
-@media (max-width: 576px) {
-  .agendaprinc {
-    margin-top: 20%;
-    display: inline;
-  }
-  .firstDiv {
-    display: none;
-  }
-
-  .secondDiv {
-    margin-top: 9%;
-    padding-bottom: 5%;
-  }
-
-  .aicon-flex {
-    display: none;
-  }
-  .agenda {
-    width: 300px;
-  }
-  .jour,
-  .jr,
-  .rien {
-    width: 43px;
-  }
-}
-
-@media (max-width: 375px) {
-  .agendaprinc {
-    margin-top: 75%;
-  }
-}
 .createEventForm {
   width: 100%;
   margin-left: 8%;
@@ -233,4 +188,66 @@
   border-radius: 50%;
   cursor: pointer;
   font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .agendaprinc {
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .agendaprinc {
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 576px) {
+  .agendaprinc {
+    margin-top: 20%;
+    display: inline;
+  }
+  .firstDiv {
+    display: none;
+  }
+
+  .secondDiv {
+    margin-top: 9%;
+    padding-bottom: 5%;
+  }
+
+  .aicon-flex {
+    display: none;
+  }
+  .agenda {
+    width: 300px;
+  }
+  .jour,
+  .jr,
+  .rien {
+    width: 43px;
+  }
+
+  #agenda_event {
+    width: 50%;
+    margin: auto;
+  }
+
+  #agenda_event td {
+    font-size: 14px;
+  }
+
+  #agenda_event td.date_event {
+    font-size: 16px;
+  }
+  .fleche-retour-info {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .agendaprinc {
+    margin-top: 75%;
+  }
 }
