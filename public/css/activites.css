@@ -22,7 +22,7 @@
 }
 
 .activity-cards-info {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
@@ -41,12 +41,17 @@
   background-color: purple;
 }
 
+div.activity-cards-info a:hover div.acti-ponctuelle {
+  opacity: 0.8;
+  transform: scale(1.025);
+}
+
 .acti-ponctuelle > .activity-card-info-img {
   background-image: url("../images/activity2.jpg");
 }
 
 .activity-card-info-img {
-  margin-left: 3%;
+  /* margin-left: 3%; */
   background-size: cover;
   width: 200px;
   height: 200px;
@@ -70,6 +75,10 @@ div.activity-cards-info a:hover div.acti-permanente {
 .acti-verte {
   background-color: rgb(170, 151, 255);
 }
+div.activity-cards-info a:hover div.acti-verte {
+  opacity: 0.8;
+  transform: scale(1.025);
+}
 
 .acti-verte > .activity-card-info-img {
   background-image: url("../images/classroom.jpg");
@@ -79,8 +88,12 @@ div.activity-cards-info a:hover div.acti-permanente {
   background-color: rgb(180, 255, 151);
 }
 
+div.activity-cards-info a:hover div.acti-neige {
+  opacity: 0.8;
+  transform: scale(1.025);
+}
 .acti-neige > .activity-card-info-img {
-  background-image: url("../images/classroom2.jpg");
+  background-image: url("../images/classe-neige.jpg");
 }
 
 @media screen and (max-width: 1200px) {
