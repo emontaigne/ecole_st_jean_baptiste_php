@@ -27,13 +27,13 @@
           </li>
         </ul>
       </section>
-      <div class = "aicon-flex">
+      
+<div class="divVide"><div class = "aicon-flex">
 <a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/blackboard.png"/><p class = "titreicon">ÉCOLE</p></div></a>
 <a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/balls.png"/><p class = "titreicon" id="titreGarderie">GARDERIE</p></div></a>
 <a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/dinner.png"/><p class = "titreicon" id="titreMenu">MENU</p></div></a>
 <a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/paint.png"/><p class = "titreicon" id="titreActivites">ACTIVITÉS</p></div></a>
-</div> 
-<div class="divVide"></div>
+</div> </div>
 
 <div class = "agendaprinc" id="agenda">
 
