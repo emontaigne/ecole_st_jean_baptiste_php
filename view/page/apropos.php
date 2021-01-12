@@ -3,6 +3,8 @@
 <div class="div-rose">
     <a class="liens" href="">
         <h1 class="aPropos-titre">À propos</h1>
+        <div class="fleche-retour-info"><a href="?section=accueil">Accueil</a>><a href="?section=apropos"> A propos</a></div>
+
     </a>
 </div>
 

@@ -3,6 +3,8 @@
 <div class="div-rose">
   <a href="?section=info">
     <h1 class="div-rose-titre">Informations génerales</h1>
+    <div class="fleche-retour-info"><a href="?section=accueil">Accueil</a>><a href="?section=info"> Informations générales</a></div>
+
   </a>
 </div>
 </div>

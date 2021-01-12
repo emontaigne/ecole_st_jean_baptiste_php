@@ -1,7 +1,7 @@
 
 <div id="main" style="display:block;"><a name ="monheader"></a>
 
-      <a href="?section=accueil" class="logo">École Saint Jean-Baptiste</a>
+      <a href="?section=accueil" class="logo"><img src="public/images/final-logo-round-01.png" class="image-logo-principal">Ecole Saint Jean-Baptiste</a>
       <nav class ="sidebar" id="mySidebar" style="display:block;">
         <ul class="main" id=" nav-list">
 

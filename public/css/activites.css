@@ -54,7 +54,17 @@
   background-color: rgb(255, 157, 77);
 }
 
-div.activity-cards-info a:hover div.acti-ponctuelle {
+div.activity-cards-info a:hover div.acti-ponctuelle-1 {
+  opacity: 0.8;
+  transform: scale(1.025);
+}
+
+div.activity-cards-info a:hover div.acti-ponctuelle-2 {
+  opacity: 0.8;
+  transform: scale(1.025);
+}
+
+div.activity-cards-info a:hover div.acti-ponctuelle-3 {
   opacity: 0.8;
   transform: scale(1.025);
 }

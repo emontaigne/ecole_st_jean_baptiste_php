@@ -1,14 +1,14 @@
 /* -----header----- */
 .header-img-service-garderie {
-  background: url("../images/photo-garderie.jpg");
+  background: url("../images/photo-garderie-crop.jpg");
   width: 100%;
   height: 350px;
   background-size: cover;
 }
 
-.service-garderie-rose {
+/* .service-garderie-rose {
   display: flex;
-}
+} */
 .fleche-retour-garderie > a {
   color: white;
 }

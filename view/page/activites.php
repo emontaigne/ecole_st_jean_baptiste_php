@@ -13,7 +13,7 @@
             <p>Nous accompagnerons les élèves dans une pédagogie active pour les amener à devenir des êtres responsables. Les activités viseront la curiosité, l'émerveillement, tout en utilisant la demarche scientifique.
             </p>
             <p>
-            Tous les exemples qui seront cités sont à titre indicatif et sont susceptibles d'être modifiés ou enrichis en fonction des projets de l'année. Les enfants auront ainsi l'occasion d'explorer un maximum de ces activités au cours de leur scolarité dans notre établissement.
+            Tous les exemples qui seront cités le sont à titre indicatif et sont susceptibles d'être modifiés ou enrichis en fonction des projets de l'année. Les enfants auront ainsi l'occasion d'explorer un maximum de ces activités au cours de leur scolarité dans notre établissement.
 
 Nous leur preparons les milles joies de la découverte!
             </p>

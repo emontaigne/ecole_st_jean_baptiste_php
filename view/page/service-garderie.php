@@ -5,7 +5,7 @@
         <h1 class="garderie-titre">Service garderie</h1>
     </a>
 
-    <div class="fleche-retour-garderie"><a href="?section=accueil">Home</a>><a href="?section=info"> Informations générales</a>><a href="?section=service-garderie">Service garderie</a></div>
+    <div class="fleche-retour-info"><a href="?section=accueil">Accueil</a>><a href="?section=info"> Informations générales</a>><a href="?section=service-garderie">Service garderie</a></div>
 </div>
 
 <div class="texte-info-garderie">

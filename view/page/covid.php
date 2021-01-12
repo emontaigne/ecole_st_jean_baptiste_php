@@ -2,6 +2,8 @@
 <div class="header-img-covid"></div>
     <div class="div-rose">
       <h1>Mesures sanitaires liées à la pandemie Covid-19</h1>
+      <div class="fleche-retour-info"><a href="?section=accueil">Accueil</a>><a href="?section=covid">Mesures Covid-19</a></div>
+
     </div>
 <div class="texte-info-covid">
       <div class="code-covid">
