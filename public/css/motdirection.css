@@ -41,9 +41,6 @@
   .header-img-mot {
     height: 200px;
   }
-  .motDirection-titre {
-    line-height: 120px;
-  }
 }
 @media screen and (max-width: 992px) {
 }

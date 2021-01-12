@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @font-face {
   font-family: "HVD Comic Serif Pro";
-  src: url("public/css/fonts/HVD_Comic_Serif_Pro.otf") format("woff");
+  src: url("./fonts/HVD_Comic_Serif_Pro.otf") format("woff");
 }
 
 .page-connexion {
