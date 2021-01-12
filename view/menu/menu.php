@@ -1,5 +1,5 @@
 
-<div id="main" style="display:block;">
+<div id="main" style="display:block;"><a name ="monheader"></a>
 
       <a href="?section=accueil" class="logo">École Saint Jean-Baptiste</a>
       <nav class ="sidebar" id="mySidebar" style="display:block;">
@@ -24,7 +24,7 @@
           <li><a class="menu-a menuInfoGen" href="?section=roi" id="roi">ROI</a></li>
           <li><a class="menu-a menuInfoGen" href="?section=ephemerides" id="ephemerides">Ephémérides</a></li>
           <li><a class="menu-a menuInfoGen" href="?section=activites" id="activites">Activités</a></li>
-          <li><a class="menu-a menuInfoGen" href="?section=service-garderie" id="garderie">Service de garderie</a></li>
+          <li><a class="menu-a menuInfoGen" href="?section=service-garderie" id="service-garderie">Service de garderie</a></li>
           <li><a class="menu-a menuInfoGen" href="?section=traiteur" id="traiteur">Menu/service traiteur</a></li>
         </ul> 
       
@@ -49,7 +49,7 @@
             if(isset($_SESSION["login_admin"]))
             {
                 echo '<a class="menu-a" href="?section=deconnexion"><span><i class="fas fa-sign-out-alt"></i></span></a>';
-                echo '<li><a class ="admin menu-a" href="?section=admin">Admin</a></li>';         
+                echo '<li><a id="admin" class ="admin menu-a" href="?section=admin">Admin</a></li>';         
               }
         ?>
         </li> 

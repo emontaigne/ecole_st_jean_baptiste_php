@@ -24,11 +24,16 @@
 .traiteur-texte {
   width: 80%;
   margin: auto;
-  text-align: justify;
+  background-color: white;
+  padding: 2%;
+}
+
+.traiteur-texte > h1 {
+  padding-bottom: 2%;
 }
 
 .traiteur-texte > p {
-  margin: 10px;
+  margin-left: 2%;
 }
 @media screen and (max-width: 1200px) {
 }

@@ -28,10 +28,10 @@
 
         <div class=" all-garderie coordonneesGarderie">
         <h3>Coordonnées</h3>
-           <p> 21, Rue du Cimetière 
+           <p> Rue A. De Moor, 19
                <br>1421 Ophain B-S-I </p>
            <p> Tél. : 023844399 </p>       
-            <p>E-mail :  direction.ecoleannemarie@yahoo.fr </p> 
+            <p>E-mail :  sjbsecretariat@gmail.com </p> 
             <h3>Heures d'ouvertures</h3>
                <p>Tous les matins <br>De 7h à 8h30 </p>
                <p>Tous les soirs <br>De 15h30 à 18h </p>
@@ -45,9 +45,9 @@
                         <label for="kid" class="label-form-garderie">Nom et classe de l'enfant*:</label>
                         <input type="text" name="kid" id="kid-garderie" class="input-form-garderie" value="
                         <?php 
-                  if (isset ($_SESSION["nom"], $_SESSION["prenom"], $_SESSION["classes"])) {
-                    echo $_SESSION["nom"] . " " . $_SESSION["prenom"] . " " . $_SESSION["classes"];
-                  }
+                  
+                    echo $_SESSION["login"];
+                  
                    ?>
 
                         " required />

@@ -29,10 +29,10 @@
       </section>
       
 <div class="divVide"><div class = "aicon-flex">
-<a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/blackboard.png"/><p class = "titreicon">ÉCOLE</p></div></a>
-<a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/balls.png"/><p class = "titreicon" id="titreGarderie">GARDERIE</p></div></a>
-<a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/dinner.png"/><p class = "titreicon" id="titreMenu">MENU</p></div></a>
-<a class="aicon" href="#"><div class = "rond"><img class="icon" src = "public/images/paint.png"/><p class = "titreicon" id="titreActivites">ACTIVITÉS</p></div></a>
+<a class="aicon" href="?section=histoire"><div class = "rond"><img class="icon" src = "public/images/blackboard.png"/><p class = "titreicon">ÉCOLE</p></div></a>
+<a class="aicon" href="?section=service-garderie"><div class = "rond"><img class="icon" src = "public/images/balls.png"/><p class = "titreicon" id="titreGarderie">GARDERIE</p></div></a>
+<a class="aicon" href="?section=traiteur"><div class = "rond"><img class="icon" src = "public/images/dinner.png"/><p class = "titreicon" id="titreMenu">MENU</p></div></a>
+<a class="aicon" href="?section=activites" ><div class = "rond"><img class="icon" src = "public/images/paint.png"/><p class = "titreicon" id="titreActivites">ACTIVITÉS</p></div></a>
 </div> </div>
 <div class="citAlph"><p class="citation"><span class="apostrophe">''</span>Le monde est un livre dont chaque pas nous ouvre une page.<span class="apostrophe">''</span></p>
 <p class="alphonse">Alphone de Lamartine</p></div>

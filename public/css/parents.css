@@ -4,10 +4,6 @@
   display: flex;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .privateContainerParents {
   background-size: cover;
   background-repeat: no-repeat;

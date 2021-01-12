@@ -30,16 +30,16 @@ body {
   margin: 0;
   align-items: center;
   text-decoration: none;
+  position: fixed;
 }
 .logo {
-  position: absolute;
-  /* font-family: Calibri; */
-  font-size: x-large;
+  position: fixed;
   text-decoration: none;
   color: white;
-  margin-top: 1%;
-  margin-left: 2%;
   font-weight: bold;
+  z-index: 2;
+  top: 2%;
+  left: 2%;
 }
 
 .main {
@@ -91,6 +91,7 @@ body {
   background-color: white;
   border: none;
   display: none;
+  z-index: 2;
 }
 
 .sous-menu li a {

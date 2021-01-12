@@ -124,6 +124,10 @@ div.activity-cards-info a:hover div.acti-neige {
 .activites-lien-photo-card {
   text-decoration: none;
 }
+
+.texte-info-activites > h3 {
+  padding-top: 5%;
+}
 @media screen and (max-width: 1200px) {
   .header-img-acti {
     height: 200px;

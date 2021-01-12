@@ -75,6 +75,7 @@
   display: flex;
   justify-content: space-between;
   margin: auto;
+  background-color: #01969b;
 }
 
 .precedent {

@@ -20,7 +20,7 @@ $p = new Personne();
                 
                 $_SESSION["login"] = $_POST["login"];
                 $_SESSION["nom"] = $_POST["nom"];
-                $_SESSION["prénom"] = $_POST["prénom"];
+                $_SESSION["prenom"] = $_POST["prenom"];
                 header("Location:?section=parents");
            }
                 elseif($_POST["login"] === "admin" && $_POST["mdp"] === "jeromedb")
