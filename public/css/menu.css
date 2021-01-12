@@ -69,10 +69,6 @@ body {
   display: block;
 }
 
-.menuInfoGen {
-  width: 201px;
-}
-
 .sidebar a:hover {
   background-color: #c35884;
 }

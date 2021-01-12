@@ -3,11 +3,6 @@
   font-family: "HVD Comic Serif Pro";
   src: url("assets/HVD_Comic_Serif_Pro.otf") format("woff");
 }
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
 
 .d-flex {
   display: flex;
